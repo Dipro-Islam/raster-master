@@ -1,0 +1,184 @@
+section{
+  background: url("../../../../assets/focus/Focus-Gender-Equality/focus_gender_equality_body.png") no-repeat center center fixed;
+  background-size: cover;
+  margin-bottom: 0;
+
+}
+p{
+  text-align: justify;
+  margin-left: 0;
+  margin-bottom: 0;
+}
+.gender-equality-details-section{
+  padding: 50px 0 50px 0;
+}
+.towards-section{
+  padding-bottom: 1px;
+}
+
+.gender-equality-banner-section{
+  background: url("../../../../assets/focus/Focus-Gender-Equality/focus_gender_equality_banner.png") no-repeat center center;
+  background-size: cover;
+  margin-bottom: 0;
+  height: 650px;
+}
+.gender-equality-banner-details{
+  width: 50%;
+  padding-top: 120px;
+  padding-left: 10%;
+  text-align: end;
+}
+.gender-equality-banner-details h2{
+  margin-top: 50px;
+}
+
+.gender-equality-title h2,
+.landscape-highlight h2,
+.towards-title h2,
+.women-empowerment-title h2{
+  font-size: 48px;
+}
+.gender-equality-details-desc p,
+.environment-pollution-highlight p,
+.towards-desc p,
+.women-work-details-desc p{
+  font-size: 20px;
+}
+.gender-equality-sub-title{
+  margin-top: 30px;
+}
+.gender-equality-sub-title p{
+  font-size: 36px;
+  text-align: end;
+  font-weight: bold;
+}
+.landscape-section{
+  padding-bottom: 10px;
+}
+.towards-area{
+  margin-top: 50px;
+}
+.landscape-highlight{
+  background: var(--green);
+  color: var(--black);
+  font-weight: bold;
+  padding: 50px 150px;
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+.landscape-highlight h2{
+  margin-bottom: 30px;
+  text-align: center;
+}
+.towards-area{
+  margin-bottom: 100px;
+}
+.towards-title h2 span{
+  color: var(--green);
+}
+.towards-details{
+  margin-top: 15%;
+}
+.towards-desc{
+  margin-top: 30px;
+}
+.women-work-details-section,
+.women-empowerment-section{
+  padding-bottom: 50px;
+}
+.women-work-details-desc{
+  margin-top: 50px;
+}
+.women-empowerment-title{
+  margin-bottom: 30px;
+}
+
+/*---responsive style start---*/
+
+@media screen and (max-width: 1300px) {
+  .gender-equality-banner-details h2{
+    margin-top: 100px;
+  }
+  .gender-equality-title h2,
+  .gender-equality-sub-title p{
+    font-size: 28px;
+  }
+  .women-empowerment-title h2{
+    font-size: 48px;
+  }
+  .gender-equality-title h2,
+  .landscape-highlight h2,
+  .towards-title h2,
+  .women-empowerment-title h2{
+    font-size: 36px;
+  }
+
+}
+@media screen and (max-width: 991px) {
+  .gender-equality-banner-details h2{
+    margin-top: -35px;
+  }
+  .landscape-highlight{
+    padding: 30px 50px;
+  }
+  .towards-area{
+    margin-bottom: 50px;
+  }
+  .towards-details{
+    margin-top: 0%;
+  }
+  .towards-img img{
+    width: 650px;
+    height: 460px;
+  }
+  .women-work-details-section{
+    padding-bottom: 30px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .gender-equality-banner-section{
+    height: 400px;
+  }
+  .gender-equality-title h2,
+  .landscape-highlight h2,
+  .towards-title h2,
+  .women-empowerment-title h2{
+    font-size: 20px;
+  }
+  .gender-equality-banner-details h2{
+    margin-top: -30px;
+  }
+  .towards-section{
+    padding: 20px 0;
+  }
+  .environment-pollution-highlight p,
+  .women-work-details-desc p{
+    font-size: 16px;
+  }
+  .towards-area{
+    margin-left: 0%;
+  }
+  .towards-title{
+    font-size: 24px;
+    text-align: center;
+  }
+  .towards-desc p{
+    font-size: 16px;
+  }
+
+}
+@media screen and (max-width: 450px){
+  .gender-equality-banner-details h2{
+    margin-top: -65px;
+  }
+  .women-work-details-section,
+  .women-empowerment-section{
+    padding: 10px 0;
+  }
+  .landscape-highlight{
+    padding: 15px 30px;
+  }
+  .towards-img img{
+    height: 300px;
+  }
+}

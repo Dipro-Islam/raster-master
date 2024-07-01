@@ -1,0 +1,83 @@
+section{
+  background: url("../../../../assets/About-Us/FAQ/faq_body.png") no-repeat center center fixed;
+  background-size: cover;
+  margin-bottom: 0;
+}
+p{
+  text-align: justify;
+  margin-left: 0;
+  margin-bottom: 0;
+}
+.faq-section,
+.helpline-section{
+  padding: 50px 0;
+}
+.teacher-of-street-title h2{
+  color: var(--black);
+  font-size: 48px;
+}
+.teacher-of-street-title h2 span{
+  color: var(--green);
+}
+.faq-accordion-area{
+  margin-top: 50px;
+}
+
+.accordion {
+  --bs-accordion-bg: transparent;
+  --bs-accordion-border-color: none;
+}
+.accordion-body{
+  background: #D5D5D5;
+  border-radius: 10px;
+}
+.accordion-button{
+  background: #FCF9EF;
+  border-radius: 10px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+.accordion-button:focus {
+  outline: none;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+@media screen and (max-width: 991px) {
+  .teacher-of-street-section,
+  .recognition-section,
+  .contact-details-section{
+    padding: 20px 0;
+  }
+  .teacher-of-street-title h2{
+    font-size: 36px;
+  }
+
+  .teacher-of-street-desc{
+    margin-top: 20px;
+  }
+  .founder-card{
+    width: 70%;
+    margin-top: 10%;
+  }
+
+}
+/*---responsive style start---*/
+@media screen and (max-width: 768px) {
+  .teacher-of-street-title h2{
+    font-size: 24px;
+    text-align: center;
+  }
+  .accordion-button,
+  .accordion-body p{
+    font-size: 16px;
+  }
+  .faq-accordion-area{
+    margin-top: 20px;
+  }
+
+}
+@media screen and (max-width: 450px) {
+  .teacher-of-street-title h2{
+    font-size: 20px;
+  }
+
+}

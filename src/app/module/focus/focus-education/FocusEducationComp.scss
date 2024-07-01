@@ -1,0 +1,213 @@
+
+section{
+  background: url("../../../../assets/focus/Focus-Education/focus_education_body.PNG") no-repeat center center fixed;
+  background-size: cover;
+  margin-bottom: 0;
+}
+p{
+  text-align: justify;
+}
+.empower-section,
+.education-project-section{
+  padding: 50px 0;
+}
+.empower-title h2,
+.change-world-title h2,
+.education-project-heading h2{
+  color: var(--black);
+  font-size: 48px;
+}
+.empower-sub-title h4{
+  color: var(--black);
+  font-size: 20px;
+}
+
+.change-world-title p,
+.towards-desc p,
+.towards-desc-1 p{
+  font-size: 20px;
+}
+.empower-image{
+  margin-top: 50px;
+}
+
+.towards-img-2 {
+  display: flex;
+  justify-content: end;
+}
+.towards-area{
+  padding: 50px 0;
+}
+.towards-details{
+  margin-top: 20%;
+}
+.towards-desc,
+.towards-desc-1{
+  margin-top: 50px;
+
+}
+.support-btn{
+  margin-top: 20px;
+}
+.change-world-section{
+  background: url("../../../../assets/focus/Focus-Education/section4.png") no-repeat center center;
+  background-size: cover;
+   height: 840px;
+  position: relative;
+}
+
+.change-world-title{
+  position: absolute;
+  top: 30%;
+  left: 42%;
+  width: 45%;
+}
+.change-world-author p{
+  text-align: end;
+}
+.donate-area{
+  width: 100%;
+  padding: 100px 0;
+}
+.donate-title h4{
+  font-size: 36px;
+  color: var(--black);
+  font-weight: bold;
+}
+.donate-btn button{
+  text-transform: uppercase;
+}
+.education-project-heading{
+  margin-bottom: 50px;
+}
+
+.edu-project-card{
+  background: #ffffff;
+}
+
+
+/*---responsive style start---*/
+
+@media screen and (max-width: 1480px) {
+  .empower-title h2,
+  .change-world-title h2,
+  .education-project-heading h2{
+    font-size: 48px;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .empower-title h2,
+  .change-world-title h2,
+  .education-project-heading h2{
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 1200px){
+  .towards-title h2{
+    font-size: 36px;
+  }
+  .towards-details{
+    margin-top: 10%;
+  }
+}
+@media screen and (max-width: 1090px) {
+
+  .empower-title h2,
+  .change-world-title h2,
+  .education-project-heading h2{
+    font-size: 38px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .empower-title h2,
+  .change-world-title h2,
+  .education-project-heading h2{
+    font-size: 36px;
+  }
+
+  .change-world-section{
+    height: 390px;
+  }
+  .towards-area{
+    padding: 20px 0;
+  }
+  .towards-details{
+    margin-top: 0%;
+  }
+  .towards-img img,
+  .towards-img-2 img{
+    width: 650px;
+    height: 460px;
+    margin-left: 3%;
+  }
+  .towards-img-2{
+    margin-top: 50px;
+  }
+  .towards-desc,
+  .towards-desc-1{
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .empower-title h2,
+  .change-world-title h2,
+  .education-project-heading h2{
+    font-size: 28px;
+  }
+
+  .change-world-title{
+    position: absolute;
+    top: 20%;
+  }
+  .towards-title{
+    font-size: 24px;
+    text-align: center;
+  }
+  .towards-desc,
+  .towards-desc-1{
+    margin-top: 10px;
+  }
+  .towards-desc p{
+    font-size: 16px;
+  }
+
+  .towards-title h2{
+    font-size: 24px;
+    text-align: center;
+  }
+  .towards-area{
+    padding: 10px 0;
+  }
+  .support-btn{
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .empower-title,
+  .donate-title h4{
+    font-size: 24px;
+  }
+.empower-sub-title h4{
+  font-size: 16px;
+  padding: 0 10px;
+}
+
+  .towards-img img,
+  .towards-img-2 img{
+    height: 300px;
+  }
+  .change-world-title h2{
+    font-size: 16px;
+  }
+.edu-project-card{
+  margin-left: 7%;
+}
+}
+
+
+/*---responsive style end---*/

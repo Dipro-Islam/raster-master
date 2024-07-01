@@ -1,0 +1,43 @@
+
+section{
+  background: #004D88;
+  position: relative;
+  padding: 100px 0;
+  margin-bottom: 0;
+}
+
+p{
+  margin-left: 0;
+  margin-bottom: 0;
+}
+
+.error-title h2{
+  color: var(--white);
+  font-size: 48px;
+  text-align: center;
+}
+.error-img{
+  display: flex;
+  justify-content: center;
+}
+.error-title h2 {
+  color: var(--white);
+  text-shadow:
+    0 20px rgba(0, 0, 0, 0.1),
+    0 10px rgba(0, 0, 0, 0.1),
+    0 11px rgba(0, 0, 0, 0.1),
+    0 20px rgba(0, 0, 0, 0.1),
+    0 13px rgba(0, 0, 0, 0.1),
+    0 12px rgba(0, 0, 0, 0.1),
+    0 14px rgba(0, 0, 0, 0.1),
+    0 13px rgba(0, 0, 0, 0.1),
+    0 15px rgba(0, 0, 0, 0.1),
+    0 14px rgba(0, 0, 0, 0.1),
+    0 16px rgba(0, 0, 0, 0.1),
+    0 15px rgba(0, 0, 0, 0.1),
+    0 17px rgba(0, 0, 0, 0.1),
+    0 16px rgba(0, 0, 0, 0.1),
+    0 18px rgba(0, 0, 0, 0.1),
+    0 20px rgba(0, 0, 0, 0.1);
+}
+

@@ -1,0 +1,180 @@
+<!-- donate-banner.component.html -->
+<section class="donate-banner-section">
+  <div class="container">
+    <div class="donate-banner-details">
+      <div class="donate-title text-center">
+        <h2>Donate any amount for the welfare of <br> underprivileged children</h2>
+      </div>
+      <div class="donate-sub-title">
+        <p class="text-center">Donate for their welfare & be their hero.</p>
+      </div>
+      <div class="donate-btn  d-flex justify-content-center align-items-end">
+        <button (click)="scrollToSection('donateAmountSection')" class="donate-btn border-0 mt-3 fw-bold rounded-3">DONATE</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="donate-amount-section" #donateAmountSection>
+  <div class="container">
+    <div class="amount-title text-center wow fadeInUp" data-wow-duration="1s">
+      <h4>Choose Donation Amount</h4>
+    </div>
+
+    <div class="amount-choose-btn wow fadeInUp" data-wow-duration="1s">
+      <div>
+        <button>$ 10</button>
+        <button>$ 20</button>
+        <button>$ 30</button>
+      </div>
+      <div>
+        <button>$ 50</button>
+        <button>$ 100</button>
+      </div>
+    </div>
+    <div class="amount-choose-btn wow fadeInUp" data-wow-duration="1s">
+      <div>
+        <button>$ 150</button>
+        <button>$ 200</button>
+        <button>$ 300</button>
+      </div>
+      <div>
+        <button>Choose Another Amount</button>
+      </div>
+    </div>
+
+    <div class="donate-btn  d-flex justify-content-center align-items-end wow fadeInUp" data-wow-duration="1s">
+      <button (click)="scrollToSection('donateAmountMonthly')" class="donate-btn border-0 mt-3 fw-bold rounded-3">Next</button>
+    </div>
+  </div>
+</section>
+
+<section class="donate-section" #donateAmountMonthly>
+  <div class="container">
+    <div class="donate-area wow fadeInUp" data-wow-duration="1s">
+      <div class="donate-title text-center">
+        <h4>Only 20$/month can help a child to continue it’s study & provide life-changing essential needs to it’s entire community</h4>
+      </div>
+      <div class="donate-btn d-flex justify-content-center align-items-end mt-5 wow fadeInUp" data-wow-duration="1s">
+        <button (click)="scrollToSection('donateAmountForm')" class="border-0 fw-bold rounded-3">DONATE</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="donate-form-section wow fadeInUp" data-wow-duration="1s" #donateAmountForm>
+    <div class="container">
+      <div class="donate-form-title text-center">
+        <h2>Contact</h2>
+      </div>
+      <div class="donate-form">
+        <div class="mb-3">
+          <input type="text" class="form-control" placeholder="Full Name*">
+        </div>
+        <div class="mb-3">
+          <input type="text" class="form-control" placeholder="Address*">
+        </div>
+        <div class="mb-3">
+          <input type="email" class="form-control" placeholder="Email Address*">
+        </div>
+        <div class="mb-3">
+          <input type="text" class="form-control" placeholder="Contact Number*">
+        </div>
+        <div class="mb-3">
+          <textarea class="form-control" placeholder="Special Message/Request" rows="5"></textarea>
+        </div>
+        <div class="mandatory">
+          <p><sup>*</sup>Denotes Mandatory Fields.</p>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" checked>
+          <label class="form-check-label">
+            <p class="mx-2">I have read and understood the <a class="text-decoration-none">Privacy & Policy</a> and <a class="text-decoration-none">Terms of Use</a>, and consent to the terms of both documents.</p>
+          </label>
+        </div>
+        <div class="donate-btn d-flex justify-content-center align-items-end mt-5 wow fadeInUp" data-wow-duration="1s">
+          <button (click)="scrollToSection('donateAmountMethod')" class="border-0 fw-bold rounded-3">Donate $300</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="donate-form-section wow fadeInUp" data-wow-duration="1s" #donateAmountMethod>
+    <div class="container">
+      <div class="check-out-heading">
+        <div class="donate-form-title text-center">
+          <h2>Teacher of the Street</h2>
+        </div>
+        <div class="donate-form-subtitle">
+          <p class="text-center">Where there is a wall, there is a way</p>
+        </div>
+      </div>
+
+      <div class="card-option">
+        <button class="border-0 px-3 py-2 fw-bold text-light rounded-3">Cards</button>
+        <button class="border-0 px-3 py-2 fw-bold text-light rounded-3">Mobile Banking</button>
+        <button class="border-0 px-3 py-2 fw-bold text-light rounded-3">Net Banking</button>
+      </div>
+
+      <div class="card-option-2">
+        <button class="border-0 bg-transparent px-3 py-2 fw-bold text-light rounded-3">
+          <img src="../../../../assets/Get-Involved/Donation/image%2022.png" class="img-fluid" alt="">
+        </button>
+        <button class="border-0 bg-transparent px-3 py-2 fw-bold text-light rounded-3">
+          <img src="../../../../assets/Get-Involved/Donation/image%2023.png" class="img-fluid" alt="">
+        </button>
+        <button class="border-0 bg-transparent px-3 py-2 fw-bold text-dark rounded-3">
+          Other Card
+        </button>
+      </div>
+
+      <div class="check-out-form">
+        <div class="row mb-3">
+          <div class="col-md-12">
+            <input type="text" class="form-control save-remember" placeholder="Enter Card Number">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="mb-3">
+              <input type="text" class="form-control save-remember" placeholder="MM/YY">
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="mb-3">
+              <input type="email" class="form-control save-remember" placeholder="CVC/CVV">
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-12">
+            <div class="mb-3">
+              <input type="text" class="form-control save-remember" placeholder="Card holder Name">
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-12">
+            <div class="form-check save-remember mb-3">
+              <input class="form-check-input save-remember-checkbox" type="checkbox" value="">
+              <label class="form-check-label">
+                <p class="mx-2">Save card & remember me</p>
+              </label>
+            </div>
+          </div>
+        </div>
+
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" checked>
+          <label class="form-check-label">
+            <p class="mx-2">I have read and understood the <a class="text-decoration-none" href="#">Privacy & Policy</a> and <a class="text-decoration-none" href="#">Terms of Use</a>, and consent to the terms of both documents.</p>
+          </label>
+        </div>
+        <div class="donate-btn d-flex justify-content-center align-items-end mt-5 wow fadeInUp" data-wow-duration="1s">
+          <button class="border-0 fw-bold rounded-3">DONATE</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

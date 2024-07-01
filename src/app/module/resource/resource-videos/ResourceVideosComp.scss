@@ -1,0 +1,146 @@
+
+section {
+  margin-bottom: 0;
+}
+
+p {
+  text-align: center;
+  margin-left: 0;
+  margin-bottom: 0;
+}
+
+.videos-section {
+  padding: 50px 0;
+}
+
+.videos-gallery-area {
+  margin-top: 50px;
+}
+
+.form-control {
+  width: 240px;
+  outline: 0;
+  padding-left: 50px;
+  background: #D9D9D9 url('../../../../assets/Resources/Resource-Photos/search.png') no-repeat 10px center;
+  background-size: 20px 20px;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+
+.form-control:focus {
+  outline: 0;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+  border: 0;
+}
+
+.search-form {
+  display: flex;
+  justify-content: end;
+}
+
+.video-frame-card {
+  background: #FFFFFF;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  transition: .3s ease;
+}
+.video-frame-card:hover{
+  transform: scale(1.1);
+  transition: .3s ease;
+}
+.video-frame-card p{
+  margin-top: 10px;
+}
+.card-img-container {
+  position: relative;
+}
+
+.card-body {
+  padding-bottom: 0;
+}
+
+.card-body img {
+  position: absolute;
+  top: 42%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 65px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.card-img-container img {
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.video-frame-card {
+  margin-top: 30px;
+}
+
+.video-frame-card p {
+  font-size: 16px;
+}
+.iframe{
+  display: flex;
+  justify-content: center;
+}
+iframe{
+  margin-bottom: 4px;
+}
+/*---responsive style start---*/
+
+@media screen and (max-width: 1480px) {
+  .education-project-title h2 {
+    font-size: 48px;
+  }
+  .edu-project-card {
+    margin-left: 5%;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .education-project-title h2 {
+    font-size: 40px;
+  }
+  .video-frame-card {
+    margin-left: 5%;
+  }
+}
+
+@media screen and (max-width: 1090px) {
+
+  .education-project-title h2 {
+    font-size: 38px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .education-project-title h2 {
+    font-size: 36px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .education-project-title h2 {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .education-project-title h2 {
+    text-align: center;
+  }
+  .search-form {
+    display: flex;
+    justify-content: center;
+  }
+
+}
+
+@media screen and (max-width: 450px) {
+  .edu-project-card {
+    margin-left: 7%;
+  }
+}
+

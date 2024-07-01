@@ -1,0 +1,206 @@
+
+section{
+  background: url("../../../../assets/focus/Focus-Nutrition/nutrition_body3.png") no-repeat center center fixed;
+  background-size: cover;
+  margin-bottom: 0;
+}
+p{
+  margin-left: 0;
+  margin-bottom: 0;
+  text-align: justify;
+}
+.fostering-nutritional-section,
+/*.nutrition-details-section,*/
+.nutrition-balance-section,
+.donate-section,
+.health-project-section{
+  padding: 50px 0;
+}
+.fostering-nutritional-image{
+  margin-top: 30px;
+}
+.fostering-nutritional-heading{
+  padding: 0 250px;
+}
+
+.fostering-nutritional-title h2,
+.nutrition-balance-title h2,
+.fruit-nutrition-title h2,
+.health-project-title h2,
+.fruit-nutrition-title h2{
+  color: var(--black);
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+.fostering-nutritional-sub-title h4{
+  color: var(--black);
+  font-size: 16px;
+}
+.nutrition-details-section{
+  padding-bottom: 50px;
+}
+.nutrition-details-desc p,
+.fruit-nutrition-desc p{
+  font-size: 20px;
+}
+.nutrition-balance-title{
+  margin-bottom: 50px;
+}
+
+.fruit-nutrition-section{
+  //background: url("/../assets/focus/Focus-Nutrition/fruit.png") no-repeat center center;
+  //background-size: cover;
+}
+.fruit-nutrition-area{
+  position: relative;
+}
+.fruit-nutrition-details{
+  position: absolute;
+  width: 46%;
+  top: 30%;
+  left: 40%;
+}
+.fruit-nutrition-desc{
+  margin-top: 30px;
+}
+
+.health-project-title{
+  margin-bottom: 30px;
+}
+
+.donate-area{
+  padding: 50px 0;
+}
+.donate-title h4{
+  font-size: 36px;
+  color: var(--black);
+}
+.donate-btn button{
+  text-transform: uppercase;
+}
+
+.health-project-section{
+  padding-bottom: 50px;
+}
+
+.health-project-section{
+  background: url("../../../../assets/focus/Focus-Nutrition/focus_nutrition_body2.png") no-repeat center center fixed;
+  background-size: cover;
+  margin-bottom: 0;
+}
+/*---responsive style start---*/
+
+
+@media screen and (max-width: 1400px) {
+  .fostering-nutritional-heading{
+    padding: 0 80px;
+  }
+  .fruit-nutrition-details{
+    width: 60%;
+    left: 35%;
+  }
+  .fruit-nutrition-title h2{
+    font-size: 48px;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .fostering-nutritional-title h2,
+  .nutrition-balance-title h2,
+  .fruit-nutrition-title h2,
+  .health-project-title h2,
+  .fruit-nutrition-title h2{
+    font-size: 48px;
+  }
+  .fostering-nutritional-heading{
+    padding: 0 20px;
+  }
+
+}
+@media screen and (max-width: 1200px) {
+  .fruit-nutrition-details{
+    width: 65%;
+    top: 25%;
+    left: 30%;
+  }
+}
+@media screen and (max-width: 991px) {
+  .fostering-nutritional-title h2,
+  .nutrition-balance-title h2,
+  .fruit-nutrition-title h2,
+  .health-project-title h2 {
+    font-size: 36px;
+  }
+  .fruit-nutrition-details{
+    width: 65%;
+    top: 10%;
+    left: 30%;
+  }
+}
+@media screen and (max-width: 880px) {
+  .fruit-nutrition-details{
+    width: 75%;
+    top: 5%;
+    left: 20%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .nutrition-details-section,
+  .nutrition-balance-section,
+  .donate-section{
+    padding-top: 20px;
+  }
+  .fostering-nutritional-title h2,
+  .nutrition-balance-title h2,
+  .fruit-nutrition-title h2,
+  .health-project-title h2 {
+    font-size: 24px;
+    text-align: center;
+  }
+  .nutrition-details-desc p,
+  .fruit-nutrition-desc p{
+    font-size: 16px;
+  }
+  .child-health-sub-title h4{
+    font-size: 16px;
+  }
+  .fostering-nutritional-image{
+    margin-top: 20px;
+  }
+  .fruit-nutrition-details{
+    top: 10%;
+  }
+
+  .health-project-card{
+    margin-left: 7%;
+  }
+.fruit-nutrition-area img{
+  height: 70vh;
+}
+}
+@media screen and (max-width: 450px) {
+  .fostering-nutritional-section,
+  .nutrition-details-section,
+  .nutrition-balance-section,
+  .donate-section,
+  .health-project-section{
+    padding: 10px 0;
+  }
+  .donate-area{
+    padding: 20px 0;
+  }
+  .fostering-nutritional-title h2,
+  .nutrition-balance-title h2,
+  .fruit-nutrition-title h2,
+  .health-project-title h2 {
+    font-size: 20px;
+  }
+  .fruit-nutrition-details{
+    top: 4%;
+  }
+  .fruit-nutrition-area img{
+    height: 80vh;
+  }
+  .donate-title h4{
+    font-size: 24px;
+  }
+}

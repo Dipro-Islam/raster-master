@@ -1,0 +1,131 @@
+<!-----header section start---->
+<header class="header-section fixed-top">
+  <div class="top-layer"></div>
+  <nav class="navbar navbar-expand-xl d-flex align-items-center px-3">
+    <div class="container-fluid">
+      <a class="navbar-brand mx-3" routerLink="/">
+        <img src="./assets/home-img/LOGO1.png" alt="Logo"
+             class="d-inline-block"/>
+      </a>
+
+      <div class="logo-title">
+        <h6 class="fw-bold position-relative"><a routerLink="/">Teacher of the Street</a></h6>
+        <span class="position-absolute text-center">Where there is a wall, there is a way</span>
+      </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+              aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+           aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title d-flex justify-content-between" id="offcanvasNavbarLabel">
+            <a class="navbar-brand" routerLink="/">
+              <img src="assets/home-img/LOGO1.png" alt="Logo"
+                   class="d-inline-block align-text-top"/>
+            </a>
+          </h5>
+          <i class="fa-solid fa-xmark close" data-bs-dismiss="offcanvas"></i>
+        </div>
+
+        <div class="offcanvas-body">
+          <ul class="navbar-nav nav m-auto" id="nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" routerLink="/">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown"
+                 aria-expanded="false">
+                Focus<i class="fa-solid fa-angle-down mx-2"></i></a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" routerLink="/focus/education"> Education</a></li>
+
+                <li><a class="dropdown-item" routerLink="/focus/health"> Health</a></li>
+
+                <li><a class="dropdown-item" routerLink="/focus/nutrition"> Nutrition</a></li>
+
+                <li><a class="dropdown-item" routerLink="/focus/child"> Child</a></li>
+
+                <li><a class="dropdown-item" routerLink="/focus/youth"> Youth</a></li>
+
+                <li><a class="dropdown-item" routerLink="/focus/environment"> Environment</a></li>
+
+                <li><a class="dropdown-item" routerLink="/focus/gander_equality"> Gender Equality</a></li>
+
+                <li><a class="dropdown-item" routerLink="/focus/world_peace"> World Peace</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown"
+                 aria-expanded="false">
+                Projects<i class="fa-solid fa-angle-down mx-2"></i></a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" routerLink="/project/ongoing_project"> Ongoing Project</a></li>
+                <li><a class="dropdown-item" routerLink="/project/upcoming_project"> Upcoming Project </a></li>
+                <li><a class="dropdown-item" routerLink="/project/completed_project"> Completed Project </a></li>
+                <li><a class="dropdown-item" routerLink="/project/collaborated_project"> Collaborated Project </a></li>
+
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown"
+                 aria-expanded="false">
+                About Us<i class="fa-solid fa-angle-down mx-2"></i></a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" routerLink="/about_us/who_we_are"> Who We Are </a></li>
+                <li><a class="dropdown-item" routerLink="/about_us/our_achievement"> Our Achievement </a></li>
+                <li><a class="dropdown-item" routerLink="/about_us/our_workplace"> Our Workplace</a></li>
+                <li><a class="dropdown-item" routerLink="/about_us/our_team">  Our Team </a></li>
+                <li><a class="dropdown-item" routerLink="/about_us/faq"> FAQ </a></li>
+                <li><a class="dropdown-item" routerLink="/about_us/contact_us">  Contact Us </a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown"
+                 aria-expanded="false">
+                Resources<i class="fa-solid fa-angle-down mx-2"></i></a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" routerLink="/resource/resource_report">Report</a></li>
+                <li><a class="dropdown-item" routerLink="/resource/resource_research"> Research</a></li>
+                <li><a class="dropdown-item" routerLink="/resource/resource_article"> Article</a></li>
+                <li><a class="dropdown-item" routerLink="/resource/resource_news">News & Publications</a></li>
+                <li><a class="dropdown-item" routerLink="/resource/resource_photos"> Photos </a></li>
+                <li><a class="dropdown-item" routerLink="/resource/resource_videos">Videos </a></li>
+
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown"
+                 aria-expanded="false">
+                Get Involved<i class="fa-solid fa-angle-down mx-2"></i></a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" routerLink="/get_involved/be_a_volunteer">Be A volunteer</a></li>
+                <li><a class="dropdown-item" routerLink="/get_involved/donation">Donate</a></li>
+                <li><a class="dropdown-item" routerLink="/get_involved/collaborate">Collaborate With Us</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown"
+                 aria-expanded="false">
+                Language<i class="fa-solid fa-angle-down mx-2"></i></a>
+              <ul class="dropdown-menu ">
+                <li><a class="dropdown-item" routerLink="/">English</a></li>
+                <li><a class="dropdown-item" routerLink="error">বাংলা</a></li>
+                <li><a class="dropdown-item" routerLink="error">हिंदी</a></li>
+                <li><a class="dropdown-item" routerLink="error">عربي</a></li>
+                <li><a class="dropdown-item" routerLink="error">Francais</a></li>
+              </ul>
+            </li>
+          </ul>
+
+          <button class="header-btn btn btn-outline-0 fw-bold text-uppercase" routerLink="/get_involved/donation">Donate</button>
+        </div>
+
+      </div>
+
+    </div>
+  </nav>
+</header>
+<!-----header section end---->

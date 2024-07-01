@@ -1,0 +1,152 @@
+/* You can add global styles to this file, and also import other style files */
+/* COMMON CSS AREA */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Langar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Jost', sans-serif;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  max-width: 100%;
+}
+
+h1, h2, h3,h2 span {
+  font-family: 'Playfair Display', serif;
+}
+
+h4, h5, h6 {
+  font-family: 'Inter', sans-serif;
+}
+
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  font-family: 'PT Sans', sans-serif;
+}
+.helpline-details ul li{
+  font-family: "Raleway", sans-serif;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+img {
+  vertical-align: middle;
+}
+
+:root {
+  --white: #fff;
+  --black: #000;
+  --gray: #00000080;
+  --green: #69C69A;
+}
+
+/*---common style----*/
+ul li a{
+  text-decoration: none;
+  color: var(--black);
+}
+
+section{
+  margin-bottom: 96px;
+}
+.top-layer,
+.header-btn,
+.navbar-toggler,
+.footer-section,
+.project-btn button,
+.achievement-section .container,
+.volunteer-btn button,
+.donate-btn button{
+  background: var(--green);
+}
+.close,
+.carousel-text,
+.support-btn:hover,
+.project-donate:hover,
+.count,
+.project-heading span,
+.mission-heading span {
+  color: var(--green);
+}
+
+.counter i,
+.counter img,
+.first-footer-title h4,
+.second-footer-title h4,
+.last-footer-title h4 {
+  font-size: 30px;
+}
+.project-card,
+.volunteer-card{
+  transition: .7s;
+}
+.project-card:hover,
+.volunteer-card:hover {
+  box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
+  transition: .7s;
+}
+.card img, iframe{
+  border-radius: 5px;
+}
+.donate-btn button,
+.environment-btn button,
+.banner-btn button,
+.achievement-details button,
+.volunteer-btn button{
+  height: 50px;
+  padding: 0 20px;
+}
+.donate-btn button:hover,
+.banner-btn button:hover,
+.card-btn button:hover,
+.button:hover{
+  background: dimgray;
+  color: var(--white);
+}
+
+.project-btn label{
+  background: var(--green);
+}
+.support-btn{
+  margin-top: 10px;
+}
+.card-btn button{
+  background: var(--black);
+}
+
+.hidden-cards{
+  display: none;
+}
+.toggle-switch{
+  display: none;
+}
+.toggle-switch:checked ~ .hidden-cards{
+  display: block;
+}
+.toggle-switch:checked ~ .project-btn>.button{
+  display: none;
+}
+
+
+@media screen and (max-width: 768px){
+  .card{
+    margin-left: 7%;
+  }
+  .donate-btn button{
+    height: 40px;
+    padding: 0 15px;
+  }
+}
+
+

@@ -1,0 +1,130 @@
+
+section{
+  background: url("../../../../assets/Resources/Resource-News/resource_news_project_body.png") no-repeat center center fixed;
+  background-size: cover;
+  margin-bottom: 0;
+}
+p{
+  text-align: justify;
+  margin-left: 0;
+  margin-bottom: 0;
+}
+a{
+  text-decoration: none;
+  color: var(--black);
+  cursor: pointer;
+}
+.report-btn a:hover{
+  color: var(--white);
+}
+.report-section{
+  padding: 50px 0;
+}
+
+.education-project-heading h2{
+  color: var(--black);
+  font-size: 48px;
+}
+
+.education-project-heading{
+  margin-bottom: 50px;
+}
+
+.edu-project-card{
+  background: var(--green);
+}
+.support-btn:hover{
+  color: var(--black);
+}
+.card-text{
+  text-align: center;
+}
+
+.news-dropdown-area{
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+
+.dropdown button {
+  margin-left: -82%;
+}
+.fa-angle-down {
+  font-size: 16px;
+}
+.dropdown-item{
+  cursor: pointer;
+}
+.dropdown-menu{
+  border: 0;
+  box-shadow: 0 3px 7px 0 rgba(0, 0, 0, .13), 0 1px 2px 0 rgba(0, 0, 0, .11);
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.dropdown-menu li{
+  padding: 0 10px;
+}
+.dropdown-menu li a{
+  padding: 10px 0 10px 20px;
+  transition: 1s;
+}
+.dropdown-menu li a:hover{
+  background: #d5d2d2;
+  padding: 10px 0 10px 20px;
+  border-radius: 10px;
+  transition: 1s ease-in-out;
+  color: black;
+}
+
+
+.dropdown-item:hover div li{
+  display: block;
+}
+/*---responsive style start---*/
+
+@media screen and (max-width: 1480px) {
+  .education-project-heading h2{
+    font-size: 48px;
+  }
+  .edu-project-card{
+    margin-left: 5%;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .education-project-heading h2{
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 1090px) {
+
+  .education-project-heading h2{
+    font-size: 38px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .education-project-heading h2{
+    font-size: 36px;
+  }
+.news-dropdown-area{
+  margin-bottom: 20px;
+}
+}
+
+@media screen and (max-width: 768px) {
+  .education-project-heading h2{
+    font-size: 28px;
+  }
+
+}
+
+@media screen and (max-width: 450px) {
+  .edu-project-card{
+    margin-left: 7%;
+  }
+}
+
+
+/*---responsive style end---*/

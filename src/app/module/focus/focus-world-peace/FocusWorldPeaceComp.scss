@@ -1,0 +1,123 @@
+p ,ol{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+section{
+  background: url("../../../../assets/focus/Focus-World-Peace/focus_world_pleace_body.png") no-repeat center center fixed;
+  background-size: cover;
+  margin-bottom: 0;
+}
+p{
+  text-align: justify;
+}
+.world-peace-details-section,
+.world-peace-highlight-section,
+.world-peace-banner-section-2{
+  padding: 50px 0;
+}
+.world-peace-banner-section{
+  background: url("../../../../assets/focus/Focus-World-Peace/focus_world_pleace_banner.png") no-repeat center center;
+  background-size: cover;
+  margin-bottom: 0;
+  height: 600px;
+  border-radius: 10px;
+}
+
+
+.world-peace-title h2{
+  color: var(--white);
+  margin-top: 220px;
+  text-align: center;
+}
+.world-peace-sub-title p,
+.save-environment-details-desc p{
+  color: #FFFFFF;
+  font-size: 20px;
+}
+.world-peace-title h2{
+  font-size: 48px;
+}
+.world-peace-banner-details{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.world-peace-details-desc p,
+.world-peace-highlight p,
+.formula-details ol p{
+  font-size: 20px;
+}
+.world-peace-highlight{
+  background: var(--green);
+  color: var(--black);
+  font-weight: bold;
+  padding: 50px 150px;
+  border-radius: 20px;
+}
+.world-peace-image img{
+  border-radius: 15px;
+}
+.world-peace-formula-section{
+  padding-bottom: 50px;
+}
+.formula-details ol{
+  margin-bottom: 25px;
+}
+.formula-details ol li{
+  font-size: 36px;
+  font-weight: bold;
+}
+.world-peace-banner-section-2{
+  background: url("../../../../assets/focus/Focus-World-Peace/alfabet.png") no-repeat center center;
+  background-size: cover;
+  margin-bottom: 0;
+  height: 600px;
+}
+
+
+/*---responsive style start---*/
+@media screen and (max-width: 991px){
+  .world-peace-details-section,
+  .world-peace-highlight-section{
+    padding: 20px 0;
+  }
+  .world-peace-title h2{
+    font-size: 36px;
+  }
+  .world-peace-highlight{
+    padding: 30px 50px;
+  }
+}
+@media screen and (max-width: 768px){
+  .world-peace-banner-section,
+  .world-peace-banner-section-2{
+    height: 400px;
+  }
+  .world-peace-title h2{
+    margin-top: 150px;
+  }
+  .world-peace-sub-title p,
+  .world-peace-details-desc p,
+  .world-peace-highlight p,
+  .formula-details ol p{
+    font-size: 16px;
+    text-align: center;
+  }
+  .formula-details ol{
+    margin-left: -2%;
+  }
+  .formula-details ol li{
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .world-peace-banner-section,
+  .world-peace-banner-section-2{
+    height: 350px;
+  }
+  .world-peace-title h2{
+    font-size: 24px;
+  }
+}

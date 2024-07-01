@@ -1,0 +1,163 @@
+section{
+  margin-bottom: 0;
+}
+p{
+  text-align: justify;
+  margin-left: 0;
+  margin-bottom: 0;
+}
+.glob-section{
+  margin: 50px 0;
+}
+.achievement-title h2 span{
+  color: var(--green);
+}
+.achievement-title h2,
+.towards-title h2,
+.donate-title h2{
+  color: var(--black);
+  font-size: 48px;
+  margin-top: 50px;
+}
+.achievement-desc p,
+.donate-desc P,
+.towards-desc p,
+.glob-desc p,
+.towards-desc-1 p{
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.towards-area{
+  padding: 50px 0;
+}
+
+.towards-details{
+  margin-top: 10%;
+}
+.towards-desc{
+  margin-top: 50px;
+}
+.support-btn{
+  margin-top: 20px;
+}
+.donate-section{
+  margin-bottom: 50px;
+}
+.donate-btn button{
+  text-transform: uppercase;
+  margin-top: 50px;
+}
+.glob-section{
+  background: url("../../../../assets/About-Us/Our-Workplace/glob.png") no-repeat center center;
+}
+.glob-details{
+  padding: 100px 0 100px 20px;
+}
+/*---responsive style start---*/
+@media screen and (max-width: 1200px){
+  .towards-title h2{
+    font-size: 36px;
+  }
+  .towards-details{
+    margin-top: -10%;
+  }
+}
+@media screen and (max-width: 991px) {
+  .glob-details{
+    padding: 50px 0 50px 20px;
+  }
+  .glob-section{
+    margin: 20px 0;
+  }
+  .towards-area{
+    padding: 20px 0;
+  }
+  .towards-details{
+    margin-top: 0%;
+  }
+  .towards-img img,
+  .towards-img-2 img{
+    width: 650px;
+    height: 460px;
+  }
+  .towards-img-2{
+    margin-top: 50px;
+  }
+  .towards-desc,
+  .towards-desc-1{
+    margin-top: 20px;
+  }
+  .donate-section{
+    padding: 20px 0;
+  }
+
+  .achievement-title h2,
+  .donate-title h2{
+    font-size: 36px;
+  }
+
+  .achievement-desc {
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .glob-details{
+    padding: 50px 0 50px 10px;
+  }
+  .glob-section{
+    margin: 10px 0;
+  }
+  .towards-area{
+    margin-left: 0%;
+  }
+  .towards-title{
+    font-size: 24px;
+    text-align: center;
+  }
+  .towards-desc,
+  .towards-desc-1{
+    margin-top: 10px;
+  }
+  .towards-desc p,
+  .glob-desc p{
+    font-size: 16px;
+  }
+
+  .donate-section{
+    padding: 10px 0;
+  }
+
+  .achievement-title h2,
+  .towards-title h2,
+  .donate-title h2{
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .achievement-desc p,
+  .donate-desc P{
+    font-size: 16px;
+  }
+  .achievement-desc{
+    margin-top: 10px;
+  }
+  .towards-area{
+    padding: 10px 0;
+  }
+}
+@media screen and (max-width: 450px) {
+  .towards-img img,
+  .towards-img-2 img{
+    height: 300px;
+  }
+  .donate-section{
+    padding: 10px 0;
+  }
+
+  .achievement-title h2,
+  .donate-title h2{
+    font-size: 20px;
+  }
+}

@@ -1,0 +1,174 @@
+section{
+  margin-bottom: 0;
+}
+p{
+  text-align: justify;
+}
+.child-section,
+.empowering-youth-section{
+  background: url("../../../../assets/focus/Focus-Youth/focus_youth_body1.PNG") no-repeat center center fixed;
+  background-size: cover;
+}
+.child-section,
+.empowering-youth-section,
+.inspiring-section,
+.development-project-section{
+  padding: 50px 0;
+}
+.child-title h2,
+.inspiring-title h2,
+.development-project-title h2{
+  color: var(--black);
+  font-size: 48px;
+}
+.child-desc p,
+.empowering-youth-desc p,
+.empowering-youth-highlight p,
+.inspiring-desc p{
+  font-size: 20px;
+}
+
+.youth-banner-section{
+  background: url("../../../../assets/focus/Focus-Youth/focus_youth_banner.png") no-repeat center center;
+  background-size: cover;
+  margin-bottom: 0;
+  height: 600px;
+}
+  .youth-banner-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.youth-title h2{
+  color: var(--white);
+  margin-top: 160px;
+  text-align: center;
+}
+.volunteer-btn{
+  margin-top: 50px;
+}
+.youth-sub-title p{
+  color: var(--green);
+  font-size: 20px;
+}
+.youth-title h2{
+  font-size: 58px;
+}
+.child-desc{
+  margin-top: 30px;
+}
+.empowering-youth-highlight{
+  background: var(--green);
+  color: var(--black);
+  font-weight: bold;
+  padding: 50px 150px;
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+.inspiring-section,
+.development-project-section{
+  background: url("../../../../assets/focus/Focus-Youth/focus_youth_body2.PNG") no-repeat center center fixed;
+  background-size: cover;
+  margin-bottom: 0;
+}
+.inspiring-details{
+  margin-top: 15%;
+}
+.inspiring-desc{
+  margin-top: 30px;
+}
+
+.development-project-title{
+  margin-bottom: 30px;
+}
+
+/*---responsive style start---*/
+
+
+
+@media screen and (max-width: 1300px) {
+  .development-project-title h2{
+    font-size: 48px;
+  }
+
+}
+@media screen and (max-width: 1200px) {
+  .inspiring-details{
+    margin-top: 3%;
+  }
+}
+@media screen and (max-width: 991px) {
+
+  .child-title h2,
+  .inspiring-title h2,
+  .development-project-title h2{
+    color: var(--black);
+    font-size: 36px;
+  }
+  .empowering-youth-highlight{
+    padding: 30px 50px;
+  }
+
+}
+@media screen and (max-width: 768px) {
+
+  .youth-banner-section{
+    height: 400px;
+  }
+  .youth-title h2{
+    margin-top: 100px;
+  }
+  .volunteer-btn{
+    margin-top: 20px;
+  }
+  .child-section,
+  .empowering-youth-section,
+  .inspiring-section{
+    padding: 20px 0;
+  }
+  .youth-title h2{
+    font-size: 36px;
+  }
+  .child-title h2,
+  .inspiring-title h2,
+  .development-project-title h2{
+    font-size: 24px;
+    text-align: center;
+  }
+  .youth-sub-title p{
+    font-size: 16px;
+    text-align: center;
+  }
+  .child-desc p,
+  .empowering-youth-desc p,
+  .inspiring-desc p,
+  .empowering-youth-highlight p,
+  .empowering-youth-desc p{
+    font-size: 16px;
+  }
+  .development-project-card{
+    margin-left: 7%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .donate-section{
+    padding: 10px 0;
+  }
+  .donate-area{
+    padding: 20px 0;
+  }
+  .donate-title h4{
+    font-size: 24px;
+  }
+  .development-project-section{
+    padding: 10px 0;
+  }
+  .child-title h2,
+  .inspiring-title h2,
+  .development-project-title h2{
+    color: var(--black);
+    font-size: 20px;
+  }
+}

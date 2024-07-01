@@ -1,0 +1,186 @@
+section{
+  margin-bottom: 0;
+}
+p{
+  text-align: justify;
+  margin-left: 0;
+  margin-bottom: 0;
+}
+.achievement-title h2 span{
+  color: var(--green);
+}
+.achievement-title h2,
+.towards-title h2,
+.donate-title h2{
+  color: var(--black);
+  font-size: 48px;
+  margin-top: 50px;
+}
+.achievement-desc p,
+.donate-desc P,
+.towards-desc p{
+  font-size: 20px;
+  margin-top: 20px;
+}
+.achievement-awards-section{
+  margin: 50px 0;
+}
+.achievement-awards-section .container{
+  background: url("../../../../assets/About-Us/Our-Achievement/achivement.png") no-repeat center center;
+  background-size: cover;
+  margin-bottom: 0;
+  padding: 20px;
+}
+.achievement-icon img{
+  width: 60px;
+  height: 60px;
+}
+.donate-btn button:hover{
+  background: dimgray;
+  color: var(--white);
+}
+.achievement-icon {
+  width: 100px;
+  height: 100px;
+  border: 2px solid var(--white);
+  border-radius: 50%;
+}
+
+.counting {
+  font-size: 40px;
+  color: var(--black);
+}
+
+.count-text {
+  font-size: 20px;
+  color: var(--black);
+}
+.towards-area{
+  padding: 50px 0;
+}
+
+.towards-details{
+  margin-top: 10%;
+}
+.towards-desc{
+  margin-top: 50px;
+}
+.support-btn{
+  margin-top: 20px;
+}
+.donate-section{
+  margin-bottom: 50px;
+}
+.donate-btn button{
+  text-transform: uppercase;
+  margin-top: 50px;
+  color: var(--black);
+}
+
+
+/*---responsive style start---*/
+@media screen and (max-width: 1200px){
+  .towards-title h2{
+    font-size: 36px;
+  }
+  .towards-details{
+    margin-top: -10%;
+  }
+}
+@media screen and (max-width: 991px) {
+
+  .achievement-icon img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .achievement-icon {
+    width: 80px;
+    height: 80px;
+  }
+
+  .counting {
+    font-size: 30px;
+  }
+
+  .count-text {
+    font-size: 16px;
+  }
+  .towards-area{
+    padding: 20px 0;
+  }
+  .towards-details{
+    margin-top: 0%;
+  }
+  .towards-img img,
+  .towards-img-2 img{
+    width: 650px;
+    height: 460px;
+  }
+.towards-img-2{
+  margin-top: 50px;
+}
+  .donate-section{
+    padding: 20px 0;
+  }
+
+  .achievement-title h2,
+  .donate-title h2{
+    font-size: 36px;
+  }
+
+  .achievement-desc {
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .towards-area{
+    margin-left: 0%;
+  }
+  .towards-title{
+    font-size: 24px;
+    text-align: center;
+  }
+  .towards-desc p{
+    font-size: 16px;
+  }
+
+  .donate-section{
+    padding: 10px 0;
+  }
+
+  .achievement-title h2,
+  .towards-title h2,
+  .donate-title h2{
+    font-size: 24px;
+    text-align: center;
+  }
+  .achievement-awards-section{
+    margin: 20px 0;
+  }
+  .achievement-desc p,
+  .donate-desc P{
+    font-size: 16px;
+  }
+  .achievement-desc{
+    margin-top: 10px;
+  }
+  .towards-area{
+    padding: 10px 0;
+  }
+}
+@media screen and (max-width: 450px) {
+  .towards-img img,
+  .towards-img-2 img{
+    height: 300px;
+  }
+  .donate-section{
+    padding: 10px 0;
+  }
+
+  .achievement-title h2,
+  .donate-title h2{
+    font-size: 20px;
+  }
+}

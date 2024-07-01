@@ -1,0 +1,138 @@
+section{
+  margin-bottom: 0;
+}
+
+p{
+  text-align: justify;
+  margin-left: 0;
+  margin-bottom: 0;
+}
+.meet-us-section,
+.contact-form-section,
+.helpline-details{
+  padding: 50px 0;
+}
+.contact-us-banner{
+  background: url("../../../../assets/About-Us/Contact-Us/contact_us_banner.png") no-repeat center center;
+  background-size: cover;
+  margin-bottom: 0;
+  height: 600px;
+  position: relative;
+}
+.banner-title h2{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  color: var(--black);
+  font-size: 48px;
+}
+
+.map-title h2,
+.address-title h2,
+.contact-form-title h2,
+.helpline-title h2{
+  color: var(--black);
+  font-size: 48px;
+}
+
+.address-details .row{
+  margin-top: 35px;
+}
+.address-icon i,
+.helpline-details ul li{
+  font-size: 36px;
+}
+.address-info h4{
+  font-size: 36px;
+  font-weight: bold;
+}
+.address-info p{
+  font-size: 20px;
+}
+.contact-form-section .container{
+  background: #D8D8D8;
+  border-radius: 20px;
+  padding: 100px 0;
+  box-shadow: 0px -25px 20px -20px rgba(0, 0, 0, 0.45), 25px 0 20px -20px rgba(0, 0, 0, 0.45), 0px 25px 20px -20px rgba(0, 0, 0, 0.45), -25px 0 20px -20px rgba(0, 0, 0, 0.45);
+}
+.contact-form{
+  padding: 30px 100px;
+}
+.form-control{
+  padding: 30px 25px;
+  margin-bottom: 30px;
+  outline: 0;
+}
+.form-control:focus{
+  outline: 0;
+  box-shadow: none;
+  border: none;
+}
+.helpline-title h2 span{
+  color: var(--green);
+}
+
+.helpline-details{
+  display: flex;
+  justify-content: center;
+}
+/*---responsive style start---*/
+@media screen and (max-width: 991px) {
+  .contact-us-banner{
+    height: 400px;
+  }
+  .meet-us-section,
+  .contact-form-section,
+  .helpline-details{
+    padding: 20px 0;
+  }
+  .banner-title h2,
+  .map-title h2,
+  .address-title h2,
+  .contact-form-title h2,
+  .helpline-title h2{
+    color: var(--black);
+    font-size: 36px;
+  }
+  .address-icon i,
+  .helpline-details ul li,
+  .address-info h4{
+    font-size: 24px;
+  }
+  .contact-form-section .container{
+    padding: 30px 0;
+  }
+  .contact-form{
+    padding: 20px 30px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .contact-us-banner{
+    height: 360px;
+  }
+
+  .banner-title h2,
+  .map-title h2,
+  .address-title h2,
+  .contact-form-title h2,
+  .helpline-title h2{
+    color: var(--black);
+    font-size: 24px;
+  }
+  .address-icon i,
+  .helpline-details ul li,
+  .address-info h4{
+    font-size: 20px;
+  }
+  .contact-form-section .container{
+    padding: 30px 0;
+  }
+  .contact-form{
+    padding: 20px 30px;
+  }
+  .form-control{
+    padding: 15px 25px;
+  }
+}
+

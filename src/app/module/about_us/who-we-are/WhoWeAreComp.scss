@@ -1,0 +1,106 @@
+section{
+  background: url("../../../../assets/About-Us/Who-We-Are/who_we_are_body.png") no-repeat center center fixed;
+  background-size: cover;
+  margin-bottom: 0;
+}
+p{
+  text-align: justify;
+  margin-left: 0;
+  margin-bottom: 0;
+}
+.teacher-of-street-section,
+.cornerstone-section,
+.malnutrition-section,
+.enhancing-section{
+  padding: 50px 0;
+}
+.teacher-of-street-title h2,
+.cornerstone-title h2,
+.enhancing-title h2{
+  color: var(--black);
+  font-size: 48px;
+  margin-top: 50px;
+}
+.cornerstone-title h2{
+  margin-top: 90px;
+}
+.teacher-of-street-title h2 span{
+color: var(--green);
+}
+.teacher-of-street-sub-title h4{
+  font-size: 20px;
+}
+.teacher-of-street-desc p,
+.cornerstone-desc p,
+.malnutrition-desc p,
+.enhancing-desc p{
+  font-size: 20px;
+  margin-top: 20px;
+}
+.teacher-of-street-desc,
+.cornerstone-desc,
+.malnutrition-desc,
+.enhancing-desc{
+  margin-top: 50px;
+}
+
+/*---responsive style start---*/
+@media screen and (max-width: 991px) {
+  .teacher-of-street-section,
+  .cornerstone-section,
+  .malnutrition-section,
+  .enhancing-section{
+    padding: 20px 0;
+  }
+  .teacher-of-street-title h2,
+  .cornerstone-title h2,
+  .cornerstone-title h2,
+  .enhancing-title h2{
+    font-size: 36px;
+  }
+
+  .teacher-of-street-desc,
+  .cornerstone-desc,
+  .malnutrition-desc,
+  .enhancing-desc{
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .teacher-of-street-section,
+  .cornerstone-section,
+  .malnutrition-section,
+  .enhancing-section{
+    padding: 10px 0;
+  }
+  .teacher-of-street-title h2,
+  .cornerstone-title h2,
+  .cornerstone-title h2,
+  .enhancing-title h2{
+    font-size: 24px;
+    text-align: center;
+  }
+  .teacher-of-street-desc p,
+  .cornerstone-desc p,
+  .malnutrition-desc p,
+  .enhancing-desc p,
+  .teacher-of-street-sub-title h4{
+    font-size: 16px;
+  }
+  .teacher-of-street-desc,
+  .cornerstone-desc,
+  .malnutrition-desc,
+  .enhancing-desc{
+    margin-top: 10px;
+  }
+
+}
+@media screen and (max-width: 450px) {
+  .teacher-of-street-title h2,
+  .cornerstone-title h2,
+  .cornerstone-title h2,
+  .enhancing-title h2{
+    font-size: 20px;
+  }
+}

@@ -1,0 +1,135 @@
+
+.donate-banner-section{
+  background: url("../../../../assets/Get-Involved/Be-A-Volunteer/be_a_volunteer_banner.png") no-repeat center center;
+  background-size: cover;
+  margin-bottom: 0;
+  height: 600px;
+  position: relative;
+}
+
+p{
+  text-align: justify;
+  margin-left: 0;
+  margin-bottom: 0;
+}
+.donate-title h2{
+  z-index: 1;
+}
+.donate-title h2{
+  color: var(--black);
+  font-size: 48px;
+  z-index: 100;
+}
+.donate-sub-title p{
+  color: var(--black);
+  font-size: 20px;
+}
+.donate-banner-details{
+  padding-top: 200px;
+}
+.shadow-color {
+  padding: 50px 0;
+  background: rgba(105, 198, 154, 100);
+  background: radial-gradient(at center, rgba(105, 198, 154, 100), rgba(158, 34, 173, 0));
+  border-radius: 10px;
+}
+.give-details-section{
+  background: url("../../../../assets/Get-Involved/Be-A-Volunteer/be_a_volunteer_body.png") no-repeat center;
+  background-size: cover;
+  margin-bottom: 0;
+  padding: 100px 0 700px;
+}
+.donate-form-title h2{
+  color: var(--black);
+  font-size: 48px;
+}
+.donate-btn button{
+  text-transform: uppercase;
+}
+.donate-btn{
+  margin-top: 30px;
+}
+.donate-form-section .container{
+  background: #D8D8D8;
+  border-radius: 20px;
+  padding: 40px 0;
+  box-shadow: 0px -25px 20px -20px rgba(0, 0, 0, 0.45), 25px 0 20px -20px rgba(0, 0, 0, 0.45), 0px 25px 20px -20px rgba(0, 0, 0, 0.45), -25px 0 20px -20px rgba(0, 0, 0, 0.45);
+}
+.donate-form{
+  padding: 30px 200px;
+}
+
+.form-control{
+  padding: 20px 25px;
+  margin-bottom: 30px;
+  outline: 0;
+}
+.form-control:focus{
+  outline: 0;
+  box-shadow: none;
+  border: none;
+}
+.form-check-label p a{
+  cursor: pointer;
+}
+.save-remember-checkbox[type=checkbox]{
+  margin-left: 0;
+}
+/*---responsive style start---*/
+@media screen and (max-width: 991px) {
+  .donate-title h2{
+    font-size: 36px;
+  }
+  .donate-form-title h2{
+    font-size: 36px;
+  }
+  .donate-form-section{
+    padding: 20px 0;
+  }
+  .donate-form-section .container{
+    padding: 30px 0;
+  }
+  .donate-form{
+    padding: 20px 30px;
+  }
+  .give-details-section{
+    padding: 50px 0 700px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .donate-banner-section{
+    height: 400px;
+  }
+  .donate-banner-details{
+    padding-top: 100px;
+  }
+
+  .donate-form-title h2,
+  .donate-title h2{
+    font-size: 24px;
+    text-align: center;
+  }
+  .donate-sub-title p{
+    font-size: 16px;
+  }
+  .donate-form-section .container{
+    padding: 30px 0;
+  }
+  .donate-form{
+    padding: 20px 30px;
+  }
+  .form-control{
+    padding: 10px 25px;
+  }
+
+}
+@media screen and (max-width: 450px) {
+
+  .donate-title h2{
+    color: var(--black);
+    font-size: 24px;
+  }
+
+
+}
+

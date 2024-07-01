@@ -1,0 +1,141 @@
+section{
+  background: url("../../../../assets/focus/Focus-Child/focus_child_body.png") no-repeat center center fixed;
+  background-size: cover;
+  margin-bottom: 0;
+}
+p{
+  text-align: justify;
+}
+
+.child-section,
+.child-empowerment-section,
+.health-project-section{
+  padding: 50px 0;
+}
+.child-title h2,
+.donate-title h2,
+.child-empowerment-title h2,
+.health-project-title h2{
+  color: var(--black);
+  font-size: 48px;
+}
+.child-desc p,
+.child-empowerment-desc p{
+  font-size: 20px;
+}
+.donate-area{
+  padding: 0 50px 50px 50px;
+}
+
+.donate-btn button{
+  text-transform: uppercase;
+}
+.child-empowerment-title h4{
+  font-size: 48px;
+}
+.child-empowerment-details{
+  margin-top: 15%;
+}
+.child-empowerment-desc{
+  margin-top: 30px;
+}
+.child-empowerment{
+  margin: 100px 0;
+}
+.child-empowerment-img-2 img{
+  margin-left: 16%;
+}
+.health-project-section{
+  padding-bottom: 50px;
+}
+.health-project-title{
+  margin-bottom: 30px;
+}
+/*---responsive style start---*/
+@media screen and (max-width: 1400px){
+  .child-empowerment-img-2 img{
+    margin-left: 0%;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .health-project-title h2{
+    font-size: 48px;
+  }
+
+}
+@media screen and (max-width: 1200px) {
+  .child-empowerment-details{
+    margin-top: 3%;
+  }
+  .child-empowerment-title h2{
+    font-size: 44px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .child-title h2,
+  .donate-title h2,
+  .health-project-title h2{
+    color: var(--black);
+    font-size: 36px;
+  }
+  .child-empowerment-img img{
+    margin-top: 20%;
+  }
+  .child-empowerment-title h2{
+    font-size: 32px;
+  }
+  .child-empowerment{
+    margin: 50px 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  .child-section,
+  .child-empowerment-section,
+  .health-project-section{
+    padding: 20px 0;
+  }
+  .child-title h2,
+  .donate-title h2,
+  .child-empowerment-title h2,
+  .health-project-title h2{
+    font-size: 24px;
+    text-align: center;
+  }
+  .child-empowerment{
+    margin: 20px 0;
+  }
+  .child-desc p,
+  .child-empowerment-desc p{
+    font-size: 16px;
+  }
+  .health-project-card{
+    margin-left: 7%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .child-section,
+  .child-empowerment-section,
+  .health-project-section{
+    padding: 10px 0;
+  }
+  .donate-section{
+    padding: 10px 0;
+  }
+  .donate-area{
+    padding: 20px 0;
+  }
+  .donate-title h4{
+    font-size: 24px;
+  }
+  .health-project-section{
+    padding: 10px 0;
+  }
+  .child-title h2,
+  .donate-title h2,
+  .child-empowerment-title h2,
+  .health-project-title h2{
+    color: var(--black);
+    font-size: 20px;
+  }
+}

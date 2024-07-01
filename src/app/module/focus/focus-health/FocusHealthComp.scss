@@ -1,0 +1,177 @@
+
+section{
+  background: url("../../../../assets/focus/Focus-Health/focus_health_body.png") no-repeat center center fixed;
+  background-size: cover;
+  margin-bottom: 0;
+}
+p{
+  margin-left: 0;
+  margin-bottom: 0;
+  text-align: justify;
+}
+.underprivileged-section,
+.nursing-section,
+.child-health-section,
+.mother-care-section,
+.life-flows-section{
+  padding: 50px 0;
+}
+.underprivileged-image,
+.child-health-image{
+  margin-top: 50px;
+}
+.underprivileged-heading{
+  padding: 0 250px;
+}
+.underprivileged-title h2,
+.bridging-title h2,
+.community-title h2,
+.nursing-title h2,
+.child-health-title h2,
+.healthy-title h2,
+.critical-title h2,
+.mother-care-title h2,
+.life-flows-title h2,
+.health-project-title h2{
+  color: var(--black);
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+.bridging-section,
+.community-section,
+.healthy-section,
+.critical-section,
+.health-project-section{
+  padding-bottom: 50px;
+}
+.bridging-desc p,
+.community-desc p,
+.nursing-desc p,
+.healthy-desc p,
+.critical-desc p,
+.mother-care-desc p,
+.life-flows-desc p{
+  font-size: 20px;
+}
+
+.nursing-img img{
+  margin-left: 9%;
+}
+.nursing-details{
+  margin-top: 2%;
+}
+.child-health-sub-title h4{
+  color: var(--black);
+  font-size: 16px;
+}
+.mother-care-title{
+  margin-bottom: 20px;
+}
+.health-project-title{
+  margin-bottom: 30px;
+}
+
+
+/*---responsive style start---*/
+
+@media screen and (max-width: 1400px) {
+  .underprivileged-heading{
+    padding: 0 80px;
+  }
+  .nursing-img img,
+  .mother-care-img img{
+    margin-top: 18%;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .underprivileged-heading{
+    padding: 0 20px;
+  }
+  .nursing-img img,
+  .mother-care-img img{
+    margin-top: 10%;
+  }
+}
+@media screen and (max-width: 991px) {
+  .underprivileged-title h2,
+  .bridging-title h2,
+  .community-title h2,
+  .nursing-title h2,
+  .child-health-title h2,
+  .healthy-title h2,
+  .critical-title h2,
+  .mother-care-title h2,
+  .life-flows-title h2,
+  .health-project-title h2{
+    font-size: 36px;
+  }
+  .nursing-img img,
+  .mother-care-img img{
+    margin-top: 5%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .underprivileged-title h2,
+  .bridging-title h2,
+  .community-title h2,
+  .nursing-title h2,
+  .child-health-title h2,
+  .healthy-title h2,
+  .critical-title h2,
+  .mother-care-title h2,
+  .life-flows-title h2,
+  .health-project-title h2{
+    font-size: 24px;
+    text-align: center;
+  }
+  .bridging-desc p,
+  .community-desc p,
+  .nursing-desc p,
+  .healthy-desc p,
+  .critical-desc p,
+  .mother-care-desc p,
+  .life-flows-desc p,
+  .child-health-sub-title h4{
+    font-size: 16px;
+  }
+  .nursing-img img,
+  .mother-care-img img,
+  .life-flows-img{
+    margin-left: 2%;
+  }
+
+  .nursing-desc,
+  .mother-care-desc,
+  .life-flows-desc{
+    margin-left: 7%;
+  }
+  .health-project-card{
+    margin-left: 7%;
+  }
+
+}
+@media screen and (max-width: 450px) {
+  .underprivileged-title h2,
+  .bridging-title h2,
+  .nursing-title h2,
+  .child-health-title h2,
+  .healthy-title h2,
+  .critical-title h2,
+  .mother-care-title h2,
+  .life-flows-title h2,
+  .health-project-title h2{
+    font-size: 20px;
+  }
+  .nursing-img img,
+  .mother-care-img img,
+  .life-flows-img{
+    margin-left: 3%;
+  }
+
+  .nursing-desc,
+  .mother-care-desc,
+  .life-flows-desc{
+    margin-left: 7%;
+  }
+
+}

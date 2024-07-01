@@ -1,0 +1,47 @@
+/*---footer style start---*/
+
+.first-footer-title h4 {
+  margin-left: -10%;
+}
+
+.second-footer-title h4 {
+  margin-left: -5%;
+}
+
+.last-footer-title h4 {
+  margin-left: 14%;
+}
+
+/*---footer style end---*/
+
+
+/*---responsive style start---*/
+
+@media screen and (max-width: 767px) {
+
+  .first-footer-title,
+  .second-footer-title,
+  .last-footer-title,
+  .first-footer-list,
+  .second-footer-list,
+  .last-footer-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+/*---responsive style end---*/
