@@ -47,14 +47,12 @@ a{
 }
 
 .dropdown button {
-  margin-left: -82%;
+  margin-left: -100%;
 }
 .fa-angle-down {
   font-size: 16px;
 }
-.dropdown-item{
-  cursor: pointer;
-}
+
 .dropdown-menu{
   border: 0;
   box-shadow: 0 3px 7px 0 rgba(0, 0, 0, .13), 0 1px 2px 0 rgba(0, 0, 0, .11);
@@ -62,10 +60,10 @@ a{
   border-bottom-right-radius: 15px;
 }
 .dropdown-menu li{
-  padding: 0 10px;
+  padding: 0 5px;
 }
 .dropdown-menu li a{
-  padding: 10px 0 10px 20px;
+  padding: 10px 0 10px 10px;
   transition: 1s;
 }
 .dropdown-menu li a:hover{
@@ -75,10 +73,11 @@ a{
   transition: 1s ease-in-out;
   color: black;
 }
-
-
 .dropdown-item:hover div li{
   display: block;
+}
+.dropdown-item{
+  cursor: pointer;
 }
 /*---responsive style start---*/
 
@@ -111,6 +110,9 @@ a{
 .news-dropdown-area{
   margin-bottom: 20px;
 }
+  .dropdown button {
+    margin-left: -50%;
+  }
 }
 
 @media screen and (max-width: 768px) {
