@@ -9,6 +9,7 @@ import {FocusYouthComp} from "./focus-youth/FocusYouthComp";
 import {FocusEnvironmentComp} from "./focus-environment/FocusEnvironmentComp";
 import {FocusGenderEqualityComp} from "./focus-gender-equality/FocusGenderEqualityComp";
 import {FocusWorldPeaceComp} from "./focus-world-peace/FocusWorldPeaceComp";
+import {EducationForWomen} from "./focus-education/education-for-women/EducationForWomen";
 
 
 
@@ -47,6 +48,30 @@ const routes: Routes = [{
     {
       path: 'world_peace',
       component: FocusWorldPeaceComp,
+    },
+    {
+      path: 'education/education_for_women',
+      component: EducationForWomen,
+    },
+    {
+      path: 'education/education_for_children',
+      component: EducationForWomen,
+    },
+    {
+      path: 'education/distance_learning',
+      component: EducationForWomen,
+    },
+    {
+      path: 'education/digital_school',
+      component: EducationForWomen,
+    },
+    {
+      path: 'education/read_together',
+      component: EducationForWomen,
+    },
+    {
+      path: 'education/scholarship',
+      component: EducationForWomen,
     },
   ],
 }];

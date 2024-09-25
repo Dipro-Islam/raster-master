@@ -10,6 +10,7 @@ import {FocusHealthComp} from "./focus-health/FocusHealthComp";
 import {FocusNutritionComp} from "./focus-nutrition/FocusNutritionComp";
 import {FocusWorldPeaceComp} from "./focus-world-peace/FocusWorldPeaceComp";
 import {FocusYouthComp} from "./focus-youth/FocusYouthComp";
+import { EducationForWomen } from './focus-education/education-for-women/EducationForWomen';
 @NgModule({
   declarations: [
     FocusComponent,
@@ -21,6 +22,7 @@ import {FocusYouthComp} from "./focus-youth/FocusYouthComp";
     FocusNutritionComp,
     FocusWorldPeaceComp,
     FocusYouthComp,
+    EducationForWomen,
 
     ],
 
