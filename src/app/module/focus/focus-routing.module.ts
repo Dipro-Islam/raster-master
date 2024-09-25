@@ -10,6 +10,12 @@ import {FocusEnvironmentComp} from "./focus-environment/FocusEnvironmentComp";
 import {FocusGenderEqualityComp} from "./focus-gender-equality/FocusGenderEqualityComp";
 import {FocusWorldPeaceComp} from "./focus-world-peace/FocusWorldPeaceComp";
 import {EducationForWomen} from "./focus-education/education-for-women/EducationForWomen";
+import {
+  EducationalForAllSectionDetails
+} from "./focus-education/education-for-all-section-details/EducationalForAllSectionDetails";
+import {
+  EducationalForChildrenSectionDetails
+} from "./focus-education/education-for-children-section-derails/EducationalForChildrenSectionDetails";
 
 
 
@@ -17,37 +23,18 @@ const routes: Routes = [{
   path: '',
   component: FocusComponent,
   children: [
+    // education Section
     {
       path: 'education',
       component: FocusEducationComp,
     },
     {
-      path: 'health',
-      component: FocusHealthComp,
+      path: 'education/EducationalForAllSectionDetails',
+      component: EducationalForAllSectionDetails,
     },
     {
-      path: 'nutrition',
-      component: FocusNutritionComp,
-    },
-    {
-      path: 'child',
-      component: FocusChildComp,
-    },
-    {
-      path: 'youth',
-      component: FocusYouthComp,
-    },
-    {
-      path: 'environment',
-      component: FocusEnvironmentComp,
-    },
-    {
-      path: 'gander_equality',
-      component: FocusGenderEqualityComp,
-    },
-    {
-      path: 'world_peace',
-      component: FocusWorldPeaceComp,
+      path: 'education/EducationalForChildrenSectionDetails',
+      component: EducationalForChildrenSectionDetails,
     },
     {
       path: 'education/education_for_women',
@@ -72,6 +59,42 @@ const routes: Routes = [{
     {
       path: 'education/scholarship',
       component: EducationForWomen,
+    },
+
+    // health Section
+    {
+      path: 'health',
+      component: FocusHealthComp,
+    },
+    // nutrition Section
+    {
+      path: 'nutrition',
+      component: FocusNutritionComp,
+    },
+    // child Section
+    {
+      path: 'child',
+      component: FocusChildComp,
+    },
+    // youth Section
+    {
+      path: 'youth',
+      component: FocusYouthComp,
+    },
+    // environment Section
+    {
+      path: 'environment',
+      component: FocusEnvironmentComp,
+    },
+    // gander_equality Section
+    {
+      path: 'gander_equality',
+      component: FocusGenderEqualityComp,
+    },
+    // world_peace Section
+    {
+      path: 'world_peace',
+      component: FocusWorldPeaceComp,
     },
   ],
 }];
