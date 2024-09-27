@@ -10,7 +10,7 @@ import {FocusHealthComp} from "./focus-health/FocusHealthComp";
 import {FocusNutritionComp} from "./focus-nutrition/FocusNutritionComp";
 import {FocusWorldPeaceComp} from "./focus-world-peace/FocusWorldPeaceComp";
 import {FocusYouthComp} from "./focus-youth/FocusYouthComp";
-import { EducationForWomen } from './focus-education/education-for-women/EducationForWomen';
+import { EducationForWomenComp } from './focus-education/education-for-women/EducationForWomenComp';
 @NgModule({
   declarations: [
     FocusComponent,
@@ -22,7 +22,7 @@ import { EducationForWomen } from './focus-education/education-for-women/Educati
     FocusNutritionComp,
     FocusWorldPeaceComp,
     FocusYouthComp,
-    EducationForWomen,
+    EducationForWomenComp,
 
     ],
 
