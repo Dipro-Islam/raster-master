@@ -9,20 +9,20 @@ import {FocusYouthComp} from "./focus-youth/FocusYouthComp";
 import {FocusEnvironmentComp} from "./focus-environment/FocusEnvironmentComp";
 import {FocusGenderEqualityComp} from "./focus-gender-equality/FocusGenderEqualityComp";
 import {FocusWorldPeaceComp} from "./focus-world-peace/FocusWorldPeaceComp";
-import {EducationForWomen} from "./focus-education/education-for-women/EducationForWomen";
+import {EducationForWomenComp} from "./focus-education/education-for-women/EducationForWomenComp";
 import {
-  EducationalForAllSectionDetails
-} from "./focus-education/education-for-all-section-details/EducationalForAllSectionDetails";
+  EducationalForAllSectionDetailsComp
+} from "./focus-education/education-for-all-section-details/EducationalForAllSectionDetailsComp";
 import {
-  EducationalForChildrenSectionDetails
-} from "./focus-education/education-for-children-section-derails/EducationalForChildrenSectionDetails";
-import {EducationForChildren} from "./focus-education/education-for-children/EducationForChildren";
-import {DistanceLearning} from "./focus-education/distance-learning/DistanceLearning";
-import {DigitalSchool} from "./focus-education/digital-school/DigitalSchool";
-import {ReadTogether} from "./focus-education/read-together/ReadTogether";
-import {Scholarship} from "./focus-education/scholarship/Scholarship";
-import {FocusNutrition} from "./focus-education/focus-nutrition/FocusNutrition";
-import {BloodDonation} from "./focus-education/blood-donation-camp/BloodDonation";
+  EducationalForChildrenSectionDetailsComp
+} from "./focus-education/education-for-children-section-derails/EducationalForChildrenSectionDetailsComp";
+import {EducationForChildrenComp} from "./focus-education/education-for-children/EducationForChildrenComp";
+import {DistanceLearningComp} from "./focus-education/distance-learning/DistanceLearningComp";
+import {DigitalSchoolComp} from "./focus-education/digital-school/DigitalSchoolComp";
+import {ReadTogetherComp} from "./focus-education/read-together/ReadTogetherComp";
+import {ScholarshipComp} from "./focus-education/scholarship/ScholarshipComp";
+import {EducationNutritionComp} from "./focus-education/focus-nutrition/EducationNutritionComp";
+import {BloodDonationCampComp} from "./focus-education/blood-donation-camp/BloodDonationCampComp";
 
 
 
@@ -37,43 +37,43 @@ const routes: Routes = [{
     },
     {
       path: 'education/Education_For_All_Section_Details',
-      component: EducationalForAllSectionDetails,
+      component: EducationalForAllSectionDetailsComp,
     },
     {
       path: 'education/Education_For_Children_Section_Details',
-      component: EducationalForChildrenSectionDetails,
+      component: EducationalForChildrenSectionDetailsComp,
     },
     {
       path: 'education/education_for_women',
-      component: EducationForWomen,
+      component: EducationForWomenComp,
     },
     {
       path: 'education/education_for_children',
-      component: EducationForChildren,
+      component: EducationForChildrenComp,
     },
     {
       path: 'education/distance_learning',
-      component: DistanceLearning,
+      component: DistanceLearningComp,
     },
     {
       path: 'education/digital_school',
-      component: DigitalSchool,
+      component: DigitalSchoolComp,
     },
     {
       path: 'education/read_together',
-      component: ReadTogether,
+      component: ReadTogetherComp,
     },
     {
       path: 'education/scholarship',
-      component: Scholarship,
+      component: ScholarshipComp,
     },
     {
       path: 'education/focus_nutrition',
-      component: FocusNutrition,
+      component: EducationNutritionComp,
     },
     {
       path: 'education/blood_donation_camp',
-      component: BloodDonation,
+      component: BloodDonationCampComp,
     },
 
     // health Section
