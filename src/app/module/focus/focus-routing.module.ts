@@ -16,6 +16,13 @@ import {
 import {
   EducationalForChildrenSectionDetails
 } from "./focus-education/education-for-children-section-derails/EducationalForChildrenSectionDetails";
+import {EducationForChildren} from "./focus-education/education-for-children/EducationForChildren";
+import {DistanceLearning} from "./focus-education/distance-learning/DistanceLearning";
+import {DigitalSchool} from "./focus-education/digital-school/DigitalSchool";
+import {ReadTogether} from "./focus-education/read-together/ReadTogether";
+import {Scholarship} from "./focus-education/scholarship/Scholarship";
+import {FocusNutrition} from "./focus-education/focus-nutrition/FocusNutrition";
+import {BloodDonation} from "./focus-education/blood-donation-camp/BloodDonation";
 
 
 
@@ -29,11 +36,11 @@ const routes: Routes = [{
       component: FocusEducationComp,
     },
     {
-      path: 'education/EducationalForAllSectionDetails',
+      path: 'education/Education_For_All_Section_Details',
       component: EducationalForAllSectionDetails,
     },
     {
-      path: 'education/EducationalForChildrenSectionDetails',
+      path: 'education/Education_For_Children_Section_Details',
       component: EducationalForChildrenSectionDetails,
     },
     {
@@ -42,23 +49,31 @@ const routes: Routes = [{
     },
     {
       path: 'education/education_for_children',
-      component: EducationForWomen,
+      component: EducationForChildren,
     },
     {
       path: 'education/distance_learning',
-      component: EducationForWomen,
+      component: DistanceLearning,
     },
     {
       path: 'education/digital_school',
-      component: EducationForWomen,
+      component: DigitalSchool,
     },
     {
       path: 'education/read_together',
-      component: EducationForWomen,
+      component: ReadTogether,
     },
     {
       path: 'education/scholarship',
-      component: EducationForWomen,
+      component: Scholarship,
+    },
+    {
+      path: 'education/focus_nutrition',
+      component: FocusNutrition,
+    },
+    {
+      path: 'education/blood_donation_camp',
+      component: BloodDonation,
     },
 
     // health Section
