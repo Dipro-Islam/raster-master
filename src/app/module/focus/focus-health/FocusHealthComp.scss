@@ -44,6 +44,9 @@ p{
 .health-project-section{
   padding-bottom: 50px;
 }
+.bridging-desc{
+  margin-top: 50px;
+}
 .bridging-desc p,
 .community-desc p,
 .nursing-desc p,
@@ -93,6 +96,21 @@ p{
   }
 }
 @media screen and (max-width: 991px) {
+  .underprivileged-section,
+  .nursing-section,
+  .child-health-section,
+  .mother-care-section,
+  .life-flows-section{
+    padding: 30px 0;
+  }
+
+  .bridging-section,
+  .community-section,
+  .healthy-section,
+  .critical-section,
+  .health-project-section{
+    padding-bottom: 20px;
+  }
   .underprivileged-title h2,
   .bridging-title h2,
   .community-title h2,
@@ -109,8 +127,10 @@ p{
   .mother-care-img img{
     margin-top: 5%;
   }
+
 }
 @media screen and (max-width: 768px) {
+
   .underprivileged-title h2,
   .bridging-title h2,
   .community-title h2,
@@ -148,7 +168,9 @@ p{
   .health-project-card{
     margin-left: 7%;
   }
-
+  .bridging-desc{
+    margin-top: 30px;
+  }
 }
 @media screen and (max-width: 450px) {
   .underprivileged-title h2,
