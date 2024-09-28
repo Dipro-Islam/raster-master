@@ -14,13 +14,9 @@ import { EducationForWomenComp } from './focus-education/education-for-women/Edu
 import {BloodDonationCampComp} from "./focus-education/blood-donation-camp/BloodDonationCampComp";
 import {DigitalSchoolComp} from "./focus-education/digital-school/DigitalSchoolComp";
 import {DistanceLearningComp} from "./focus-education/distance-learning/DistanceLearningComp";
-import {
-  EducationalForAllSectionDetailsComp
-} from "./focus-education/education-for-all-section-details/EducationalForAllSectionDetailsComp";
+import {EducationalForAllSectionDetailsComp} from "./focus-education/education-for-all-section-details/EducationalForAllSectionDetailsComp";
 import {EducationForChildrenComp} from "./focus-education/education-for-children/EducationForChildrenComp";
-import {
-  EducationalForChildrenSectionDetailsComp
-} from "./focus-education/education-for-children-section-derails/EducationalForChildrenSectionDetailsComp";
+import {EducationalForChildrenSectionDetailsComp} from "./focus-education/education-for-children-section-derails/EducationalForChildrenSectionDetailsComp";
 import {EducationNutritionComp} from "./focus-education/focus-nutrition/EducationNutritionComp";
 import {ReadTogetherComp} from "./focus-education/read-together/ReadTogetherComp";
 import {ScholarshipComp} from "./focus-education/scholarship/ScholarshipComp";

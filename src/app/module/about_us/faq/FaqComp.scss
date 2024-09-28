@@ -22,7 +22,9 @@ p{
 .faq-accordion-area{
   margin-top: 50px;
 }
-
+.faq-accordion-area h4{
+  font-size: 28px;
+}
 .accordion {
   --bs-accordion-bg: transparent;
   --bs-accordion-border-color: none;
@@ -58,7 +60,9 @@ p{
     width: 70%;
     margin-top: 10%;
   }
-
+  .faq-accordion-area h4{
+    font-size: 24px;
+  }
 }
 /*---responsive style start---*/
 @media screen and (max-width: 768px) {
@@ -73,11 +77,15 @@ p{
   .faq-accordion-area{
     margin-top: 20px;
   }
-
+  .faq-accordion-area h4{
+    font-size: 24px;
+  }
 }
 @media screen and (max-width: 450px) {
   .teacher-of-street-title h2{
     font-size: 20px;
   }
-
+  .faq-accordion-area h4{
+    font-size: 18px;
+  }
 }
