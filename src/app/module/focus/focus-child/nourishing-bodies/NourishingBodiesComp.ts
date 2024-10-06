@@ -2,10 +2,10 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'CaringForTheCommunityComp',
-  templateUrl: './DistanceLearningComp.html',
-  styleUrls: ['./DistanceLearningComp.scss']
+  templateUrl: './NourishingBodiesComp.html',
+  styleUrls: ['./NourishingBodiesComp.scss']
 })
-export class DistanceLearningComp implements OnInit {
+export class NourishingBodiesComp implements OnInit {
 
   constructor() { }
 
