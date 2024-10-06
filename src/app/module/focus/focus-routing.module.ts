@@ -23,6 +23,15 @@ import {ReadTogetherComp} from "./focus-education/read-together/ReadTogetherComp
 import {ScholarshipComp} from "./focus-education/scholarship/ScholarshipComp";
 import {NutritionComp} from "./focus-health/nutrition/NutritionComp";
 import {BloodDonationCampComp} from "./focus-health/blood-donation-camp/BloodDonationCampComp";
+import {EmpoweringMindsComp} from "./focus-child/empowering-minds/EmpoweringMindsComp";
+import {NourishingBodiesComp} from "./focus-child/nourishing-bodies/NourishingBodiesComp";
+import {CompassionateCareComp} from "./focus-child/compassionate-care/CompassionateCareComp";
+import {CaringForTheCommunityComp} from "./focus-child/caring-for-the-community/CaringForTheCommunityComp";
+import {GivingTheGiftOfLifeComp} from "./focus-child/giving-the-gift-of-life/GivingTheGiftOfLifeComp";
+import {EmpoweringCommunitiesComp} from "./focus-child/empowering-communities/EmpoweringCommunitiesComp";
+import {ProtectingCommunitiesComp} from "./focus-child/protecting-communities/ProtectingCommunitiesComp";
+import {ProtectingOurFutureComp} from "./focus-child/protecting-our-future/ProtectingOurFutureComp";
+import {HygieneAwarenessComp} from "./focus-child/hygiene-awareness/HygieneAwarenessComp";
 
 
 
@@ -93,6 +102,43 @@ const routes: Routes = [{
       path: 'child',
       component: FocusChildComp,
     },
+    {
+      path: 'child/empowering_minds',
+      component: EmpoweringMindsComp,
+    },
+    {
+      path: 'child/nourishing_bodies',
+      component: NourishingBodiesComp,
+    },
+    {
+      path: 'child/compassionate_care',
+      component: CompassionateCareComp,
+    },
+    {
+      path: 'child/caring_for_the_community',
+      component: CaringForTheCommunityComp,
+    },
+    {
+      path: 'child/giving_the_gift_of_life',
+      component: GivingTheGiftOfLifeComp,
+    },
+    {
+      path: 'child/empowering_communities',
+      component: EmpoweringCommunitiesComp,
+    },
+    {
+      path: 'child/protecting_communities',
+      component: ProtectingCommunitiesComp,
+    },
+    {
+      path: 'child/protecting_our_future',
+      component: ProtectingOurFutureComp,
+    },
+    {
+      path: 'child/hygiene_awareness',
+      component: HygieneAwarenessComp,
+    },
+
     // youth Section
     {
       path: 'youth',
