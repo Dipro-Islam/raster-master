@@ -28,6 +28,7 @@ import {EmpoweringCommunitiesComp} from "./focus-child/empowering-communities/Em
 import {ProtectingCommunitiesComp} from "./focus-child/protecting-communities/ProtectingCommunitiesComp";
 import {ProtectingOurFutureComp} from "./focus-child/protecting-our-future/ProtectingOurFutureComp";
 import {HygieneAwarenessComp} from "./focus-child/hygiene-awareness/HygieneAwarenessComp";
+import {CompassionateCareComp} from "./focus-child/compassionate-care/CompassionateCareComp";
 @NgModule({
   declarations: [
     FocusComponent,
@@ -58,6 +59,7 @@ import {HygieneAwarenessComp} from "./focus-child/hygiene-awareness/HygieneAware
     ProtectingCommunitiesComp,
     ProtectingOurFutureComp,
     HygieneAwarenessComp,
+    CompassionateCareComp,
     ],
 
   imports: [
