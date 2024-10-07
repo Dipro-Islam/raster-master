@@ -30,8 +30,12 @@ ul {
   padding: 0;
 }
 
-p {
+p ,b,ol li,ol li b {
   font-family: 'PT Sans', sans-serif;
+}
+
+ol{
+  list-style: square;
 }
 
 .helpline-details ul li,
