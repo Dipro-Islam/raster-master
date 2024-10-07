@@ -39,6 +39,12 @@ import {DigitalLiteracyComp} from "./focus-youth/digital-literacy/DigitalLiterac
 import {EntrepreneurshipComp} from "./focus-youth/entrepreneurship/EntrepreneurshipComp";
 import {LeadershipComp} from "./focus-youth/leadership/LeadershipComp";
 import {MentalHealthComp} from "./focus-youth/mental-health/MentalHealthComp";
+import {CleanEnergyComp} from "./focus-environment/clean-energy/CleanEnergyComp";
+import {EnvironmentalEducationComp} from "./focus-environment/environmental-education/EnvironmentalEducationComp";
+import {RiverCleanUpComp} from "./focus-environment/river-cleanUp/RiverCleanUpComp";
+import {TreePlantationComp} from "./focus-environment/tree-plantation/TreePlantationComp";
+import {WasteManagementComp} from "./focus-environment/waste-management/WasteManagementComp";
+import {WaterConservationComp} from "./focus-environment/water-conservation/WaterConservationComp";
 
 
 
@@ -183,6 +189,30 @@ const routes: Routes = [{
     {
       path: 'environment',
       component: FocusEnvironmentComp,
+    },
+    {
+      path: 'environment/clean_energy',
+      component: CleanEnergyComp,
+    },
+    {
+      path: 'environment/environmental_education',
+      component: EnvironmentalEducationComp,
+    },
+    {
+      path: 'environment/river_cleanUp',
+      component: RiverCleanUpComp,
+    },
+    {
+      path: 'environment/tree_plantation',
+      component: TreePlantationComp,
+    },
+    {
+      path: 'environment/waste_management',
+      component: WasteManagementComp,
+    },
+    {
+      path: 'environment/water_conservation',
+      component: WaterConservationComp,
     },
     // gander_equality Section
     {
