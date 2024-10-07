@@ -29,6 +29,13 @@ import {ProtectingCommunitiesComp} from "./focus-child/protecting-communities/Pr
 import {ProtectingOurFutureComp} from "./focus-child/protecting-our-future/ProtectingOurFutureComp";
 import {HygieneAwarenessComp} from "./focus-child/hygiene-awareness/HygieneAwarenessComp";
 import {CompassionateCareComp} from "./focus-child/compassionate-care/CompassionateCareComp";
+import {InspiringYouthComp} from "./focus-youth/inspiring-youth/InspiringYouthComp";
+import {CareerDevelopmentComp} from "./focus-youth/career-development/CareerDevelopmentComp";
+import {CommunityEngagementComp} from "./focus-youth/community-engagement/CommunityEngagementComp";
+import {DigitalLiteracyComp} from "./focus-youth/digital-literacy/DigitalLiteracyComp";
+import {EntrepreneurshipComp} from "./focus-youth/entrepreneurship/EntrepreneurshipComp";
+import {MentalHealthComp} from "./focus-youth/mental-health/MentalHealthComp";
+import {LeadershipComp} from "./focus-youth/leadership/LeadershipComp";
 @NgModule({
   declarations: [
     FocusComponent,
@@ -60,6 +67,13 @@ import {CompassionateCareComp} from "./focus-child/compassionate-care/Compassion
     ProtectingOurFutureComp,
     HygieneAwarenessComp,
     CompassionateCareComp,
+    InspiringYouthComp,
+    CareerDevelopmentComp,
+    CommunityEngagementComp,
+    DigitalLiteracyComp,
+    EntrepreneurshipComp,
+    LeadershipComp,
+    MentalHealthComp,
     ],
 
   imports: [

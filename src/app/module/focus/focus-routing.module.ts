@@ -32,6 +32,13 @@ import {EmpoweringCommunitiesComp} from "./focus-child/empowering-communities/Em
 import {ProtectingCommunitiesComp} from "./focus-child/protecting-communities/ProtectingCommunitiesComp";
 import {ProtectingOurFutureComp} from "./focus-child/protecting-our-future/ProtectingOurFutureComp";
 import {HygieneAwarenessComp} from "./focus-child/hygiene-awareness/HygieneAwarenessComp";
+import {InspiringYouthComp} from "./focus-youth/inspiring-youth/InspiringYouthComp";
+import {CareerDevelopmentComp} from "./focus-youth/career-development/CareerDevelopmentComp";
+import {CommunityEngagementComp} from "./focus-youth/community-engagement/CommunityEngagementComp";
+import {DigitalLiteracyComp} from "./focus-youth/digital-literacy/DigitalLiteracyComp";
+import {EntrepreneurshipComp} from "./focus-youth/entrepreneurship/EntrepreneurshipComp";
+import {LeadershipComp} from "./focus-youth/leadership/LeadershipComp";
+import {MentalHealthComp} from "./focus-youth/mental-health/MentalHealthComp";
 
 
 
@@ -143,6 +150,34 @@ const routes: Routes = [{
     {
       path: 'youth',
       component: FocusYouthComp,
+    },
+    {
+      path: 'youth/inspiring_youth',
+      component: InspiringYouthComp,
+    },
+    {
+      path: 'youth/career_development',
+      component: CareerDevelopmentComp,
+    },
+    {
+      path: 'youth/community_engagement',
+      component: CommunityEngagementComp,
+    },
+    {
+      path: 'youth/digital_literacy',
+      component: DigitalLiteracyComp,
+    },
+    {
+      path: 'youth/entrepreneurship',
+      component: EntrepreneurshipComp,
+    },
+    {
+      path: 'youth/leadership',
+      component: LeadershipComp,
+    },
+    {
+      path: 'youth/mental_health',
+      component: MentalHealthComp,
     },
     // environment Section
     {

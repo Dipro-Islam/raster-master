@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'CaringForTheCommunityComp',
+  selector: 'CommunityEngagementComp',
   templateUrl: './CompassionateCareComp.html',
   styleUrls: ['./CompassionateCareComp.scss']
 })
