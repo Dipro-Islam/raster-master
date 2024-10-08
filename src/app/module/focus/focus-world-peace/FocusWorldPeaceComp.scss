@@ -35,7 +35,8 @@ p{
   color: #FFFFFF;
   font-size: 20px;
 }
-.world-peace-title h2{
+.world-peace-title h2,
+.towards-title h2{
   font-size: 48px;
 }
 .world-peace-banner-details{
@@ -48,6 +49,9 @@ p{
 .world-peace-highlight p,
 .formula-details ol p{
   font-size: 20px;
+}
+.towards-title{
+  margin-bottom: 30px;
 }
 .world-peace-highlight{
   background: var(--green);
@@ -75,7 +79,11 @@ p{
   margin-bottom: 0;
   height: 600px;
 }
-
+@media screen and (max-width: 1300px){
+  .towards-title h2{
+    font-size: 36px;
+  }
+}
 
 /*---responsive style start---*/
 @media screen and (max-width: 991px){
@@ -105,10 +113,14 @@ p{
     font-size: 16px;
     text-align: center;
   }
+  .towards-title{
+    margin-bottom: 30px;
+  }
   .formula-details ol{
     margin-left: -2%;
   }
-  .formula-details ol li{
+  .formula-details ol li,
+  .towards-title h2{
     font-size: 20px;
   }
 }
