@@ -45,6 +45,18 @@ import {RiverCleanUpComp} from "./focus-environment/river-cleanUp/RiverCleanUpCo
 import {TreePlantationComp} from "./focus-environment/tree-plantation/TreePlantationComp";
 import {WasteManagementComp} from "./focus-environment/waste-management/WasteManagementComp";
 import {WaterConservationComp} from "./focus-environment/water-conservation/WaterConservationComp";
+import {EducatingForEqualityComp} from "./focus-gender-equality/educating-for-equality/EducatingForEqualityComp";
+import {EmpoweringWomenComp} from "./focus-gender-equality/empowering-women/EmpoweringWomenComp";
+import {
+  VocationalTrainingForWomenComp
+} from "./focus-gender-equality/vocational-training-for-women/VocationalTrainingForWomenComp";
+import {FinancialLiteracyComp} from "./focus-gender-equality/financial-literacy/FinancialLiteracyComp";
+import {DecisionMakingComp} from "./focus-gender-equality/decision-making/DecisionMakingComp";
+import {WellnessProgramsComp} from "./focus-gender-equality/wellness-programs/WellnessProgramsComp";
+import {
+  AdvocacyForGenderEqualityComp
+} from "./focus-gender-equality/advocacy-for-gender-equality/AdvocacyForGenderEqualityComp";
+import {HandicraftsAndArtisanComp} from "./focus-gender-equality/handicrafts-and-artisan/HandicraftsAndArtisanComp";
 
 
 
@@ -218,6 +230,38 @@ const routes: Routes = [{
     {
       path: 'gander_equality',
       component: FocusGenderEqualityComp,
+    },
+    {
+      path: 'gander_equality/educating_for_equality',
+      component: EducatingForEqualityComp,
+    },
+    {
+      path: 'gander_equality/empowering_women',
+      component: EmpoweringWomenComp,
+    },
+    {
+      path: 'gander_equality/vocational_training_for_women',
+      component: VocationalTrainingForWomenComp,
+    },
+    {
+      path: 'gander_equality/financial_literacy',
+      component: FinancialLiteracyComp,
+    },
+    {
+      path: 'gander_equality/decision_making',
+      component: DecisionMakingComp,
+    },
+    {
+      path: 'gander_equality/wellness_programs',
+      component: WellnessProgramsComp,
+    },
+    {
+      path: 'gander_equality/advocacy_for_gender_equality',
+      component: AdvocacyForGenderEqualityComp,
+    },
+    {
+      path: 'gander_equality/handicrafts_and_artisan',
+      component: HandicraftsAndArtisanComp,
     },
     // world_peace Section
     {

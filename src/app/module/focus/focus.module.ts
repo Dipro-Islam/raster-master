@@ -42,6 +42,18 @@ import {RiverCleanUpComp} from "./focus-environment/river-cleanUp/RiverCleanUpCo
 import {TreePlantationComp} from "./focus-environment/tree-plantation/TreePlantationComp";
 import {WasteManagementComp} from "./focus-environment/waste-management/WasteManagementComp";
 import {WaterConservationComp} from "./focus-environment/water-conservation/WaterConservationComp";
+import {
+  AdvocacyForGenderEqualityComp
+} from "./focus-gender-equality/advocacy-for-gender-equality/AdvocacyForGenderEqualityComp";
+import {DecisionMakingComp} from "./focus-gender-equality/decision-making/DecisionMakingComp";
+import {EducatingForEqualityComp} from "./focus-gender-equality/educating-for-equality/EducatingForEqualityComp";
+import {EmpoweringWomenComp} from "./focus-gender-equality/empowering-women/EmpoweringWomenComp";
+import {FinancialLiteracyComp} from "./focus-gender-equality/financial-literacy/FinancialLiteracyComp";
+import {HandicraftsAndArtisanComp} from "./focus-gender-equality/handicrafts-and-artisan/HandicraftsAndArtisanComp";
+import {
+  VocationalTrainingForWomenComp
+} from "./focus-gender-equality/vocational-training-for-women/VocationalTrainingForWomenComp";
+import {WellnessProgramsComp} from "./focus-gender-equality/wellness-programs/WellnessProgramsComp";
 @NgModule({
   declarations: [
     FocusComponent,
@@ -85,7 +97,15 @@ import {WaterConservationComp} from "./focus-environment/water-conservation/Wate
     RiverCleanUpComp,
     TreePlantationComp,
     WasteManagementComp,
-    WaterConservationComp
+    WaterConservationComp,
+    AdvocacyForGenderEqualityComp,
+    DecisionMakingComp,
+    EducatingForEqualityComp,
+    EmpoweringWomenComp,
+    FinancialLiteracyComp,
+    HandicraftsAndArtisanComp,
+    VocationalTrainingForWomenComp,
+    WellnessProgramsComp
     ],
 
   imports: [
