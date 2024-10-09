@@ -6,9 +6,18 @@ import {OngoingProjectDetailsComp} from "./ongoing-project/ongoing-project-detai
 import {CompletedProjectComp} from "./completed-project/CompletedProjectComp";
 import {CompletedProjectDetailsComp} from "./completed-project-details/CompletedProjectDetailsComp";
 import {UpcomingProjectComp} from "./upcoming-project/UpcomingProjectComp";
-import {UpcomingProjectDetailsComp} from "./upcoming-project-details/UpcomingProjectDetailsComp";
 import {CollaboratedProjectComp} from "./collaborated-project/CollaboratedProjectComp";
 import {CollaboratedProjectDetailsComp} from "./collaborated-project-details/CollaboratedProjectDetailsComp";
+import {DevelopmentProgramComp} from "./upcoming-project/development-program/DevelopmentProgramComp";
+import {GreenWorldComp} from "./upcoming-project/green-world/GreenWorldComp";
+import {HarbourRenewalComp} from "./upcoming-project/harbour-renewal/HarbourRenewalComp";
+import {OldAgeHomeComp} from "./upcoming-project/old-age-home/OldAgeHomeComp";
+import {RuralInfrastructureComp} from "./upcoming-project/rural-infrastructure/RuralInfrastructureComp";
+import {RuralTransformationComp} from "./upcoming-project/rural-transformation/RuralTransformationComp";
+import {RiverAndPondComp} from "./upcoming-project/river-and-pond/RiverAndPondComp";
+import {WaterImprovementComp} from "./upcoming-project/water-improvement/WaterImprovementComp";
+import {RenewableEnergyComp} from "./upcoming-project/renewable-energy/RenewableEnergyComp";
+import {ReplacementPlasticComp} from "./upcoming-project/replacement-plastic/ReplacementPlasticComp";
 
 
 
@@ -16,6 +25,7 @@ const routes: Routes = [{
   path: '',
   component: ProjectComponent,
   children: [
+    // ongoing projects
     {
       path: 'ongoing_project',
       component: OngoingProjectComp,
@@ -24,6 +34,7 @@ const routes: Routes = [{
       path: 'ongoing_project/ongoing_project_details',
       component: OngoingProjectDetailsComp,
     },
+    // completed projects
     {
       path: 'completed_project',
       component: CompletedProjectComp,
@@ -32,14 +43,54 @@ const routes: Routes = [{
       path: 'completed_project/completed_project_details',
       component: CompletedProjectDetailsComp,
     },
+    // upcoming projects
     {
       path: 'upcoming_project',
       component: UpcomingProjectComp,
     },
     {
-      path: 'upcoming_project/upcoming_project_details',
-      component: UpcomingProjectDetailsComp,
+      path: 'upcoming_project/old_age_home',
+      component: OldAgeHomeComp,
     },
+    {
+      path: 'upcoming_project/rural_infrastructure',
+      component: RuralInfrastructureComp,
+    },
+    {
+      path: 'upcoming_project/rural_transformation',
+      component: RuralTransformationComp,
+    },
+    {
+      path: 'upcoming_project/harbour_renewal',
+      component: HarbourRenewalComp,
+    },
+    {
+      path: 'upcoming_project/river_and_pond',
+      component: RiverAndPondComp,
+    },
+    {
+      path: 'upcoming_project/water_improvement',
+      component: WaterImprovementComp,
+    },
+    {
+      path: 'upcoming_project/renewable_energy',
+      component: RenewableEnergyComp,
+    },
+    {
+      path: 'upcoming_project/development_program',
+      component: DevelopmentProgramComp,
+    },
+    {
+      path: 'upcoming_project/green_world',
+      component: GreenWorldComp,
+    },
+
+    {
+      path: 'upcoming_project/replacement_plastic',
+      component: ReplacementPlasticComp,
+    },
+
+    // collaborated projects
     {
       path: 'collaborated_project',
       component: CollaboratedProjectComp,

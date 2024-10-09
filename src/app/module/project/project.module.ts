@@ -9,7 +9,16 @@ import {CompletedProjectDetailsComp} from "./completed-project-details/Completed
 import {OngoingProjectDetailsComp} from "./ongoing-project/ongoing-project-details/OngoingProjectDetailsComp";
 import {UpcomingProjectComp} from "./upcoming-project/UpcomingProjectComp";
 import {OngoingProjectComp} from "./ongoing-project/OngoingProjectComp";
-import {UpcomingProjectDetailsComp} from "./upcoming-project-details/UpcomingProjectDetailsComp";
+import {DevelopmentProgramComp} from "./upcoming-project/development-program/DevelopmentProgramComp";
+import {GreenWorldComp} from "./upcoming-project/green-world/GreenWorldComp";
+import {HarbourRenewalComp} from "./upcoming-project/harbour-renewal/HarbourRenewalComp";
+import {OldAgeHomeComp} from "./upcoming-project/old-age-home/OldAgeHomeComp";
+import {RenewableEnergyComp} from "./upcoming-project/renewable-energy/RenewableEnergyComp";
+import {ReplacementPlasticComp} from "./upcoming-project/replacement-plastic/ReplacementPlasticComp";
+import {RiverAndPondComp} from "./upcoming-project/river-and-pond/RiverAndPondComp";
+import {RuralInfrastructureComp} from "./upcoming-project/rural-infrastructure/RuralInfrastructureComp";
+import {RuralTransformationComp} from "./upcoming-project/rural-transformation/RuralTransformationComp";
+import {WaterImprovementComp} from "./upcoming-project/water-improvement/WaterImprovementComp";
 
 @NgModule({
   declarations: [
@@ -21,14 +30,21 @@ import {UpcomingProjectDetailsComp} from "./upcoming-project-details/UpcomingPro
     OngoingProjectComp,
     OngoingProjectDetailsComp,
     UpcomingProjectComp,
-    UpcomingProjectDetailsComp
+    DevelopmentProgramComp,
+    GreenWorldComp,
+    HarbourRenewalComp,
+    OldAgeHomeComp,
+    RenewableEnergyComp,
+    ReplacementPlasticComp,
+    RiverAndPondComp,
+    RuralInfrastructureComp,
+    RuralTransformationComp,
+    WaterImprovementComp,
     ],
 
   imports: [
     CommonModule,
     ProjectRoutingModule,
-
-
   ],
   providers: [
 
