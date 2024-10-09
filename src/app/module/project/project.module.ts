@@ -6,7 +6,7 @@ import {CollaboratedProjectComp} from "./collaborated-project/CollaboratedProjec
 import {CollaboratedProjectDetailsComp} from "./collaborated-project-details/CollaboratedProjectDetailsComp";
 import {CompletedProjectComp} from "./completed-project/CompletedProjectComp";
 import {CompletedProjectDetailsComp} from "./completed-project-details/CompletedProjectDetailsComp";
-import {OngoingProjectDetailsComp} from "./ongoing-project-details/OngoingProjectDetailsComp";
+import {OngoingProjectDetailsComp} from "./ongoing-project/ongoing-project-details/OngoingProjectDetailsComp";
 import {UpcomingProjectComp} from "./upcoming-project/UpcomingProjectComp";
 import {OngoingProjectComp} from "./ongoing-project/OngoingProjectComp";
 import {UpcomingProjectDetailsComp} from "./upcoming-project-details/UpcomingProjectDetailsComp";

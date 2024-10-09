@@ -2,8 +2,8 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'OngoingProjectDetailsComp',
-  templateUrl: './Ongoing_Project_DetailsComp.html',
-  styleUrls: ['./Ongoing_Project_DetailsComp.scss']
+  templateUrl: './OngoingProjectDetailsComp.html',
+  styleUrls: ['./OngoingProjectDetailsComp.scss']
 })
 export class OngoingProjectDetailsComp implements OnInit {
 

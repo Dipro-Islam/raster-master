@@ -2,7 +2,7 @@ import {NgModule} from '@angular/core';
 import {RouterModule, Routes} from '@angular/router';
 import {ProjectComponent} from './project.component';
 import {OngoingProjectComp} from "./ongoing-project/OngoingProjectComp";
-import {OngoingProjectDetailsComp} from "./ongoing-project-details/OngoingProjectDetailsComp";
+import {OngoingProjectDetailsComp} from "./ongoing-project/ongoing-project-details/OngoingProjectDetailsComp";
 import {CompletedProjectComp} from "./completed-project/CompletedProjectComp";
 import {CompletedProjectDetailsComp} from "./completed-project-details/CompletedProjectDetailsComp";
 import {UpcomingProjectComp} from "./upcoming-project/UpcomingProjectComp";
