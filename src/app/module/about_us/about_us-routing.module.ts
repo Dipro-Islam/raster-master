@@ -9,6 +9,8 @@ import {OurTeamComp} from "./our-team/OurTeamComp";
 import {ProfileComp} from "./profile/ProfileComp";
 import {FaqComp} from "./faq/FaqComp";
 import {ContactUsComp} from "./contact_us/ContactUsComp";
+import {AwardsThatHonorComp} from "./our-achivement/awards-that-honor/AwardsThatHonorComp";
+import {AchievementsThatDriveComp} from "./our-achivement/achievements-that-drive/AchievementsThatDriveComp";
 
 
 
@@ -20,10 +22,20 @@ const routes: Routes = [{
       path: 'who_we_are',
       component: WhoWeAreComp,
     },
+    // our achievement
     {
       path: 'our_achievement',
       component: OurAchievementComp,
     },
+    {
+      path: 'our_achievement/awards_that_honor',
+      component: AwardsThatHonorComp,
+    },
+    {
+      path: 'our_achievement/achievements_that_drive',
+      component: AchievementsThatDriveComp,
+    },
+    // our workplace
     {
       path: 'our_workplace',
       component: OurWorkplaceComp,

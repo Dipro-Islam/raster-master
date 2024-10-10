@@ -10,6 +10,8 @@ import {OurWorkplaceComp} from "./our-workplace/OurWorkplaceComp";
 import {OurWorkplaceDetailsComp} from "./our-workplace-details/OurWorkplaceDetailsComp";
 import {ProfileComp} from "./profile/ProfileComp";
 import {WhoWeAreComp} from "./who-we-are/WhoWeAreComp";
+import {AwardsThatHonorComp} from "./our-achivement/awards-that-honor/AwardsThatHonorComp";
+import {AchievementsThatDriveComp} from "./our-achivement/achievements-that-drive/AchievementsThatDriveComp";
 
 @NgModule({
   declarations: [
@@ -21,7 +23,9 @@ import {WhoWeAreComp} from "./who-we-are/WhoWeAreComp";
     OurWorkplaceComp,
     OurWorkplaceDetailsComp,
     ProfileComp,
-    WhoWeAreComp
+    WhoWeAreComp,
+    AwardsThatHonorComp,
+    AchievementsThatDriveComp
     ],
 
   imports: [
