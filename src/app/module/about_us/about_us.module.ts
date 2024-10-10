@@ -12,6 +12,9 @@ import {ProfileComp} from "./profile/ProfileComp";
 import {WhoWeAreComp} from "./who-we-are/WhoWeAreComp";
 import {AwardsThatHonorComp} from "./our-achivement/awards-that-honor/AwardsThatHonorComp";
 import {AchievementsThatDriveComp} from "./our-achivement/achievements-that-drive/AchievementsThatDriveComp";
+import {ProtectingOurPlanetComp} from "./our-workplace/protecting-our-planet/ProtectingOurPlanetComp";
+import {BuildingHealthierLivesComp} from "./our-workplace/building-healthier-lives/BuildingHealthierLivesComp";
+import {TheHeartOfLearningComp} from "./our-workplace/the-heart-of-learning/TheHeartOfLearningComp";
 
 @NgModule({
   declarations: [
@@ -25,7 +28,10 @@ import {AchievementsThatDriveComp} from "./our-achivement/achievements-that-driv
     ProfileComp,
     WhoWeAreComp,
     AwardsThatHonorComp,
-    AchievementsThatDriveComp
+    AchievementsThatDriveComp,
+    ProtectingOurPlanetComp,
+    BuildingHealthierLivesComp,
+    TheHeartOfLearningComp
     ],
 
   imports: [

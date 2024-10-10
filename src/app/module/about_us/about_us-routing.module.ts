@@ -11,6 +11,9 @@ import {FaqComp} from "./faq/FaqComp";
 import {ContactUsComp} from "./contact_us/ContactUsComp";
 import {AwardsThatHonorComp} from "./our-achivement/awards-that-honor/AwardsThatHonorComp";
 import {AchievementsThatDriveComp} from "./our-achivement/achievements-that-drive/AchievementsThatDriveComp";
+import {TheHeartOfLearningComp} from "./our-workplace/the-heart-of-learning/TheHeartOfLearningComp";
+import {BuildingHealthierLivesComp} from "./our-workplace/building-healthier-lives/BuildingHealthierLivesComp";
+import {ProtectingOurPlanetComp} from "./our-workplace/protecting-our-planet/ProtectingOurPlanetComp";
 
 
 
@@ -41,9 +44,18 @@ const routes: Routes = [{
       component: OurWorkplaceComp,
     },
     {
-      path: 'our_workplace/workplace_details',
-      component: OurWorkplaceDetailsComp,
+      path: 'our_workplace/the_heart_of_learning',
+      component: TheHeartOfLearningComp,
     },
+    {
+      path: 'our_workplace/building_healthier_lives',
+      component: BuildingHealthierLivesComp,
+    },
+    {
+      path: 'our_workplace/protecting_our_planet',
+      component: ProtectingOurPlanetComp,
+    },
+    // our team
     {
       path: 'our_team',
       component: OurTeamComp,
