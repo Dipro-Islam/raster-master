@@ -30,7 +30,9 @@ p{
 .empower-image{
   margin-top: 50px;
 }
+.towards-img img{
 
+}
 .towards-img-2 {
   display: flex;
   justify-content: end;
@@ -121,6 +123,9 @@ p{
 }
 
 @media screen and (max-width: 991px) {
+  .education-project-section{
+    padding: 0 0;
+  }
   .empower-title h2,
   .change-world-title h2,
   .education-project-heading h2{
