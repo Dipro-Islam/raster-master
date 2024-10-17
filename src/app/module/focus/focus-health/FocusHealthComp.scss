@@ -95,6 +95,14 @@ p{
     margin-top: 10%;
   }
 }
+@media screen and (max-width: 1200px) {
+  .nursing-img,
+  .mother-care-img,
+  .life-flows-img{
+    display: flex;
+    justify-content: center;
+  }
+}
 @media screen and (max-width: 991px) {
   .underprivileged-section,
   .nursing-section,
