@@ -69,7 +69,7 @@ p{
 }
 .country-img img{
   width: 432px;
-  height: 400px;
+  height: 300px;
   border-radius: 20px;
 }
 .country-img{
@@ -118,7 +118,7 @@ ul{
 
 @media screen and (max-width: 1200px) {
   .country-img img{
-    height: 350px;
+    height: 250px;
   }
   .country-img{
     margin-left: 10%;
@@ -139,7 +139,7 @@ ul{
     font-size: 36px;
   }
   .country-img img{
-    height: 250px;
+    height: 200px;
     margin-left: -2%;
   }
   .environment-pollution-highlight{

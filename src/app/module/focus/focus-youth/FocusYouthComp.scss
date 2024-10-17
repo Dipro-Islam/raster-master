@@ -11,8 +11,8 @@ p{
 }
 .child-section,
 .empowering-youth-section,
-.inspiring-section,
-.development-project-section{
+.empowering-youth-section .container,
+.inspiring-section{
   padding: 50px 0;
 }
 .child-title h2,
@@ -77,9 +77,7 @@ p{
   background-size: cover;
   margin-bottom: 0;
 }
-.inspiring-details{
-  margin-top: 15%;
-}
+
 .inspiring-desc{
   margin-top: 30px;
 }
@@ -99,8 +97,8 @@ p{
 
 }
 @media screen and (max-width: 1200px) {
-  .inspiring-details{
-    margin-top: 3%;
+  .inspiring-img img{
+    margin-top: 5%;
   }
 }
 @media screen and (max-width: 991px) {
@@ -114,10 +112,16 @@ p{
   .empowering-youth-highlight{
     padding: 30px 50px;
   }
-
+  .inspiring-img,
+  .inspiring-title{
+    display: flex;
+    justify-content: center;
+  }
 }
 @media screen and (max-width: 768px) {
-
+  .empowering-youth-section .container{
+    padding: 20px 0;
+  }
   .youth-banner-section{
     height: 400px;
   }
