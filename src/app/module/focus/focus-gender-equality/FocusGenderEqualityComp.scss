@@ -58,6 +58,10 @@ p{
 .landscape-section{
   padding-bottom: 10px;
 }
+//.awarness{
+//   margin-top: 10%;
+// }
+
 .towards-area{
   margin-top: 50px;
 }
@@ -80,7 +84,7 @@ p{
   color: var(--green);
 }
 .towards-details{
-  margin-top: 15%;
+  margin-top: 8%;
 }
 .towards-desc{
   margin-top: 30px;
@@ -116,6 +120,11 @@ p{
     font-size: 36px;
   }
 
+}
+@media screen and (max-width: 1200px) {
+//.awarness{
+//  margin-top: 10%;
+//}
 }
 @media screen and (max-width: 991px) {
   .gender-equality-banner-details h2{
