@@ -8,8 +8,8 @@ import {ResourcePhotosComp} from "./resource-photos/ResourcePhotosComp";
 import {ResourceReportComp} from "./resource-report/ResourceReportComp";
 import {ResourceResearchComp} from "./resource-research/ResourceResearchComp";
 import {ResourceVideosComp} from "./resource-videos/ResourceVideosComp";
-import {GlimpseOfAwardWinningComp} from "./resource_photos_details/glimpse-of-award-winning/GlimpseOfAwardWinningComp";
-import {BeleghataSarkarBazarMilonSanghComp} from "./resource_photos_details/beleghata-sarkar-bazar-milon-sangh/BeleghataSarkarBazarMilonSanghComp";
+import {GlimpseOfAwardWinningComp} from "./resource-photos/resource_photos_details/glimpse-of-award-winning/GlimpseOfAwardWinningComp";
+import {BeleghataSarkarBazarMilonSanghComp} from "./resource-photos/resource_photos_details/beleghata-sarkar-bazar-milon-sangh/BeleghataSarkarBazarMilonSanghComp";
 
 @NgModule({
   declarations: [

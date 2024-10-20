@@ -7,8 +7,8 @@ import {ResourceArticleComp} from "./resource-article/ResourceArticleComp";
 import {ResourceNewsComp} from "./resource-news/ResourceNewsComp";
 import {ResourcePhotosComp} from "./resource-photos/ResourcePhotosComp";
 import {ResourceVideosComp} from "./resource-videos/ResourceVideosComp";
-import {GlimpseOfAwardWinningComp} from "./resource_photos_details/glimpse-of-award-winning/GlimpseOfAwardWinningComp";
-import {BeleghataSarkarBazarMilonSanghComp} from "./resource_photos_details/beleghata-sarkar-bazar-milon-sangh/BeleghataSarkarBazarMilonSanghComp";
+import {GlimpseOfAwardWinningComp} from "./resource-photos/resource_photos_details/glimpse-of-award-winning/GlimpseOfAwardWinningComp";
+import {BeleghataSarkarBazarMilonSanghComp} from "./resource-photos/resource_photos_details/beleghata-sarkar-bazar-milon-sangh/BeleghataSarkarBazarMilonSanghComp";
 
 
 
