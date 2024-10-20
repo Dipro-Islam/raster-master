@@ -2,12 +2,9 @@ import {NgModule} from '@angular/core';
 import {RouterModule, Routes} from '@angular/router';
 import {ProjectComponent} from './project.component';
 import {OngoingProjectComp} from "./ongoing-project/OngoingProjectComp";
-import {OngoingProjectDetailsComp} from "./ongoing-project/ongoing-project-details/OngoingProjectDetailsComp";
 import {CompletedProjectComp} from "./completed-project/CompletedProjectComp";
-import {CompletedProjectDetailsComp} from "./completed-project-details/CompletedProjectDetailsComp";
 import {UpcomingProjectComp} from "./upcoming-project/UpcomingProjectComp";
 import {CollaboratedProjectComp} from "./collaborated-project/CollaboratedProjectComp";
-import {CollaboratedProjectDetailsComp} from "./collaborated-project-details/CollaboratedProjectDetailsComp";
 import {DevelopmentProgramComp} from "./upcoming-project/development-program/DevelopmentProgramComp";
 import {GreenWorldComp} from "./upcoming-project/green-world/GreenWorldComp";
 import {HarbourRenewalComp} from "./upcoming-project/harbour-renewal/HarbourRenewalComp";
@@ -30,18 +27,10 @@ const routes: Routes = [{
       path: 'ongoing_project',
       component: OngoingProjectComp,
     },
-    {
-      path: 'ongoing_project/ongoing_project_details',
-      component: OngoingProjectDetailsComp,
-    },
     // completed projects
     {
       path: 'completed_project',
       component: CompletedProjectComp,
-    },
-    {
-      path: 'completed_project/completed_project_details',
-      component: CompletedProjectDetailsComp,
     },
     // upcoming projects
     {
@@ -94,10 +83,6 @@ const routes: Routes = [{
     {
       path: 'collaborated_project',
       component: CollaboratedProjectComp,
-    },
-    {
-      path: 'collaborated_project/collaborated_project_details',
-      component: CollaboratedProjectDetailsComp,
     },
   ],
 }];

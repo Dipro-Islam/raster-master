@@ -4,7 +4,6 @@ import {About_usComponent} from './about_us.component';
 import {WhoWeAreComp} from "./who-we-are/WhoWeAreComp";
 import {OurAchievementComp} from "./our-achivement/OurAchievementComp";
 import {OurWorkplaceComp} from "./our-workplace/OurWorkplaceComp";
-import {OurWorkplaceDetailsComp} from "./our-workplace-details/OurWorkplaceDetailsComp";
 import {OurTeamComp} from "./our-team/OurTeamComp";
 import {ProfileComp} from "./profile/ProfileComp";
 import {FaqComp} from "./faq/FaqComp";
