@@ -32,10 +32,12 @@ const routes: Routes = [{
       path: 'resource_news',
       component: ResourceNewsComp,
     },
+    // resource photos
     {
       path: 'resource_photos',
       component: ResourcePhotosComp,
     },
+    // resource photos details
     {
       path: 'resource_photos_details/glimpse_of_award_winning',
       component: GlimpseOfAwardWinningComp,
@@ -44,6 +46,7 @@ const routes: Routes = [{
       path: 'resource_photos_details/beleghata_sarkar_bazar_milon_sangh',
       component: BeleghataSarkarBazarMilonSanghComp,
     },
+    // resource videos
     {
       path: 'resource_videos',
       component: ResourceVideosComp,
