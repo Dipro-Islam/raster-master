@@ -16,6 +16,7 @@ import {WomenEmpowermentComp} from "./resource-photos/resource_photos_details/wo
 import {
   ThroughDemocracyAwarenessComp
 } from "./resource-photos/resource_photos_details/through-democracy-awareness/ThroughDemocracyAwarenessComp";
+import {SkillDevelopmentComp} from "./resource-photos/resource_photos_details/skill-development/SkillDevelopmentComp";
 
 
 
@@ -46,32 +47,36 @@ const routes: Routes = [{
     },
     // resource photos details
     {
-      path: 'resource_photos_details/glimpse_of_award_winning',
+      path: 'resource_photos/glimpse_of_award_winning',
       component: GlimpseOfAwardWinningComp,
     },
     {
-      path: 'resource_photos_details/beleghata_sarkar_bazar_milon_sangh',
+      path: 'resource_photos/beleghata_sarkar_bazar_milon_sangh',
       component: BeleghataSarkarBazarMilonSanghComp,
     },
     {
-      path: 'resource_photos_details/team_gallery',
+      path: 'resource_photos/team_gallery',
       component: TeamGalleryComp,
     },
     {
-      path: 'resource_photos_details/open_air_class',
+      path: 'resource_photos/open_air_class',
       component: OpenAirClassComp,
     },
     {
-      path: 'resource_photos_details/sports_gallery',
+      path: 'resource_photos/sports_gallery',
       component: SportsGalleryComp,
     },
     {
-      path: 'resource_photos_details/women_empowerment',
+      path: 'resource_photos/women_empowerment',
       component: WomenEmpowermentComp,
     },
     {
-      path: 'resource_photos_details/through_democracy_awareness',
+      path: 'resource_photos/through_democracy_awareness',
       component: ThroughDemocracyAwarenessComp,
+    },
+    {
+      path: 'resource_photos/skill_development',
+      component: SkillDevelopmentComp,
     },
     // resource videos
     {
