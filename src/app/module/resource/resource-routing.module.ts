@@ -9,6 +9,7 @@ import {ResourcePhotosComp} from "./resource-photos/ResourcePhotosComp";
 import {ResourceVideosComp} from "./resource-videos/ResourceVideosComp";
 import {GlimpseOfAwardWinningComp} from "./resource-photos/resource_photos_details/glimpse-of-award-winning/GlimpseOfAwardWinningComp";
 import {BeleghataSarkarBazarMilonSanghComp} from "./resource-photos/resource_photos_details/beleghata-sarkar-bazar-milon-sangh/BeleghataSarkarBazarMilonSanghComp";
+import {TeamGalleryComp} from "./resource-photos/resource_photos_details/team-gallery/TeamGalleryComp";
 
 
 
@@ -45,6 +46,10 @@ const routes: Routes = [{
     {
       path: 'resource_photos_details/beleghata_sarkar_bazar_milon_sangh',
       component: BeleghataSarkarBazarMilonSanghComp,
+    },
+    {
+      path: 'resource_photos_details/team-gallery',
+      component: TeamGalleryComp,
     },
     // resource videos
     {
