@@ -12,6 +12,7 @@ import {GlimpseOfAwardWinningComp} from "./resource-photos/resource_photos_detai
 import {BeleghataSarkarBazarMilonSanghComp} from "./resource-photos/resource_photos_details/beleghata-sarkar-bazar-milon-sangh/BeleghataSarkarBazarMilonSanghComp";
 import {TeamGalleryComp} from "./resource-photos/resource_photos_details/team-gallery/TeamGalleryComp";
 import {OpenAirClassComp} from "./resource-photos/resource_photos_details/open-air-class/openAirClassComp";
+import {SportsGalleryComp} from "./resource-photos/resource_photos_details/sports-gallery/SportsGalleryComp";
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import {OpenAirClassComp} from "./resource-photos/resource_photos_details/open-a
     GlimpseOfAwardWinningComp,
     BeleghataSarkarBazarMilonSanghComp,
     TeamGalleryComp,
-    OpenAirClassComp
+    OpenAirClassComp,
+    SportsGalleryComp
     ],
 
   imports: [
