@@ -13,6 +13,7 @@ import {BeleghataSarkarBazarMilonSanghComp} from "./resource-photos/resource_pho
 import {TeamGalleryComp} from "./resource-photos/resource_photos_details/team-gallery/TeamGalleryComp";
 import {OpenAirClassComp} from "./resource-photos/resource_photos_details/open-air-class/openAirClassComp";
 import {SportsGalleryComp} from "./resource-photos/resource_photos_details/sports-gallery/SportsGalleryComp";
+import {WomenEmpowermentComp} from "./resource-photos/resource_photos_details/women-empowerment/WomenEmpowermentComp";
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import {SportsGalleryComp} from "./resource-photos/resource_photos_details/sport
     BeleghataSarkarBazarMilonSanghComp,
     TeamGalleryComp,
     OpenAirClassComp,
-    SportsGalleryComp
+    SportsGalleryComp,
+    WomenEmpowermentComp,
     ],
 
   imports: [
