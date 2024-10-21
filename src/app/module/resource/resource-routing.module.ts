@@ -10,6 +10,7 @@ import {ResourceVideosComp} from "./resource-videos/ResourceVideosComp";
 import {GlimpseOfAwardWinningComp} from "./resource-photos/resource_photos_details/glimpse-of-award-winning/GlimpseOfAwardWinningComp";
 import {BeleghataSarkarBazarMilonSanghComp} from "./resource-photos/resource_photos_details/beleghata-sarkar-bazar-milon-sangh/BeleghataSarkarBazarMilonSanghComp";
 import {TeamGalleryComp} from "./resource-photos/resource_photos_details/team-gallery/TeamGalleryComp";
+import {OpenAirClassComp} from "./resource-photos/resource_photos_details/open-air-class/openAirClassComp";
 
 
 
@@ -48,8 +49,12 @@ const routes: Routes = [{
       component: BeleghataSarkarBazarMilonSanghComp,
     },
     {
-      path: 'resource_photos_details/team-gallery',
+      path: 'resource_photos_details/team_gallery',
       component: TeamGalleryComp,
+    },
+    {
+      path: 'resource_photos_details/open_air_class',
+      component: OpenAirClassComp,
     },
     // resource videos
     {
