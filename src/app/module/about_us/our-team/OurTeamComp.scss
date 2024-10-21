@@ -34,13 +34,16 @@ p{
 .card{
   position: relative;
 }
+.team-card{
+  height: 400px;
+}
 .card-body{
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
   background: var(--green);
-  padding: 110px 24px 24px 24px;
+  padding: 50px 24px 24px 24px;
   border-radius: 15px;
 }
 .card-title h4{
@@ -91,7 +94,12 @@ p{
   color: var(--green);
   border-radius: 20px;
 }
-
+.card-btn{
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
 .toggle-switch:checked ~ .teams-btn > .button {
   display: none;
 }
