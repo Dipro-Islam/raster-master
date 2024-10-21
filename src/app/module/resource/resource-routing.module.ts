@@ -13,6 +13,9 @@ import {TeamGalleryComp} from "./resource-photos/resource_photos_details/team-ga
 import {OpenAirClassComp} from "./resource-photos/resource_photos_details/open-air-class/openAirClassComp";
 import {SportsGalleryComp} from "./resource-photos/resource_photos_details/sports-gallery/SportsGalleryComp";
 import {WomenEmpowermentComp} from "./resource-photos/resource_photos_details/women-empowerment/WomenEmpowermentComp";
+import {
+  ThroughDemocracyAwarenessComp
+} from "./resource-photos/resource_photos_details/through-democracy-awareness/ThroughDemocracyAwarenessComp";
 
 
 
@@ -65,6 +68,10 @@ const routes: Routes = [{
     {
       path: 'resource_photos_details/women_empowerment',
       component: WomenEmpowermentComp,
+    },
+    {
+      path: 'resource_photos_details/through_democracy_awareness',
+      component: ThroughDemocracyAwarenessComp,
     },
     // resource videos
     {

@@ -14,6 +14,9 @@ import {TeamGalleryComp} from "./resource-photos/resource_photos_details/team-ga
 import {OpenAirClassComp} from "./resource-photos/resource_photos_details/open-air-class/openAirClassComp";
 import {SportsGalleryComp} from "./resource-photos/resource_photos_details/sports-gallery/SportsGalleryComp";
 import {WomenEmpowermentComp} from "./resource-photos/resource_photos_details/women-empowerment/WomenEmpowermentComp";
+import {
+  ThroughDemocracyAwarenessComp
+} from "./resource-photos/resource_photos_details/through-democracy-awareness/ThroughDemocracyAwarenessComp";
 
 @NgModule({
   declarations: [
@@ -30,6 +33,7 @@ import {WomenEmpowermentComp} from "./resource-photos/resource_photos_details/wo
     OpenAirClassComp,
     SportsGalleryComp,
     WomenEmpowermentComp,
+    ThroughDemocracyAwarenessComp,
     ],
 
   imports: [
