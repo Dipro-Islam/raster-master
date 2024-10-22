@@ -17,6 +17,9 @@ import {
   ThroughDemocracyAwarenessComp
 } from "./resource-photos/resource_photos_details/through-democracy-awareness/ThroughDemocracyAwarenessComp";
 import {SkillDevelopmentComp} from "./resource-photos/resource_photos_details/skill-development/SkillDevelopmentComp";
+import {
+  PromotingTechnologyComp
+} from "./resource-photos/resource_photos_details/promoting-technology/PromotingTechnologyComp";
 
 
 
@@ -77,6 +80,10 @@ const routes: Routes = [{
     {
       path: 'resource_photos/skill_development',
       component: SkillDevelopmentComp,
+    },
+    {
+      path: 'resource_photos/promoting_technology',
+      component: PromotingTechnologyComp,
     },
     // resource videos
     {

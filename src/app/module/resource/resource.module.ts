@@ -18,6 +18,9 @@ import {
   ThroughDemocracyAwarenessComp
 } from "./resource-photos/resource_photos_details/through-democracy-awareness/ThroughDemocracyAwarenessComp";
 import {SkillDevelopmentComp} from "./resource-photos/resource_photos_details/skill-development/SkillDevelopmentComp";
+import {
+  PromotingTechnologyComp
+} from "./resource-photos/resource_photos_details/promoting-technology/PromotingTechnologyComp";
 
 @NgModule({
   declarations: [
@@ -35,7 +38,8 @@ import {SkillDevelopmentComp} from "./resource-photos/resource_photos_details/sk
     SportsGalleryComp,
     WomenEmpowermentComp,
     ThroughDemocracyAwarenessComp,
-    SkillDevelopmentComp
+    SkillDevelopmentComp,
+    PromotingTechnologyComp,
     ],
 
   imports: [
