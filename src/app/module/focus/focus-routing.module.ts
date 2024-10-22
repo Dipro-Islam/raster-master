@@ -21,7 +21,7 @@ import {DistanceLearningComp} from "./focus-education/distance-learning/Distance
 import {DigitalSchoolComp} from "./focus-education/digital-school/DigitalSchoolComp";
 import {ReadTogetherComp} from "./focus-education/read-together/ReadTogetherComp";
 import {ScholarshipComp} from "./focus-education/scholarship/ScholarshipComp";
-import {NutritionComp} from "./focus-health/nutrition/NutritionComp";
+import {NutritionComp} from "./focus-nutrition/nutrition/NutritionComp";
 import {BloodDonationCampComp} from "./focus-health/blood-donation-camp/BloodDonationCampComp";
 import {EmpoweringMindsComp} from "./focus-child/empowering-minds/EmpoweringMindsComp";
 import {NourishingBodiesComp} from "./focus-child/nourishing-bodies/NourishingBodiesComp";
@@ -108,10 +108,7 @@ const routes: Routes = [{
       path: 'health',
       component: FocusHealthComp,
     },
-    {
-      path: 'health/health_nutrition',
-      component: NutritionComp,
-    },
+
     {
       path: 'health/blood_donation_camp',
       component: BloodDonationCampComp,
@@ -121,7 +118,10 @@ const routes: Routes = [{
       path: 'nutrition',
       component: FocusNutritionComp,
     },
-
+    {
+      path: 'nutrition/health_nutrition',
+      component: NutritionComp,
+    },
     // child Section
     {
       path: 'child',

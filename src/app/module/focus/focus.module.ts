@@ -16,7 +16,7 @@ import {EducationForChildrenComp} from "./focus-education/education-for-children
 import {EducationalForChildrenSectionDetailsComp} from "./focus-education/education-for-children-section-derails/EducationalForChildrenSectionDetailsComp";
 import {ReadTogetherComp} from "./focus-education/read-together/ReadTogetherComp";
 import {ScholarshipComp} from "./focus-education/scholarship/ScholarshipComp";
-import {NutritionComp} from "./focus-health/nutrition/NutritionComp";
+import {NutritionComp} from "./focus-nutrition/nutrition/NutritionComp";
 import {BloodDonationCampComp} from "./focus-health/blood-donation-camp/BloodDonationCampComp";
 import {FocusHealthComp} from "./focus-health/FocusHealthComp";
 import {FocusNutritionComp} from "./focus-nutrition/FocusNutritionComp";
