@@ -36,18 +36,18 @@ p{
   font-size: 48px;
 }
 
-.address-details .row{
-  margin-top: 35px;
+.address-details{
+  margin-top: 100px;
 }
 .address-icon i,
 .helpline-details ul li{
   font-size: 36px;
 }
-.address-info h4{
+.address-info li h4{
   font-size: 36px;
   font-weight: bold;
 }
-.address-info p{
+.address-info li p{
   font-size: 20px;
 }
 .contact-form-section .container{
@@ -90,6 +90,9 @@ p{
   .helpline-details{
     padding: 20px 0;
   }
+  .address-details{
+    margin-top: 50px;
+  }
   .banner-title h2,
   .map-title h2,
   .address-title h2,
@@ -100,7 +103,7 @@ p{
   }
   .address-icon i,
   .helpline-details ul li,
-  .address-info h4{
+  .address-info li h4{
     font-size: 24px;
   }
   .contact-form-section .container{
@@ -114,7 +117,9 @@ p{
   .contact-us-banner{
     height: 360px;
   }
-
+  .address-details{
+    margin-top: 20px;
+  }
   .banner-title h2,
   .map-title h2,
   .address-title h2,
@@ -125,7 +130,7 @@ p{
   }
   .address-icon i,
   .helpline-details ul li,
-  .address-info h4{
+  .address-info li h4{
     font-size: 20px;
   }
   .contact-form-section .container{
