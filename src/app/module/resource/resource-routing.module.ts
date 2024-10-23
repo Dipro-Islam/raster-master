@@ -20,6 +20,13 @@ import {SkillDevelopmentComp} from "./resource-photos/resource_photos_details/sk
 import {
   PromotingTechnologyComp
 } from "./resource-photos/resource_photos_details/promoting-technology/PromotingTechnologyComp";
+import {
+  BlanketDistributionComp
+} from "./resource-photos/resource_photos_details/blanket-distribution-in-vrindavan/BlanketDistributionComp";
+import {
+  CoronaVaccinationComp
+} from "./resource-photos/resource_photos_details/corona-vaccination/CoronaVaccinationComp";
+import {CoronaPandemicComp} from "./resource-photos/resource_photos_details/corona-pandemic/CoronaPandemicComp";
 
 
 
@@ -84,6 +91,18 @@ const routes: Routes = [{
     {
       path: 'resource_photos/promoting_technology',
       component: PromotingTechnologyComp,
+    },
+    {
+      path: 'resource_photos/blanket_distribution',
+      component: BlanketDistributionComp,
+    },
+    {
+      path: 'resource_photos/corona_vaccination',
+      component: CoronaVaccinationComp,
+    },
+    {
+      path: 'resource_photos/corona_pandemic',
+      component: CoronaPandemicComp,
     },
     // resource videos
     {
