@@ -27,6 +27,7 @@ import {
   CoronaVaccinationComp
 } from "./resource-photos/resource_photos_details/corona-vaccination/CoronaVaccinationComp";
 import {CoronaPandemicComp} from "./resource-photos/resource_photos_details/corona-pandemic/CoronaPandemicComp";
+import {AwarenessComp} from "./resource-photos/resource_photos_details/awareness/AwarenessComp";
 
 
 
@@ -103,6 +104,10 @@ const routes: Routes = [{
     {
       path: 'resource_photos/corona_pandemic',
       component: CoronaPandemicComp,
+    },
+    {
+      path: 'resource_photos/awareness',
+      component: AwarenessComp,
     },
     // resource videos
     {

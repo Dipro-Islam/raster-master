@@ -28,6 +28,7 @@ import {
   CoronaVaccinationComp
 } from "./resource-photos/resource_photos_details/corona-vaccination/CoronaVaccinationComp";
 import {CoronaPandemicComp} from "./resource-photos/resource_photos_details/corona-pandemic/CoronaPandemicComp";
+import {AwarenessComp} from "./resource-photos/resource_photos_details/awareness/AwarenessComp";
 
 @NgModule({
   declarations: [
@@ -50,6 +51,7 @@ import {CoronaPandemicComp} from "./resource-photos/resource_photos_details/coro
     BlanketDistributionComp,
     CoronaVaccinationComp,
     CoronaPandemicComp,
+   AwarenessComp,
     ],
 
   imports: [
