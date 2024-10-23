@@ -39,6 +39,9 @@ import {BricksSchoolComp} from "./resource-photos/resource_photos_details/bricks
 import {
   ChildHealthCheckupGalleryComp
 } from "./resource-photos/resource_photos_details/child-health-checkup-gallery/ChildHealthCheckupGalleryComp";
+import {
+  ClothDistributionGalleryComp
+} from "./resource-photos/resource_photos_details/cloth-distribution-gallery/ClothDistributionGalleryComp";
 
 
 
@@ -139,6 +142,10 @@ const routes: Routes = [{
     {
       path: 'resource_photos/child_health_checkup_gallery',
       component: ChildHealthCheckupGalleryComp,
+    },
+    {
+      path: 'resource_photos/cloth_distribution_gallery',
+      component: ClothDistributionGalleryComp,
     },
     // resource videos
     {

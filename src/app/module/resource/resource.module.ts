@@ -40,6 +40,9 @@ import {BricksSchoolComp} from "./resource-photos/resource_photos_details/bricks
 import {
   ChildHealthCheckupGalleryComp
 } from "./resource-photos/resource_photos_details/child-health-checkup-gallery/ChildHealthCheckupGalleryComp";
+import {
+  ClothDistributionGalleryComp
+} from "./resource-photos/resource_photos_details/cloth-distribution-gallery/ClothDistributionGalleryComp";
 
 @NgModule({
   declarations: [
@@ -68,6 +71,7 @@ import {
     BloodDonationCampGalleryComp,
     BricksSchoolComp,
     ChildHealthCheckupGalleryComp,
+    ClothDistributionGalleryComp,
     ],
 
   imports: [
