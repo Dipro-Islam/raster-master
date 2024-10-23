@@ -29,6 +29,13 @@ import {
 } from "./resource-photos/resource_photos_details/corona-vaccination/CoronaVaccinationComp";
 import {CoronaPandemicComp} from "./resource-photos/resource_photos_details/corona-pandemic/CoronaPandemicComp";
 import {AwarenessComp} from "./resource-photos/resource_photos_details/awareness/AwarenessComp";
+import {AnimalLovingComp} from "./resource-photos/resource_photos_details/animal-loving/AnimalLovingComp";
+import {
+  BirthdayCelebrationComp
+} from "./resource-photos/resource_photos_details/birthday-celebration/BirthdayCelebrationComp";
+import {
+  BloodDonationCampImgComp
+} from "./resource-photos/resource_photos_details/blood-donation-camp/BloodDonationCampImgComp";
 
 @NgModule({
   declarations: [
@@ -51,7 +58,10 @@ import {AwarenessComp} from "./resource-photos/resource_photos_details/awareness
     BlanketDistributionComp,
     CoronaVaccinationComp,
     CoronaPandemicComp,
-   AwarenessComp,
+    AwarenessComp,
+    AnimalLovingComp,
+    BirthdayCelebrationComp,
+    BloodDonationCampImgComp,
     ],
 
   imports: [

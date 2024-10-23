@@ -28,6 +28,13 @@ import {
 } from "./resource-photos/resource_photos_details/corona-vaccination/CoronaVaccinationComp";
 import {CoronaPandemicComp} from "./resource-photos/resource_photos_details/corona-pandemic/CoronaPandemicComp";
 import {AwarenessComp} from "./resource-photos/resource_photos_details/awareness/AwarenessComp";
+import {AnimalLovingComp} from "./resource-photos/resource_photos_details/animal-loving/AnimalLovingComp";
+import {
+  BirthdayCelebrationComp
+} from "./resource-photos/resource_photos_details/birthday-celebration/BirthdayCelebrationComp";
+import {
+  BloodDonationCampImgComp
+} from "./resource-photos/resource_photos_details/blood-donation-camp/BloodDonationCampImgComp";
 
 
 
@@ -108,6 +115,18 @@ const routes: Routes = [{
     {
       path: 'resource_photos/awareness',
       component: AwarenessComp,
+    },
+    {
+      path: 'resource_photos/animal_loving',
+      component: AnimalLovingComp,
+    },
+    {
+      path: 'resource_photos/birthday_celebration',
+      component: BirthdayCelebrationComp,
+    },
+    {
+      path: 'resource_photos/blood_donation_camp_gallery',
+      component: BloodDonationCampImgComp,
     },
     // resource videos
     {
