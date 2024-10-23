@@ -37,7 +37,7 @@ p{
 }
 
 .address-details{
-  margin-top: 100px;
+  margin-top: 50px;
 }
 .address-icon i,
 .helpline-details ul li{
@@ -49,6 +49,9 @@ p{
 }
 .address-info li p{
   font-size: 20px;
+}
+.contact:hover{
+  color: var(--green);
 }
 .contact-form-section .container{
   background: #D8D8D8;
@@ -91,7 +94,7 @@ p{
     padding: 20px 0;
   }
   .address-details{
-    margin-top: 50px;
+    margin-top: 30px;
   }
   .banner-title h2,
   .map-title h2,
