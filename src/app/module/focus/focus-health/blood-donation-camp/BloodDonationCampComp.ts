@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'BloodDonationCampImgComp',
+  selector: 'ChildHealthCheckupGalleryComp',
   templateUrl: './BloodDonationCampComp.html',
   styleUrls: ['./BloodDonationCampComp.scss']
 })

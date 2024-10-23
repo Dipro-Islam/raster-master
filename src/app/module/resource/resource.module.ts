@@ -34,8 +34,12 @@ import {
   BirthdayCelebrationComp
 } from "./resource-photos/resource_photos_details/birthday-celebration/BirthdayCelebrationComp";
 import {
-  BloodDonationCampImgComp
-} from "./resource-photos/resource_photos_details/blood-donation-camp/BloodDonationCampImgComp";
+  BloodDonationCampGalleryComp
+} from "./resource-photos/resource_photos_details/blood-donation-camp-gallery/BloodDonationCampGalleryComp";
+import {BricksSchoolComp} from "./resource-photos/resource_photos_details/bricks-school/BricksSchoolComp";
+import {
+  ChildHealthCheckupGalleryComp
+} from "./resource-photos/resource_photos_details/child-health-checkup-gallery/ChildHealthCheckupGalleryComp";
 
 @NgModule({
   declarations: [
@@ -61,7 +65,9 @@ import {
     AwarenessComp,
     AnimalLovingComp,
     BirthdayCelebrationComp,
-    BloodDonationCampImgComp,
+    BloodDonationCampGalleryComp,
+    BricksSchoolComp,
+    ChildHealthCheckupGalleryComp,
     ],
 
   imports: [

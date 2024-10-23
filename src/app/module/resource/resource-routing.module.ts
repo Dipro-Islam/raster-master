@@ -33,8 +33,12 @@ import {
   BirthdayCelebrationComp
 } from "./resource-photos/resource_photos_details/birthday-celebration/BirthdayCelebrationComp";
 import {
-  BloodDonationCampImgComp
-} from "./resource-photos/resource_photos_details/blood-donation-camp/BloodDonationCampImgComp";
+  BloodDonationCampGalleryComp
+} from "./resource-photos/resource_photos_details/blood-donation-camp-gallery/BloodDonationCampGalleryComp";
+import {BricksSchoolComp} from "./resource-photos/resource_photos_details/bricks-school/BricksSchoolComp";
+import {
+  ChildHealthCheckupGalleryComp
+} from "./resource-photos/resource_photos_details/child-health-checkup-gallery/ChildHealthCheckupGalleryComp";
 
 
 
@@ -126,7 +130,15 @@ const routes: Routes = [{
     },
     {
       path: 'resource_photos/blood_donation_camp_gallery',
-      component: BloodDonationCampImgComp,
+      component: BloodDonationCampGalleryComp,
+    },
+    {
+      path: 'resource_photos/bricks_school',
+      component: BricksSchoolComp,
+    },
+    {
+      path: 'resource_photos/child_health_checkup_gallery',
+      component: ChildHealthCheckupGalleryComp,
     },
     // resource videos
     {
