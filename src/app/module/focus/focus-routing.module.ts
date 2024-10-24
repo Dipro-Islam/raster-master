@@ -65,41 +65,41 @@ const routes: Routes = [{
   path: '',
   component: FocusComponent,
   children: [
-    // education Section
+    // education-gallery Section
     {
-      path: 'education',
+      path: 'education-gallery',
       component: FocusEducationComp,
     },
     {
-      path: 'education/Education_For_All_Section_Details',
+      path: 'education-gallery/Education_For_All_Section_Details',
       component: EducationalForAllSectionDetailsComp,
     },
     {
-      path: 'education/Education_For_Children_Section_Details',
+      path: 'education-gallery/Education_For_Children_Section_Details',
       component: EducationalForChildrenSectionDetailsComp,
     },
     {
-      path: 'education/education_for_women',
+      path: 'education-gallery/education_for_women',
       component: EducationForWomenComp,
     },
     {
-      path: 'education/education_for_children',
+      path: 'education-gallery/education_for_children',
       component: EducationForChildrenComp,
     },
     {
-      path: 'education/distance_learning',
+      path: 'education-gallery/distance_learning',
       component: DistanceLearningComp,
     },
     {
-      path: 'education/digital_school',
+      path: 'education-gallery/digital_school',
       component: DigitalSchoolComp,
     },
     {
-      path: 'education/read_together',
+      path: 'education-gallery/read_together',
       component: ReadTogetherComp,
     },
     {
-      path: 'education/scholarship',
+      path: 'education-gallery/scholarship',
       component: ScholarshipComp,
     },
 

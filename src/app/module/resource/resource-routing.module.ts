@@ -42,6 +42,15 @@ import {
 import {
   ClothDistributionGalleryComp
 } from "./resource-photos/resource_photos_details/cloth-distribution-gallery/ClothDistributionGalleryComp";
+import {AdultLiteracyComp} from "./resource-photos/resource_photos_details/adult-literacy/AdultLiteracyComp";
+import {ArabicLanguageComp} from "./resource-photos/resource_photos_details/arabic-language/ArabicLanguageComp";
+import {
+  AwarenessVectorBornComp
+} from "./resource-photos/resource_photos_details/awareness-vector-born/AwarenessVectorBornComp";
+import {BengaliLanguageComp} from "./resource-photos/resource_photos_details/bengali-language/BengaliLanguageComp";
+import {CultureComp} from "./resource-photos/resource_photos_details/culture/CultureComp";
+import {DoorToDoorVisitComp} from "./resource-photos/resource_photos_details/door-to-door-visit/DoorToDoorVisitComp";
+import {EducationGalleryComp} from "./resource-photos/resource_photos_details/education-gallery/EducationGalleryComp";
 
 
 
@@ -146,6 +155,34 @@ const routes: Routes = [{
     {
       path: 'resource_photos/cloth_distribution_gallery',
       component: ClothDistributionGalleryComp,
+    },
+    {
+      path: 'resource_photos/adult_literacy',
+      component: AdultLiteracyComp,
+    },
+    {
+      path: 'resource_photos/education_for_arabic',
+      component: ArabicLanguageComp,
+    },
+    {
+      path: 'resource_photos/awareness_vector_born',
+      component: AwarenessVectorBornComp,
+    },
+    {
+      path: 'resource_photos/education_for_bengali',
+      component: BengaliLanguageComp,
+    },
+    {
+      path: 'resource_photos/culture_gallery',
+      component: CultureComp,
+    },
+    {
+      path: 'resource_photos/door_to_door_visit',
+      component: DoorToDoorVisitComp,
+    },
+    {
+      path: 'resource_photos/education_gallery',
+      component: EducationGalleryComp,
     },
     // resource videos
     {

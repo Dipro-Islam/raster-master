@@ -43,6 +43,15 @@ import {
 import {
   ClothDistributionGalleryComp
 } from "./resource-photos/resource_photos_details/cloth-distribution-gallery/ClothDistributionGalleryComp";
+import {AdultLiteracyComp} from "./resource-photos/resource_photos_details/adult-literacy/AdultLiteracyComp";
+import {ArabicLanguageComp} from "./resource-photos/resource_photos_details/arabic-language/ArabicLanguageComp";
+import {
+  AwarenessVectorBornComp
+} from "./resource-photos/resource_photos_details/awareness-vector-born/AwarenessVectorBornComp";
+import {BengaliLanguageComp} from "./resource-photos/resource_photos_details/bengali-language/BengaliLanguageComp";
+import {CultureComp} from "./resource-photos/resource_photos_details/culture/CultureComp";
+import {DoorToDoorVisitComp} from "./resource-photos/resource_photos_details/door-to-door-visit/DoorToDoorVisitComp";
+import {EducationGalleryComp} from "./resource-photos/resource_photos_details/education-gallery/EducationGalleryComp";
 
 @NgModule({
   declarations: [
@@ -72,6 +81,13 @@ import {
     BricksSchoolComp,
     ChildHealthCheckupGalleryComp,
     ClothDistributionGalleryComp,
+    AdultLiteracyComp,
+    ArabicLanguageComp,
+    AwarenessVectorBornComp,
+    BengaliLanguageComp,
+    CultureComp,
+    DoorToDoorVisitComp,
+    EducationGalleryComp,
     ],
 
   imports: [
