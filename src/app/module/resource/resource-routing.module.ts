@@ -57,6 +57,12 @@ import {
 } from "./resource-photos/resource_photos_details/environment-gallery/EnvironmentGalleryComp";
 import {NightClassComp} from "./resource-photos/resource_photos_details/night-class/NightClassComp";
 import {OlChikiLanguageComp} from "./resource-photos/resource_photos_details/ol-chiki-language/OlChikiLanguageComp";
+import {FoodDistributionComp} from "./resource-photos/resource_photos_details/food-distribution/FoodDistributionComp";
+import {HindiLanguageComp} from "./resource-photos/resource_photos_details/hindi-language/HindiLanguageComp";
+import {MedicalCampComp} from "./resource-photos/resource_photos_details/medical-camp/MedicalCampComp";
+import {
+  ReducePlasticAndRecyclingComp
+} from "./resource-photos/resource_photos_details/reduce-plastic-&-recycling/ReducePlasticAndRecyclingComp";
 
 
 
@@ -205,6 +211,22 @@ const routes: Routes = [{
     {
       path: 'resource_photos/education_for_ol_chiki',
       component: OlChikiLanguageComp,
+    },
+    {
+      path: 'resource_photos/food_distribution',
+      component: FoodDistributionComp,
+    },
+    {
+      path: 'resource_photos/education_for_hindi',
+      component: HindiLanguageComp,
+    },
+    {
+      path: 'resource_photos/medical_camp',
+      component: MedicalCampComp,
+    },
+    {
+      path: 'resource_photos/reduce_plastic_and_recycling',
+      component: ReducePlasticAndRecyclingComp,
     },
     // resource videos
     {

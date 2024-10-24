@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'CultureComp',
+  selector: 'ReducePlasticAndRecyclingComp',
   templateUrl: './BloodDonationCampComp.html',
   styleUrls: ['./BloodDonationCampComp.scss']
 })
