@@ -51,6 +51,12 @@ import {BengaliLanguageComp} from "./resource-photos/resource_photos_details/ben
 import {CultureComp} from "./resource-photos/resource_photos_details/culture/CultureComp";
 import {DoorToDoorVisitComp} from "./resource-photos/resource_photos_details/door-to-door-visit/DoorToDoorVisitComp";
 import {EducationGalleryComp} from "./resource-photos/resource_photos_details/education-gallery/EducationGalleryComp";
+import {EnglishLanguageComp} from "./resource-photos/resource_photos_details/english-language/EnglishLanguageComp";
+import {
+  EnvironmentGalleryComp
+} from "./resource-photos/resource_photos_details/environment-gallery/EnvironmentGalleryComp";
+import {NightClassComp} from "./resource-photos/resource_photos_details/night-class/NightClassComp";
+import {OlChikiLanguageComp} from "./resource-photos/resource_photos_details/ol-chiki-language/OlChikiLanguageComp";
 
 
 
@@ -183,6 +189,22 @@ const routes: Routes = [{
     {
       path: 'resource_photos/education_gallery',
       component: EducationGalleryComp,
+    },
+    {
+      path: 'resource_photos/education_for_english',
+      component: EnglishLanguageComp,
+    },
+    {
+      path: 'resource_photos/environment_gallery',
+      component: EnvironmentGalleryComp,
+    },
+    {
+      path: 'resource_photos/education_in_night',
+      component: NightClassComp,
+    },
+    {
+      path: 'resource_photos/education_for_ol_chiki',
+      component: OlChikiLanguageComp,
     },
     // resource videos
     {

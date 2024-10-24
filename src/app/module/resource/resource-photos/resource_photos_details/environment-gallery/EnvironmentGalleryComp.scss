@@ -1,0 +1,73 @@
+
+section{
+  margin-bottom: 0;
+}
+p{
+  text-align: center;
+  margin-left: 0;
+  margin-bottom: 0;
+}
+
+.card-img-top{
+  width: 406px;
+  height: 280px;
+}
+.photo-details-section{
+  padding: 50px 0;
+}
+
+.education-project-heading h2{
+  color: var(--black);
+  font-size: 48px;
+}
+
+.education-project-heading{
+  margin-bottom: 50px;
+}
+
+.edu-project-card{
+  background: var(--green);
+}
+
+/*---responsive style start---*/
+
+@media screen and (max-width: 1480px) {
+  .education-project-heading h2{
+    font-size: 48px;
+  }
+  .edu-project-card{
+    margin-left: 5%;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .education-project-heading h2{
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 1090px) {
+
+  .education-project-heading h2{
+    font-size: 38px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .education-project-heading h2{
+    font-size: 36px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .education-project-heading h2{
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .edu-project-card{
+    margin-left: 7%;
+  }
+}
+

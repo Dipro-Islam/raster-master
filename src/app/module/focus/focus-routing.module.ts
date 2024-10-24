@@ -197,33 +197,33 @@ const routes: Routes = [{
       path: 'youth/mental_health',
       component: MentalHealthComp,
     },
-    // environment Section
+    // environment-gallery Section
     {
       path: 'environment',
       component: FocusEnvironmentComp,
     },
     {
-      path: 'environment/clean_energy',
+      path: 'environment-gallery/clean_energy',
       component: CleanEnergyComp,
     },
     {
-      path: 'environment/environmental_education',
+      path: 'environment-gallery/environmental_education',
       component: EnvironmentalEducationComp,
     },
     {
-      path: 'environment/river_cleanUp',
+      path: 'environment-gallery/river_cleanUp',
       component: RiverCleanUpComp,
     },
     {
-      path: 'environment/tree_plantation',
+      path: 'environment-gallery/tree_plantation',
       component: TreePlantationComp,
     },
     {
-      path: 'environment/waste_management',
+      path: 'environment-gallery/waste_management',
       component: WasteManagementComp,
     },
     {
-      path: 'environment/water_conservation',
+      path: 'environment-gallery/water_conservation',
       component: WaterConservationComp,
     },
     // gander_equality Section
