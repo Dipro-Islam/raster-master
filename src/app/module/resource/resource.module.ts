@@ -73,6 +73,11 @@ import {
 import {
   SupportDisableChildComp
 } from "./resource-photos/resource_photos_details/support-disable-child/SupportDisableChildComp";
+import {LoveAndPeaceComp} from "./resource-photos/resource_photos_details/love-and-peace/LoveAndPeaceComp";
+import {MobileLibraryGalleryComp} from "./resource-photos/resource_photos_details/mobile-library/MobileLibraryGalleryComp";
+import {
+  OrphanChildrenTeachingComp
+} from "./resource-photos/resource_photos_details/orphan-children-teaching/OrphanChildrenTeachingComp";
 
 @NgModule({
   declarations: [
@@ -120,6 +125,9 @@ import {
     SaveDrinkingWaterComp,
     ScienceAndTechnologyGalleryComp,
     SupportDisableChildComp,
+    LoveAndPeaceComp,
+    MobileLibraryGalleryComp,
+    OrphanChildrenTeachingComp,
     ],
 
   imports: [

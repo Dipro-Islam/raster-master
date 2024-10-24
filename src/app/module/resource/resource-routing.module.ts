@@ -72,6 +72,13 @@ import {
 import {
   SupportDisableChildComp
 } from "./resource-photos/resource_photos_details/support-disable-child/SupportDisableChildComp";
+import {LoveAndPeaceComp} from "./resource-photos/resource_photos_details/love-and-peace/LoveAndPeaceComp";
+import {
+  MobileLibraryGalleryComp
+} from "./resource-photos/resource_photos_details/mobile-library/MobileLibraryGalleryComp";
+import {
+  OrphanChildrenTeachingComp
+} from "./resource-photos/resource_photos_details/orphan-children-teaching/OrphanChildrenTeachingComp";
 
 
 
@@ -248,6 +255,18 @@ const routes: Routes = [{
     {
       path: 'resource_photos/support_disable_child',
       component: SupportDisableChildComp,
+    },
+    {
+      path: 'resource_photos/love_and_peace',
+      component: LoveAndPeaceComp,
+    },
+    {
+      path: 'resource_photos/mobile_library',
+      component: MobileLibraryGalleryComp,
+    },
+    {
+      path: 'resource_photos/orphan_children_teaching',
+      component: OrphanChildrenTeachingComp,
     },
     // resource videos
     {
