@@ -80,6 +80,12 @@ import {
 } from "./resource-photos/resource_photos_details/orphan-children-teaching/OrphanChildrenTeachingComp";
 import {OtherSupportGalleryComp} from "./resource-photos/resource_photos_details/other-support/OtherSupportGalleryComp";
 import {MotherEducationComp} from "./resource-photos/resource_photos_details/mother-education/MotherEducationComp";
+import {
+  NutritionalSupportGalleryComp
+} from "./resource-photos/resource_photos_details/nutritional-support-gallery/NutritionalSupportGalleryComp";
+import {
+  NutritionForAgePeoplePregnantMotherLactatingMothersAndChildrenComp
+} from "./resource-photos/resource_photos_details/nutrition-for-age-people-pregnant-mother-lactating-mothers-and-children/NutritionForAgePeoplePregnantMotherLactatingMothersAndChildrenComp";
 
 @NgModule({
   declarations: [
@@ -132,6 +138,8 @@ import {MotherEducationComp} from "./resource-photos/resource_photos_details/mot
     OrphanChildrenTeachingComp,
     OtherSupportGalleryComp,
     MotherEducationComp,
+    NutritionalSupportGalleryComp,
+    NutritionForAgePeoplePregnantMotherLactatingMothersAndChildrenComp,
     ],
 
   imports: [

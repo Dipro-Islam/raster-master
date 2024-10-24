@@ -81,6 +81,12 @@ import {
 } from "./resource-photos/resource_photos_details/orphan-children-teaching/OrphanChildrenTeachingComp";
 import {OtherSupportGalleryComp} from "./resource-photos/resource_photos_details/other-support/OtherSupportGalleryComp";
 import {MotherEducationComp} from "./resource-photos/resource_photos_details/mother-education/MotherEducationComp";
+import {
+  NutritionalSupportGalleryComp
+} from "./resource-photos/resource_photos_details/nutritional-support-gallery/NutritionalSupportGalleryComp";
+import {
+  NutritionForAgePeoplePregnantMotherLactatingMothersAndChildrenComp
+} from "./resource-photos/resource_photos_details/nutrition-for-age-people-pregnant-mother-lactating-mothers-and-children/NutritionForAgePeoplePregnantMotherLactatingMothersAndChildrenComp";
 
 
 
@@ -277,6 +283,14 @@ const routes: Routes = [{
     {
       path: 'resource_photos/mother_education',
       component: MotherEducationComp,
+    },
+    {
+      path: 'resource_photos/nutritional_support',
+      component: NutritionalSupportGalleryComp,
+    },
+    {
+      path: 'resource_photos/nutrition_for_age_people_pregnant_mother_lactating_mothers_and_children',
+      component: NutritionForAgePeoplePregnantMotherLactatingMothersAndChildrenComp,
     },
     // resource videos
     {
