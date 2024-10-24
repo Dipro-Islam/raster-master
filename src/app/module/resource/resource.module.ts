@@ -79,6 +79,7 @@ import {
   OrphanChildrenTeachingComp
 } from "./resource-photos/resource_photos_details/orphan-children-teaching/OrphanChildrenTeachingComp";
 import {OtherSupportGalleryComp} from "./resource-photos/resource_photos_details/other-support/OtherSupportGalleryComp";
+import {MotherEducationComp} from "./resource-photos/resource_photos_details/mother-education/MotherEducationComp";
 
 @NgModule({
   declarations: [
@@ -130,6 +131,7 @@ import {OtherSupportGalleryComp} from "./resource-photos/resource_photos_details
     MobileLibraryGalleryComp,
     OrphanChildrenTeachingComp,
     OtherSupportGalleryComp,
+    MotherEducationComp,
     ],
 
   imports: [

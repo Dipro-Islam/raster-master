@@ -80,6 +80,7 @@ import {
   OrphanChildrenTeachingComp
 } from "./resource-photos/resource_photos_details/orphan-children-teaching/OrphanChildrenTeachingComp";
 import {OtherSupportGalleryComp} from "./resource-photos/resource_photos_details/other-support/OtherSupportGalleryComp";
+import {MotherEducationComp} from "./resource-photos/resource_photos_details/mother-education/MotherEducationComp";
 
 
 
@@ -272,6 +273,10 @@ const routes: Routes = [{
     {
       path: 'resource_photos/other_support',
       component: OtherSupportGalleryComp,
+    },
+    {
+      path: 'resource_photos/mother_education',
+      component: MotherEducationComp,
     },
     // resource videos
     {
