@@ -67,39 +67,39 @@ const routes: Routes = [{
   children: [
     // education-gallery Section
     {
-      path: 'education-gallery',
+      path: 'education',
       component: FocusEducationComp,
     },
     {
-      path: 'education-gallery/Education_For_All_Section_Details',
+      path: 'education/Education_For_All_Section_Details',
       component: EducationalForAllSectionDetailsComp,
     },
     {
-      path: 'education-gallery/Education_For_Children_Section_Details',
+      path: 'education/Education_For_Children_Section_Details',
       component: EducationalForChildrenSectionDetailsComp,
     },
     {
-      path: 'education-gallery/education_for_women',
+      path: 'education/education_for_women',
       component: EducationForWomenComp,
     },
     {
-      path: 'education-gallery/education_for_children',
+      path: 'education/education_for_children',
       component: EducationForChildrenComp,
     },
     {
-      path: 'education-gallery/distance_learning',
+      path: 'education/distance_learning',
       component: DistanceLearningComp,
     },
     {
-      path: 'education-gallery/digital_school',
+      path: 'education/digital_school',
       component: DigitalSchoolComp,
     },
     {
-      path: 'education-gallery/read_together',
+      path: 'education/read_together',
       component: ReadTogetherComp,
     },
     {
-      path: 'education-gallery/scholarship',
+      path: 'education/scholarship',
       component: ScholarshipComp,
     },
 
@@ -203,27 +203,27 @@ const routes: Routes = [{
       component: FocusEnvironmentComp,
     },
     {
-      path: 'environment-gallery/clean_energy',
+      path: 'environment/clean_energy',
       component: CleanEnergyComp,
     },
     {
-      path: 'environment-gallery/environmental_education',
+      path: 'environment/environmental_education',
       component: EnvironmentalEducationComp,
     },
     {
-      path: 'environment-gallery/river_cleanUp',
+      path: 'environment/river_cleanUp',
       component: RiverCleanUpComp,
     },
     {
-      path: 'environment-gallery/tree_plantation',
+      path: 'environment/tree_plantation',
       component: TreePlantationComp,
     },
     {
-      path: 'environment-gallery/waste_management',
+      path: 'environment/waste_management',
       component: WasteManagementComp,
     },
     {
-      path: 'environment-gallery/water_conservation',
+      path: 'environment/water_conservation',
       component: WaterConservationComp,
     },
     // gander_equality Section
