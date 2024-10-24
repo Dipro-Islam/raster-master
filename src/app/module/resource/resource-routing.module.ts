@@ -62,7 +62,16 @@ import {HindiLanguageComp} from "./resource-photos/resource_photos_details/hindi
 import {MedicalCampComp} from "./resource-photos/resource_photos_details/medical-camp/MedicalCampComp";
 import {
   ReducePlasticAndRecyclingComp
-} from "./resource-photos/resource_photos_details/reduce-plastic-&-recycling/ReducePlasticAndRecyclingComp";
+} from "./resource-photos/resource_photos_details/reduce-plastic-and-recycling/ReducePlasticAndRecyclingComp";
+import {
+  SaveDrinkingWaterComp
+} from "./resource-photos/resource_photos_details/save-drinking-water/SaveDrinkingWaterComp";
+import {
+  ScienceAndTechnologyGalleryComp
+} from "./resource-photos/resource_photos_details/science-and-technology/ScienceAndTechnologyGalleryComp";
+import {
+  SupportDisableChildComp
+} from "./resource-photos/resource_photos_details/support-disable-child/SupportDisableChildComp";
 
 
 
@@ -227,6 +236,18 @@ const routes: Routes = [{
     {
       path: 'resource_photos/reduce_plastic_and_recycling',
       component: ReducePlasticAndRecyclingComp,
+    },
+    {
+      path: 'resource_photos/save_drinking_water',
+      component: SaveDrinkingWaterComp,
+    },
+    {
+      path: 'resource_photos/science_and_technology',
+      component: ScienceAndTechnologyGalleryComp,
+    },
+    {
+      path: 'resource_photos/support_disable_child',
+      component: SupportDisableChildComp,
     },
     // resource videos
     {

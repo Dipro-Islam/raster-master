@@ -63,7 +63,16 @@ import {HindiLanguageComp} from "./resource-photos/resource_photos_details/hindi
 import {MedicalCampComp} from "./resource-photos/resource_photos_details/medical-camp/MedicalCampComp";
 import {
   ReducePlasticAndRecyclingComp
-} from "./resource-photos/resource_photos_details/reduce-plastic-&-recycling/ReducePlasticAndRecyclingComp";
+} from "./resource-photos/resource_photos_details/reduce-plastic-and-recycling/ReducePlasticAndRecyclingComp";
+import {
+  SaveDrinkingWaterComp
+} from "./resource-photos/resource_photos_details/save-drinking-water/SaveDrinkingWaterComp";
+import {
+  ScienceAndTechnologyGalleryComp
+} from "./resource-photos/resource_photos_details/science-and-technology/ScienceAndTechnologyGalleryComp";
+import {
+  SupportDisableChildComp
+} from "./resource-photos/resource_photos_details/support-disable-child/SupportDisableChildComp";
 
 @NgModule({
   declarations: [
@@ -108,6 +117,9 @@ import {
     HindiLanguageComp,
     MedicalCampComp,
     ReducePlasticAndRecyclingComp,
+    SaveDrinkingWaterComp,
+    ScienceAndTechnologyGalleryComp,
+    SupportDisableChildComp,
     ],
 
   imports: [
