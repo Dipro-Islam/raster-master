@@ -16,6 +16,20 @@ import {RiverAndPondComp} from "./upcoming-project/river-and-pond/RiverAndPondCo
 import {RuralInfrastructureComp} from "./upcoming-project/rural-infrastructure/RuralInfrastructureComp";
 import {RuralTransformationComp} from "./upcoming-project/rural-transformation/RuralTransformationComp";
 import {WaterImprovementComp} from "./upcoming-project/water-improvement/WaterImprovementComp";
+import {
+  CleanWaterAndSanitationComp
+} from "./collaborated-project/clean-water-and-sanitation/CleanWaterAndSanitationComp";
+import {RenewableEnergyAccessComp} from "./collaborated-project/renewable-energy-access/RenewableEnergyAccessComp";
+import {ClimateResilienceComp} from "./collaborated-project/climate-resilience/ClimateResilienceComp";
+import {EconomicEmpowermentComp} from "./collaborated-project/economic-empowerment/EconomicEmpowermentComp";
+import {
+  GlobalEducationInitiativeComp
+} from "./collaborated-project/global-education-initiative/GlobalEducationInitiativeComp";
+import {PowerOfCollaborationComp} from "./collaborated-project/power-of-collaboration/PowerOfCollaborationComp";
+import {RuralYouthInitiativeComp} from "./collaborated-project/rural-youth-initiative/RuralYouthInitiativeComp";
+import {SocialWelfareSocietyComp} from "./collaborated-project/social-welfare-society/SocialWelfareSocietyComp";
+import {SustainableAgricultureComp} from "./collaborated-project/sustainable-agriculture/SustainableAgricultureComp";
+
 
 @NgModule({
   declarations: [
@@ -34,6 +48,15 @@ import {WaterImprovementComp} from "./upcoming-project/water-improvement/WaterIm
     RuralInfrastructureComp,
     RuralTransformationComp,
     WaterImprovementComp,
+    CleanWaterAndSanitationComp,
+    ClimateResilienceComp,
+    EconomicEmpowermentComp,
+    GlobalEducationInitiativeComp,
+    PowerOfCollaborationComp,
+    RenewableEnergyAccessComp,
+    RuralYouthInitiativeComp,
+    SocialWelfareSocietyComp,
+    SustainableAgricultureComp,
     ],
 
   imports: [

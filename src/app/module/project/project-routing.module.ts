@@ -15,6 +15,19 @@ import {RiverAndPondComp} from "./upcoming-project/river-and-pond/RiverAndPondCo
 import {WaterImprovementComp} from "./upcoming-project/water-improvement/WaterImprovementComp";
 import {RenewableEnergyComp} from "./upcoming-project/renewable-energy/RenewableEnergyComp";
 import {ReplacementPlasticComp} from "./upcoming-project/replacement-plastic/ReplacementPlasticComp";
+import {
+  CleanWaterAndSanitationComp
+} from "./collaborated-project/clean-water-and-sanitation/CleanWaterAndSanitationComp";
+import {ClimateResilienceComp} from "./collaborated-project/climate-resilience/ClimateResilienceComp";
+import {EconomicEmpowermentComp} from "./collaborated-project/economic-empowerment/EconomicEmpowermentComp";
+import {
+  GlobalEducationInitiativeComp
+} from "./collaborated-project/global-education-initiative/GlobalEducationInitiativeComp";
+import {PowerOfCollaborationComp} from "./collaborated-project/power-of-collaboration/PowerOfCollaborationComp";
+import {RenewableEnergyAccessComp} from "./collaborated-project/renewable-energy-access/RenewableEnergyAccessComp";
+import {RuralYouthInitiativeComp} from "./collaborated-project/rural-youth-initiative/RuralYouthInitiativeComp";
+import {SocialWelfareSocietyComp} from "./collaborated-project/social-welfare-society/SocialWelfareSocietyComp";
+import {SustainableAgricultureComp} from "./collaborated-project/sustainable-agriculture/SustainableAgricultureComp";
 
 
 
@@ -83,6 +96,42 @@ const routes: Routes = [{
     {
       path: 'collaborated_project',
       component: CollaboratedProjectComp,
+    },
+    {
+      path: 'collaborated_project/clean_water_and_sanitation',
+      component: CleanWaterAndSanitationComp,
+    },
+    {
+      path: 'collaborated_project/climate_resilience',
+      component: ClimateResilienceComp,
+    },
+    {
+      path: 'collaborated_project/economic_empowerment',
+      component: EconomicEmpowermentComp,
+    },
+    {
+      path: 'collaborated_project/global_education_initiative',
+      component: GlobalEducationInitiativeComp,
+    },
+    {
+      path: 'collaborated_project/power_of_collaboration',
+      component: PowerOfCollaborationComp,
+    },
+    {
+      path: 'collaborated_project/renewable_energy_access',
+      component: RenewableEnergyAccessComp,
+    },
+    {
+      path: 'collaborated_project/rural_youth_initiative',
+      component: RuralYouthInitiativeComp,
+    },
+    {
+      path: 'collaborated_project/social_welfare_society',
+      component: SocialWelfareSocietyComp,
+    },
+    {
+      path: 'collaborated_project/sustainable_agriculture',
+      component: SustainableAgricultureComp,
     },
   ],
 }];
