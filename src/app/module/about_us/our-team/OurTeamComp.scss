@@ -71,15 +71,18 @@ p{
   width: 140px;
   height: 140px;
 }
-.founder-card,
+
 .teams-title{
   margin-bottom: 10%;
 }
 .teams-btn{
   padding: 50px 0;
 }
-.margin-top{
+.padding-top-1{
   padding-top: 50px;
+}
+.padding-top{
+  padding-top: 100px;
 }
 .teams-btn button,
 .teams-btn .button{
@@ -150,6 +153,12 @@ p{
   .card {
     margin-top: 10%;
   }
+  .padding-top-1{
+    padding-top: 30px;
+  }
+  .padding-top{
+    padding-top: 50px;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -185,6 +194,12 @@ p{
   .hidden-card{
     margin-bottom: 4rem;
   }
+  .padding-top-1{
+    padding-top: 20px;
+  }
+  .padding-top{
+    padding-top: 30px;
+  }
 }
 @media screen and (max-width: 450px) {
   .teacher-of-street-title h2{
@@ -200,4 +215,9 @@ p{
   .volunteer-card{
     margin-top: 30px;
   }
+  .padding-top-1,
+  .padding-top{
+    padding-top: 20px;
+  }
+
   }
