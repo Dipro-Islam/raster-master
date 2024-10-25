@@ -182,6 +182,9 @@ p{
   .card {
     margin-top: 20%;
   }
+  .hidden-card{
+    margin-bottom: 4rem;
+  }
 }
 @media screen and (max-width: 450px) {
   .teacher-of-street-title h2{
@@ -189,5 +192,12 @@ p{
   }
   .founder-card{
     width: 100%;
+  }
+  .hidden-card{
+    margin-bottom: 3rem;
+  }
+  .teacher-card,
+  .volunteer-card{
+    margin-top: 30px;
   }
   }
