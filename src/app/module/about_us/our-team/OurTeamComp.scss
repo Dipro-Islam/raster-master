@@ -34,8 +34,11 @@ p{
 .card{
   position: relative;
 }
-.team-card{
-  height: 400px;
+.founder-card .card{
+  height: 360px;
+}
+.team-card,.team-card img{
+  height: 340px;
 }
 .card-body{
   display: flex;
