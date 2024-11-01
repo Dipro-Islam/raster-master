@@ -105,7 +105,8 @@ import {WellnessProgramsComp} from "./focus-gender-equality/wellness-programs/We
     FinancialLiteracyComp,
     HandicraftsAndArtisanComp,
     VocationalTrainingForWomenComp,
-    WellnessProgramsComp
+    WellnessProgramsComp,
+
     ],
 
   imports: [

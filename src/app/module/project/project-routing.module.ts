@@ -41,6 +41,26 @@ import {
 import {
   CompletedBlanketDistributionComp
 } from "./completed-project/completed-blanket-distribution/completedBlanketDistributionComp";
+import {AnimalLovingProjectComp} from "./ongoing-project/animal-loving/AnimalLovingProjectComp";
+import {AwarenessCampaignsComp} from "./ongoing-project/Awareness-campaigns/AwarenessCampaignsComp";
+import {BirthdayCelebrationsComp} from "./ongoing-project/birthday-celebrations/BirthdayCelebrationsComp";
+import {BloodDonationDrivesComp} from "./ongoing-project/blood-donation-drives/BloodDonationDrivesComp";
+import {BoardExamCertificationComp} from "./ongoing-project/board-exam-certification/BoardExamCertificationComp";
+import {BuildingAHarmoniousComp} from "./ongoing-project/building-a-harmonious/BuildingAHarmoniousComp";
+import {BuildingFoundationsComp} from "./ongoing-project/building-foundations/BuildingFoundationsComp";
+import {CelebratingDiversityComp} from "./ongoing-project/celebrating-diversity/CelebratingDiversityComp";
+import {ChildrenTeachingComp} from "./ongoing-project/children-teaching/ChildrenTeachingComp";
+import {ClothDistributionDignitComp} from "./ongoing-project/cloth-distribution-dignit/ClothDistributionDignitComp";
+import {EmpoweringMatriarchsComp} from "./ongoing-project/empowering-matriarchs/EmpoweringMatriarchsComp";
+import {FuelingGrowthComp} from "./ongoing-project/fueling-growth/FuelingGrowthComp";
+import {KnowledgeAnywhereComp} from "./ongoing-project/knowledge-anywhere/KnowledgeAnywhereComp";
+import {KnowledgeForEmpowermentComp} from "./ongoing-project/knowledge-for-empowerment/KnowledgeForEmpowermentComp";
+import {PersonalizingCareComp} from "./ongoing-project/personalizing-care/PersonalizingCareComp";
+import {PrioritizingYoungLivesComp} from "./ongoing-project/prioritizing-young-lives/PrioritizingYoungLivesComp";
+import {StandingStrongTogetherComp} from "./ongoing-project/standing-dtrong-together/StandingStrongTogetherComp";
+import {
+  StewardshipForASustainableComp
+} from "./ongoing-project/stewardship-for-a-sustainable/StewardshipForASustainableComp";
 
 
 
@@ -52,6 +72,78 @@ const routes: Routes = [{
     {
       path: 'ongoing_project',
       component: OngoingProjectComp,
+    },
+    {
+      path: 'ongoing_project/animal_loving_project',
+      component: OngoingProjectComp,
+    },
+    {
+      path: 'ongoing_project/awareness_campaigns',
+      component: AnimalLovingProjectComp,
+    },
+    {
+      path: 'ongoing_project/birthday-celebrations',
+      component: BirthdayCelebrationsComp,
+    },
+    {
+      path: 'ongoing_project/blood_donation_drives',
+      component: BloodDonationDrivesComp,
+    },
+    {
+      path: 'ongoing_project/board_exam_certification',
+      component: BoardExamCertificationComp,
+    },
+    {
+      path: 'ongoing_project/building_a_harmonious',
+      component: BuildingAHarmoniousComp,
+    },
+    {
+      path: 'ongoing_project/building_foundations',
+      component: BuildingFoundationsComp,
+    },
+    {
+      path: 'ongoing_project/celebrating_diversity',
+      component: CelebratingDiversityComp,
+    },
+    {
+      path: 'ongoing_project/children_teaching',
+      component: ChildrenTeachingComp,
+    },
+    {
+      path: 'ongoing_project/cloth_distribution_dignit',
+      component: ClothDistributionDignitComp,
+    },
+    {
+      path: 'ongoing_project/empowering_matriarchs',
+      component: EmpoweringMatriarchsComp,
+    },
+    {
+      path: 'ongoing_project/fueling_growth',
+      component: FuelingGrowthComp,
+    },
+    {
+      path: 'ongoing_project/knowledge_anywhere',
+      component: KnowledgeAnywhereComp,
+    },
+    {
+      path: 'ongoing_project/knowledge_for_empowerment',
+      component: KnowledgeForEmpowermentComp,
+    },
+    {
+      path: 'ongoing_project/personalizing_care',
+      component: PersonalizingCareComp,
+    },
+    {
+      path: 'ongoing_project/prioritizing_young_lives',
+      component: PrioritizingYoungLivesComp,
+    },
+    {
+      path: 'ongoing_project/standing_strong_together',
+      component: StandingStrongTogetherComp,
+    },
+    {
+      path: 'ongoing_project/stewardship_for_a_sustainable',
+      component: StewardshipForASustainableComp,
     },
     // completed projects
     {

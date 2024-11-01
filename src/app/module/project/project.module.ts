@@ -42,6 +42,28 @@ import {
   CompletedNutritionalSupportComp
 } from "./completed-project/completed-nutritional-support/CompletedNutritionalSupportComp";
 import {CompletedVaccineRathComp} from "./completed-project/completed-vaccine-rath/CompletedVaccineRathComp";
+import {AnimalLovingProjectComp} from "./ongoing-project/animal-loving/AnimalLovingProjectComp";
+import {AwarenessCampaignsComp} from "./ongoing-project/Awareness-campaigns/AwarenessCampaignsComp";
+import {BirthdayCelebrationsComp} from "./ongoing-project/birthday-celebrations/BirthdayCelebrationsComp";
+import {BloodDonationDrivesComp} from "./ongoing-project/blood-donation-drives/BloodDonationDrivesComp";
+import {BoardExamCertificationComp} from "./ongoing-project/board-exam-certification/BoardExamCertificationComp";
+import {BuildingAHarmoniousComp} from "./ongoing-project/building-a-harmonious/BuildingAHarmoniousComp";
+import {BuildingFoundationsComp} from "./ongoing-project/building-foundations/BuildingFoundationsComp";
+import {CelebratingDiversityComp} from "./ongoing-project/celebrating-diversity/CelebratingDiversityComp";
+import {ChildrenTeachingComp} from "./ongoing-project/children-teaching/ChildrenTeachingComp";
+import {ClothDistributionDignitComp} from "./ongoing-project/cloth-distribution-dignit/ClothDistributionDignitComp";
+import {EmpoweringMatriarchsComp} from "./ongoing-project/empowering-matriarchs/EmpoweringMatriarchsComp";
+import {FuelingGrowthComp} from "./ongoing-project/fueling-growth/FuelingGrowthComp";
+import {KnowledgeAnywhereComp} from "./ongoing-project/knowledge-anywhere/KnowledgeAnywhereComp";
+import {KnowledgeForEmpowermentComp} from "./ongoing-project/knowledge-for-empowerment/KnowledgeForEmpowermentComp";
+import {PersonalizingCareComp} from "./ongoing-project/personalizing-care/PersonalizingCareComp";
+import {PrioritizingYoungLivesComp} from "./ongoing-project/prioritizing-young-lives/PrioritizingYoungLivesComp";
+import {StandingStrongTogetherComp} from "./ongoing-project/standing-dtrong-together/StandingStrongTogetherComp";
+import {
+  StewardshipForASustainableComp
+} from "./ongoing-project/stewardship-for-a-sustainable/StewardshipForASustainableComp";
+
+
 
 
 @NgModule({
@@ -75,6 +97,24 @@ import {CompletedVaccineRathComp} from "./completed-project/completed-vaccine-ra
     CompletedDurgaPujaPandalComp,
     CompletedNutritionalSupportComp,
     CompletedVaccineRathComp,
+    AnimalLovingProjectComp,
+    AwarenessCampaignsComp,
+    BirthdayCelebrationsComp,
+    BloodDonationDrivesComp,
+    BoardExamCertificationComp,
+    BuildingAHarmoniousComp,
+    BuildingFoundationsComp,
+    CelebratingDiversityComp,
+    ChildrenTeachingComp,
+    ClothDistributionDignitComp,
+    EmpoweringMatriarchsComp,
+    FuelingGrowthComp,
+    KnowledgeAnywhereComp,
+    KnowledgeForEmpowermentComp,
+    PersonalizingCareComp,
+    PrioritizingYoungLivesComp,
+    StandingStrongTogetherComp,
+    StewardshipForASustainableComp
     ],
 
   imports: [
