@@ -56,11 +56,13 @@ import {FuelingGrowthComp} from "./ongoing-project/fueling-growth/FuelingGrowthC
 import {KnowledgeAnywhereComp} from "./ongoing-project/knowledge-anywhere/KnowledgeAnywhereComp";
 import {KnowledgeForEmpowermentComp} from "./ongoing-project/knowledge-for-empowerment/KnowledgeForEmpowermentComp";
 import {PersonalizingCareComp} from "./ongoing-project/personalizing-care/PersonalizingCareComp";
-import {PrioritizingYoungLivesComp} from "./ongoing-project/prioritizing-young-lives/PrioritizingYoungLivesComp";
 import {StandingStrongTogetherComp} from "./ongoing-project/standing-strong-together/StandingStrongTogetherComp";
 import {
   StewardshipForASustainableComp
 } from "./ongoing-project/stewardship-for-a-sustainable/StewardshipForASustainableComp";
+import {
+  ScholarshipProgramProjectComp
+} from "./ongoing-project/scholarship-program-project/ScholarshipProgramProjectComp";
 
 
 
@@ -82,7 +84,7 @@ const routes: Routes = [{
       component: AwarenessCampaignsComp,
     },
     {
-      path: 'ongoing_project/birthday-celebrations',
+      path: 'ongoing_project/birthday_celebrations',
       component: BirthdayCelebrationsComp,
     },
     {
@@ -134,8 +136,8 @@ const routes: Routes = [{
       component: PersonalizingCareComp,
     },
     {
-      path: 'ongoing_project/prioritizing_young_lives',
-      component: PrioritizingYoungLivesComp,
+      path: 'ongoing_project/scholarship_program_project',
+      component: ScholarshipProgramProjectComp,
     },
     {
       path: 'ongoing_project/standing_strong_together',
