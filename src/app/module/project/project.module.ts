@@ -29,6 +29,19 @@ import {PowerOfCollaborationComp} from "./collaborated-project/power-of-collabor
 import {RuralYouthInitiativeComp} from "./collaborated-project/rural-youth-initiative/RuralYouthInitiativeComp";
 import {SocialWelfareSocietyComp} from "./collaborated-project/social-welfare-society/SocialWelfareSocietyComp";
 import {SustainableAgricultureComp} from "./collaborated-project/sustainable-agriculture/SustainableAgricultureComp";
+import {
+  CompletedBlanketDistributionComp
+} from "./completed-project/completed-blanket-distribution/completedBlanketDistributionComp";
+import {
+  CompletedCoronaVaccinationDriveComp
+} from "./completed-project/completed-corona-vaccination-drive/CompletedCoronaVaccinationDriveComp";
+import {
+  CompletedDurgaPujaPandalComp
+} from "./completed-project/completed-durga-puja-pandal/CompletedDurgaPujaPandalComp";
+import {
+  CompletedNutritionalSupportComp
+} from "./completed-project/completed-nutritional-support/CompletedNutritionalSupportComp";
+import {CompletedVaccineRathComp} from "./completed-project/completed-vaccine-rath/CompletedVaccineRathComp";
 
 
 @NgModule({
@@ -57,6 +70,11 @@ import {SustainableAgricultureComp} from "./collaborated-project/sustainable-agr
     RuralYouthInitiativeComp,
     SocialWelfareSocietyComp,
     SustainableAgricultureComp,
+    CompletedBlanketDistributionComp,
+    CompletedCoronaVaccinationDriveComp,
+    CompletedDurgaPujaPandalComp,
+    CompletedNutritionalSupportComp,
+    CompletedVaccineRathComp,
     ],
 
   imports: [
