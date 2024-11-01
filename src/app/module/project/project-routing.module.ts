@@ -75,11 +75,11 @@ const routes: Routes = [{
     },
     {
       path: 'ongoing_project/animal_loving_project',
-      component: OngoingProjectComp,
+      component: AnimalLovingProjectComp,
     },
     {
       path: 'ongoing_project/awareness_campaigns',
-      component: AnimalLovingProjectComp,
+      component: AwarenessCampaignsComp,
     },
     {
       path: 'ongoing_project/birthday-celebrations',
