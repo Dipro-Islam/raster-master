@@ -57,7 +57,7 @@ import {KnowledgeAnywhereComp} from "./ongoing-project/knowledge-anywhere/Knowle
 import {KnowledgeForEmpowermentComp} from "./ongoing-project/knowledge-for-empowerment/KnowledgeForEmpowermentComp";
 import {PersonalizingCareComp} from "./ongoing-project/personalizing-care/PersonalizingCareComp";
 import {PrioritizingYoungLivesComp} from "./ongoing-project/prioritizing-young-lives/PrioritizingYoungLivesComp";
-import {StandingStrongTogetherComp} from "./ongoing-project/standing-dtrong-together/StandingStrongTogetherComp";
+import {StandingStrongTogetherComp} from "./ongoing-project/standing-strong-together/StandingStrongTogetherComp";
 import {
   StewardshipForASustainableComp
 } from "./ongoing-project/stewardship-for-a-sustainable/StewardshipForASustainableComp";
