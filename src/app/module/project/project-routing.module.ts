@@ -42,7 +42,7 @@ import {
   CompletedBlanketDistributionComp
 } from "./completed-project/completed-blanket-distribution/completedBlanketDistributionComp";
 import {AnimalLovingProjectComp} from "./ongoing-project/animal-loving/AnimalLovingProjectComp";
-import {AwarenessCampaignsComp} from "./ongoing-project/Awareness-campaigns/AwarenessCampaignsComp";
+import {AwarenessCampaignsComp} from "./ongoing-project/awareness-campaigns/AwarenessCampaignsComp";
 import {BirthdayCelebrationsComp} from "./ongoing-project/birthday-celebrations/BirthdayCelebrationsComp";
 import {BloodDonationDrivesComp} from "./ongoing-project/blood-donation-drives/BloodDonationDrivesComp";
 import {BoardExamCertificationComp} from "./ongoing-project/board-exam-certification/BoardExamCertificationComp";

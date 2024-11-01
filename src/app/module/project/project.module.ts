@@ -43,7 +43,7 @@ import {
 } from "./completed-project/completed-nutritional-support/CompletedNutritionalSupportComp";
 import {CompletedVaccineRathComp} from "./completed-project/completed-vaccine-rath/CompletedVaccineRathComp";
 import {AnimalLovingProjectComp} from "./ongoing-project/animal-loving/AnimalLovingProjectComp";
-import {AwarenessCampaignsComp} from "./ongoing-project/Awareness-campaigns/AwarenessCampaignsComp";
+import {AwarenessCampaignsComp} from "./ongoing-project/awareness-campaigns/AwarenessCampaignsComp";
 import {BirthdayCelebrationsComp} from "./ongoing-project/birthday-celebrations/BirthdayCelebrationsComp";
 import {BloodDonationDrivesComp} from "./ongoing-project/blood-donation-drives/BloodDonationDrivesComp";
 import {BoardExamCertificationComp} from "./ongoing-project/board-exam-certification/BoardExamCertificationComp";
