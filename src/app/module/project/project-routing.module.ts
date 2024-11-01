@@ -41,7 +41,7 @@ import {
 import {
   CompletedBlanketDistributionComp
 } from "./completed-project/completed-blanket-distribution/completedBlanketDistributionComp";
-import {AnimalLovingProjectComp} from "./ongoing-project/animal-loving/AnimalLovingProjectComp";
+import {AnimalLovingProjectComp} from "./ongoing-project/animal-loving-project/AnimalLovingProjectComp";
 import {AwarenessCampaignsComp} from "./ongoing-project/awareness-campaigns/AwarenessCampaignsComp";
 import {BirthdayCelebrationsComp} from "./ongoing-project/birthday-celebrations/BirthdayCelebrationsComp";
 import {BloodDonationDrivesComp} from "./ongoing-project/blood-donation-drives/BloodDonationDrivesComp";
