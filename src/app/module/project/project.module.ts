@@ -42,6 +42,7 @@ import {
   CompletedNutritionalSupportComp
 } from "./completed-project/completed-nutritional-support/CompletedNutritionalSupportComp";
 import {CompletedVaccineRathComp} from "./completed-project/completed-vaccine-rath/CompletedVaccineRathComp";
+import {CompletedFutureImpactComp} from "./completed-project/completed-future-impact/CompletedFutureImpactComp";
 import {AnimalLovingProjectComp} from "./ongoing-project/animal-loving-project/AnimalLovingProjectComp";
 import {AwarenessCampaignsComp} from "./ongoing-project/awareness-campaigns/AwarenessCampaignsComp";
 import {BirthdayCelebrationsComp} from "./ongoing-project/birthday-celebrations/BirthdayCelebrationsComp";
@@ -64,6 +65,7 @@ import {
 import {
   ScholarshipProgramProjectComp
 } from "./ongoing-project/scholarship-program-project/ScholarshipProgramProjectComp";
+
 
 
 
@@ -99,6 +101,7 @@ import {
     CompletedDurgaPujaPandalComp,
     CompletedNutritionalSupportComp,
     CompletedVaccineRathComp,
+    CompletedFutureImpactComp,
     AnimalLovingProjectComp,
     AwarenessCampaignsComp,
     BirthdayCelebrationsComp,

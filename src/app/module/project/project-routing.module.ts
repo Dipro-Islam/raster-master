@@ -63,6 +63,7 @@ import {
 import {
   ScholarshipProgramProjectComp
 } from "./ongoing-project/scholarship-program-project/ScholarshipProgramProjectComp";
+import {CompletedFutureImpactComp} from "./completed-project/completed-future-impact/CompletedFutureImpactComp";
 
 
 
@@ -171,6 +172,10 @@ const routes: Routes = [{
     {
       path: 'completed_project/completed_vaccine_rath',
       component: CompletedVaccineRathComp,
+    },
+    {
+      path: 'completed_project/completed_future_impact',
+      component: CompletedFutureImpactComp,
     },
     // upcoming projects
     {
