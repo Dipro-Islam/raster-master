@@ -23,7 +23,10 @@ p{
   height: 600px;
   border-radius: 10px;
 }
-
+.world-peace-image-section .container,
+.world-peace-formula-section .container{
+  padding-top: 50px;
+}
 
 .world-peace-title h2{
   color: var(--white);
@@ -122,6 +125,10 @@ p{
   .formula-details ol li,
   .towards-title h2{
     font-size: 20px;
+  }
+  .world-peace-image-section .container,
+  .world-peace-formula-section .container{
+    padding-top: 20px;
   }
 }
 @media screen and (max-width: 450px) {
