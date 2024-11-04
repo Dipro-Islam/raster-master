@@ -5,8 +5,8 @@ import SwiperCore, { Navigation, Scrollbar, A11y } from 'swiper';
 SwiperCore.use([Navigation, Scrollbar, A11y]);
 @Component({
   selector: 'CompletedProjectComp',
-  templateUrl: './Completed_ProjectComp.html',
-  styleUrls: ['./Completed_ProjectComp.scss']
+  templateUrl: './CompletedProjectComp.html',
+  styleUrls: ['./CompletedProjectComp.scss']
 })
 export class CompletedProjectComp implements OnInit, AfterViewInit {
 
