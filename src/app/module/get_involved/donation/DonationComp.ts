@@ -10,6 +10,7 @@ export class DonationComp implements OnInit {
   @ViewChild('donateAmountMonthly', { static: true }) donateAmountMonthly!: ElementRef;
   @ViewChild('donateAmountForm', { static: true }) donateAmountForm!: ElementRef;
   @ViewChild('donateAmountMethod', { static: true }) donateAmountMethod!: ElementRef;
+  @ViewChild('donateAmountQR', { static: true }) donateAmountQR!: ElementRef;
 
   scrollToSection(section: string): void {
     switch (section) {
@@ -24,6 +25,9 @@ export class DonationComp implements OnInit {
         break;
       case 'donateAmountMethod':
         this.donateAmountMethod.nativeElement.scrollIntoView({ behavior: 'smooth' });
+        break;
+      case 'donateAmountQR':
+        this.donateAmountQR.nativeElement.scrollIntoView({ behavior: 'smooth' });
         break;
     }
   }
