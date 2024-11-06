@@ -142,7 +142,9 @@ background: var(--green);
 .card-option button:hover{
   background: #000000;
 }
-
+.qr-payment-details{
+  margin-top: 30px;
+}
 /*---responsive style start---*/
 @media screen and (max-width: 1600px) {
 
@@ -199,6 +201,9 @@ background: var(--green);
   .card-option-2 button{
     margin-top: 10px;
   }
+  .qr-payment-details{
+    margin-top: 10px;
+  }
 }
 @media screen and (max-width: 768px) {
   .donate-amount-section{
@@ -246,6 +251,9 @@ background: var(--green);
   .card-option-2{
     padding: 30px 50px;
     margin-left: 0;
+  }
+  .qr-payment-details{
+    margin-top: 20px;
   }
 }
 @media screen and (max-width: 576px){
