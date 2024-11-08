@@ -13,6 +13,8 @@ import {AchievementsThatDriveComp} from "./our-achivement/achievements-that-driv
 import {TheHeartOfLearningComp} from "./our-workplace/the-heart-of-learning/TheHeartOfLearningComp";
 import {BuildingHealthierLivesComp} from "./our-workplace/building-healthier-lives/BuildingHealthierLivesComp";
 import {ProtectingOurPlanetComp} from "./our-workplace/protecting-our-planet/ProtectingOurPlanetComp";
+import {OurAdvisorOneComp} from "./our-team/our-advisor-1/OurAdvisorOneComp";
+import {OurAdvisorTwoComp} from "./our-team/our-advisor-2/OurAdvisorTwoComp";
 
 
 
@@ -59,14 +61,26 @@ const routes: Routes = [{
       path: 'our_team',
       component: OurTeamComp,
     },
+    // our founder
     {
-      path: 'our_team/our_founder',
+      path: 'our_team/Deep_Narayan_Nayak',
       component: OurFounderComp,
     },
+    // our advisor
+    {
+      path: 'our_team/Dr_Chanchal_Kumar_Biswas',
+      component: OurAdvisorOneComp,
+    },
+    {
+      path: 'our_team/Ajai_Shreevatsa',
+      component: OurAdvisorTwoComp,
+    },
+    // FAQ
     {
       path: 'faq',
       component: FaqComp,
     },
+    // contact us
     {
       path: 'contact_us',
       component: ContactUsComp,

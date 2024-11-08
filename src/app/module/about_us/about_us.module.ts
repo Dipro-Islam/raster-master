@@ -14,6 +14,8 @@ import {AchievementsThatDriveComp} from "./our-achivement/achievements-that-driv
 import {ProtectingOurPlanetComp} from "./our-workplace/protecting-our-planet/ProtectingOurPlanetComp";
 import {BuildingHealthierLivesComp} from "./our-workplace/building-healthier-lives/BuildingHealthierLivesComp";
 import {TheHeartOfLearningComp} from "./our-workplace/the-heart-of-learning/TheHeartOfLearningComp";
+import {OurAdvisorOneComp} from "./our-team/our-advisor-1/OurAdvisorOneComp";
+import {OurAdvisorTwoComp} from "./our-team/our-advisor-2/OurAdvisorTwoComp";
 
 @NgModule({
   declarations: [
@@ -29,7 +31,9 @@ import {TheHeartOfLearningComp} from "./our-workplace/the-heart-of-learning/TheH
     AchievementsThatDriveComp,
     ProtectingOurPlanetComp,
     BuildingHealthierLivesComp,
-    TheHeartOfLearningComp
+    TheHeartOfLearningComp,
+    OurAdvisorOneComp,
+    OurAdvisorTwoComp,
     ],
 
   imports: [
