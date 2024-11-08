@@ -82,13 +82,21 @@ p{
   margin-bottom: 0;
   height: 600px;
 }
+.fostering-global{
+  padding-top: 13%;
+}
+/*---responsive style start---*/
 @media screen and (max-width: 1300px){
   .towards-title h2{
     font-size: 36px;
   }
 }
+@media screen and (max-width: 1200px){
+  .fostering-global{
+    padding-top: 3%;
+  }
+}
 
-/*---responsive style start---*/
 @media screen and (max-width: 991px){
   .world-peace-details-section,
   .world-peace-highlight-section{
@@ -100,6 +108,7 @@ p{
   .world-peace-highlight{
     padding: 30px 50px;
   }
+
 }
 @media screen and (max-width: 768px){
   .world-peace-banner-section,
