@@ -44,6 +44,8 @@ p{
 }
 .child-empowerment-img-2 img{
   margin-left: 16%;
+  width: 540px;
+  height: 400px;
 }
 .health-project-section{
   padding-bottom: 50px;
@@ -92,6 +94,9 @@ p{
   }
   .child-empowerment{
     margin: 50px 0;
+  }
+  .child-empowerment-img-2 img{
+    height: 300px;
   }
 }
 @media screen and (max-width: 768px) {
