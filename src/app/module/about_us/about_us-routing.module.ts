@@ -5,7 +5,7 @@ import {WhoWeAreComp} from "./who-we-are/WhoWeAreComp";
 import {OurAchievementComp} from "./our-achivement/OurAchievementComp";
 import {OurWorkplaceComp} from "./our-workplace/OurWorkplaceComp";
 import {OurTeamComp} from "./our-team/OurTeamComp";
-import {ProfileComp} from "./profile/ProfileComp";
+import {OurFounderComp} from "./our-team/our-founder/OurFounderComp";
 import {FaqComp} from "./faq/FaqComp";
 import {ContactUsComp} from "./contact_us/ContactUsComp";
 import {AwardsThatHonorComp} from "./our-achivement/awards-that-honor/AwardsThatHonorComp";
@@ -60,8 +60,8 @@ const routes: Routes = [{
       component: OurTeamComp,
     },
     {
-      path: 'our_team/profile',
-      component: ProfileComp,
+      path: 'our_team/our_founder',
+      component: OurFounderComp,
     },
     {
       path: 'faq',

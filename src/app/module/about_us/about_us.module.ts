@@ -7,7 +7,7 @@ import {FaqComp} from "./faq/FaqComp";
 import {OurAchievementComp} from "./our-achivement/OurAchievementComp";
 import {OurTeamComp} from "./our-team/OurTeamComp";
 import {OurWorkplaceComp} from "./our-workplace/OurWorkplaceComp";
-import {ProfileComp} from "./profile/ProfileComp";
+import {OurFounderComp} from "./our-team/our-founder/OurFounderComp";
 import {WhoWeAreComp} from "./who-we-are/WhoWeAreComp";
 import {AwardsThatHonorComp} from "./our-achivement/awards-that-honor/AwardsThatHonorComp";
 import {AchievementsThatDriveComp} from "./our-achivement/achievements-that-drive/AchievementsThatDriveComp";
@@ -23,7 +23,7 @@ import {TheHeartOfLearningComp} from "./our-workplace/the-heart-of-learning/TheH
     OurAchievementComp,
     OurTeamComp,
     OurWorkplaceComp,
-    ProfileComp,
+    OurFounderComp,
     WhoWeAreComp,
     AwardsThatHonorComp,
     AchievementsThatDriveComp,
