@@ -86,6 +86,9 @@ import {
 import {
   NutritionForAgePeoplePregnantMotherLactatingMothersAndChildrenComp
 } from "./resource-photos/resource_photos_details/nutrition-for-age-people-pregnant-mother-lactating-mothers-and-children/NutritionForAgePeoplePregnantMotherLactatingMothersAndChildrenComp";
+import {AuthoritativeResearchComp} from "./resource-research/authoritative-research/AuthoritativeResearchComp";
+import {DemocraticResearchComp} from "./resource-research/democratic-research/DemocraticResearchComp";
+import {RevolutionisingResearchComp} from "./resource-research/revolutionising-research/RevolutionisingResearchComp";
 
 @NgModule({
   declarations: [
@@ -140,6 +143,9 @@ import {
     MotherEducationComp,
     NutritionalSupportGalleryComp,
     NutritionForAgePeoplePregnantMotherLactatingMothersAndChildrenComp,
+    AuthoritativeResearchComp,
+    DemocraticResearchComp,
+    RevolutionisingResearchComp,
     ],
 
   imports: [

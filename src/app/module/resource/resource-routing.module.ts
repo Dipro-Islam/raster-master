@@ -87,6 +87,9 @@ import {
 import {
   NutritionForAgePeoplePregnantMotherLactatingMothersAndChildrenComp
 } from "./resource-photos/resource_photos_details/nutrition-for-age-people-pregnant-mother-lactating-mothers-and-children/NutritionForAgePeoplePregnantMotherLactatingMothersAndChildrenComp";
+import {AuthoritativeResearchComp} from "./resource-research/authoritative-research/AuthoritativeResearchComp";
+import {DemocraticResearchComp} from "./resource-research/democratic-research/DemocraticResearchComp";
+import {RevolutionisingResearchComp} from "./resource-research/revolutionising-research/RevolutionisingResearchComp";
 
 
 
@@ -97,6 +100,18 @@ const routes: Routes = [{
     {
       path: 'resource_report',
       component: ResourceReportComp,
+    },
+    {
+      path: 'resource_research/authoritative_research',
+      component: AuthoritativeResearchComp,
+    },
+    {
+      path: 'resource_research/democratic_research',
+      component: DemocraticResearchComp,
+    },
+    {
+      path: 'resource_research/revolutionising_research',
+      component: RevolutionisingResearchComp,
     },
     {
       path: 'resource_research',
