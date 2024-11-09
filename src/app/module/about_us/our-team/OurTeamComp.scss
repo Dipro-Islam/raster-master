@@ -34,11 +34,15 @@ p{
 .card{
   position: relative;
 }
+
 .founder-card .card{
   height: 360px;
 }
-.team-card,.team-card img{
-  height: 340px;
+.advisor-card{
+  height: 320px;
+}
+.team-card{
+  height: 280px;
 }
 .card-body{
   display: flex;
@@ -120,6 +124,20 @@ p{
 }
 
 /*---responsive style start---*/
+@media screen and (min-width: 1400px) {
+  .advisor-card{
+    height: 300px;
+  }
+}
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+  .advisor-card{
+    height: 320px;
+  }
+  .team-card{
+    height: 320px;
+  }
+}
+
 @media screen and (max-width: 1200px){
   .founder-card{
     width: 40%;
