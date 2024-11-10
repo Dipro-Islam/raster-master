@@ -125,11 +125,16 @@
 }
 
 /*---project style start---*/
+.project-card-1{
+  height: 610px;
+  position: relative;
+}
 .project-card{
   position: relative;
-  height: 600px;
+  height: 500px;
 }
-.project-card a{
+.project-card a,
+.project-card-1 a{
     position: absolute;
     bottom: 10px;
     left: 50%;
@@ -268,7 +273,13 @@
   }
 
 }
+@media screen and (max-width: 1400px) {
 
+  .project-card-1{
+    height: 600px;
+  }
+
+}
 @media screen and (max-width: 1300px) {
 
   .carousel-control-prev {
@@ -356,7 +367,12 @@
   .count-text {
     font-size: 16px;
   }
-
+  .project-card-1{
+    height: 580px;
+  }
+  .project-card{
+    height: 480px;
+  }
   .volunteer-card{
     height: 420px;
   }
@@ -437,6 +453,12 @@
   .achievement-details{
     margin-left: 20px;
   }
+  .project-card-1{
+    height: 620px;
+  }
+  .project-card{
+    height: 520px;
+  }
   .mission-card {
     padding: 20px 0;
     margin: auto;
@@ -486,6 +508,9 @@
     width: 30px;
   }
 
+  .project-card{
+    height: 500px;
+  }
   .mission-card {
     width: 40%;
   }
@@ -494,7 +519,13 @@
     font-size: 10px;
   }
 }
+@media screen and (max-width: 550px) {
 
+  .project-card-1{
+    height: 600px;
+  }
+
+}
 @media screen and (max-width: 501px) {
   .carousel-caption h2 {
     font-size: 14px;
@@ -533,7 +564,12 @@
     font-size: 12px;
 
   }
-
+  .project-card-1{
+    height: 560px;
+  }
+  .project-card{
+    height: 450px;
+  }
 }
 
 @media screen and (max-width: 450px) {
@@ -556,6 +592,9 @@
   .support-children-desc {
     font-size: 14px;
   }
+  .project-card-1{
+    height: 540px;
+  }
 
 }
 
@@ -564,7 +603,9 @@
   .support-children-heading {
     font-size: 16px;
   }
-
+  .project-card-1{
+    height: 520px;
+  }
   .support-children-desc {
     font-size: 12px;
   }

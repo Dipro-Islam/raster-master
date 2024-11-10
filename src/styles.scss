@@ -100,11 +100,13 @@ section {
 }
 
 .project-card,
+.project-card-1,
 .volunteer-card {
   transition: .7s;
 }
 
 .project-card:hover,
+.project-card-1:hover,
 .volunteer-card:hover {
   box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
   transition: .7s;
