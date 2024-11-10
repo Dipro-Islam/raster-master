@@ -133,9 +133,11 @@ p{
 }
 @media screen and (min-width: 1200px) and (max-width: 1400px) {
   .advisor-card,
-  .researcher-card,
   .team-card{
     height: 320px;
+  }
+  .researcher-card{
+    height: 340px;
   }
 }
 
