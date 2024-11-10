@@ -31,6 +31,7 @@ import {ShipraMondalComp} from "./our-team/shipra-mondal/ShipraMondalComp";
 import {SoumayanBiswasComp} from "./our-team/soumayan-biswas/SoumayanBiswasComp";
 import {TapasMondalComp} from "./our-team/tapas-mondal/TapasMondalComp";
 import {TarikullahComp} from "./our-team/tarikullah/TarikullahComp";
+import {DeepNarayanComp} from "./our-team/deep-narayan/DeepNarayanComp";
 
 
 
@@ -92,6 +93,10 @@ const routes: Routes = [{
       component: AjaiShreevatsaComp,
     },
     // Our Researcher
+    {
+      path: 'our_team/Researcher_Deep_Narayan_Nayak',
+      component: DeepNarayanComp,
+    },
     {
       path: 'our_team/Dr_Sukanya_Pal',
       component: SukanyaPalComp,

@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'AjaiShreevatsaComp',
+  selector: 'DeepNarayanComp',
   templateUrl: './OurFounderComp.html',
   styleUrls: ['./OurFounderComp.scss']
 })

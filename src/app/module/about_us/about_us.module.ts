@@ -32,6 +32,7 @@ import {ShipraMondalComp} from "./our-team/shipra-mondal/ShipraMondalComp";
 import {SoumayanBiswasComp} from "./our-team/soumayan-biswas/SoumayanBiswasComp";
 import {TapasMondalComp} from "./our-team/tapas-mondal/TapasMondalComp";
 import {TarikullahComp} from "./our-team/tarikullah/TarikullahComp";
+import {DeepNarayanComp} from "./our-team/deep-narayan/DeepNarayanComp";
 
 @NgModule({
   declarations: [
@@ -50,6 +51,7 @@ import {TarikullahComp} from "./our-team/tarikullah/TarikullahComp";
     TheHeartOfLearningComp,
     ChanchalKumarComp,
     AjaiShreevatsaComp,
+    DeepNarayanComp,
     SukanyaPalComp,
     JhumaPatraComp,
     JoydevMondalComp,
