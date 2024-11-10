@@ -125,7 +125,16 @@
 }
 
 /*---project style start---*/
-
+.project-card{
+  position: relative;
+  height: 600px;
+}
+.project-card a{
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
 /*---achievement style start---*/
 .achievement-details{
   margin-left: 50px;
@@ -169,8 +178,16 @@
 }
 
 .mission-card {
+  position: relative;
   padding: 50px 0;
+  height: 180px;
 }
+//.card-btn button{
+//  position: absolute;
+//  bottom: 10px;
+//  left: 50%;
+//  transform: translateX(-50%);
+//}
 
 .mission-card:hover {
   box-shadow: rgb(38, 57, 77) 0 20px 30px -10px;
@@ -404,13 +421,15 @@
   .project-heading h2,
   .mission-heading h2 ,
   .achievement-details p,
-  .card-btn button,
   .volunteer-btn button,
   .mission-btn button {
     font-size: 20px;
     text-align: center;
   }
-
+  .card-btn button{
+    font-size: 16px;
+    text-align: center;
+  }
   .project-heading p,
   .mission-heading p {
     font-size: 16px;
@@ -421,8 +440,8 @@
   .mission-card {
     padding: 20px 0;
     margin: auto;
+    height: 150px;
   }
-
   .get-involved-section .container .row {
     margin-top: 0;
   }
