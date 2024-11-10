@@ -38,9 +38,11 @@ p{
 .founder-card .card{
   height: 360px;
 }
-.advisor-card{
+.advisor-card,
+.researcher-card{
   height: 320px;
 }
+
 .team-card{
   height: 280px;
 }
@@ -130,9 +132,8 @@ p{
   }
 }
 @media screen and (min-width: 1200px) and (max-width: 1400px) {
-  .advisor-card{
-    height: 320px;
-  }
+  .advisor-card,
+  .researcher-card,
   .team-card{
     height: 320px;
   }
@@ -141,6 +142,9 @@ p{
 @media screen and (max-width: 1200px){
   .founder-card{
     width: 40%;
+  }
+  .researcher-card{
+    height: 280px;
   }
   .founder-card,
   .teams-title{
@@ -222,6 +226,14 @@ p{
     padding-top: 30px;
   }
 }
+@media screen and (max-width: 500px){
+  .advisor-card{
+    height: 320px;
+  }
+  .researcher-card{
+    height: 300px;
+  }
+}
 @media screen and (max-width: 450px) {
   .teacher-of-street-title h2{
     font-size: 16px;
@@ -240,5 +252,7 @@ p{
   .padding-top{
     padding-top: 20px;
   }
-
+  .researcher-card{
+    height: 320px;
+  }
   }

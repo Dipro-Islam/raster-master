@@ -13,8 +13,24 @@ import {AchievementsThatDriveComp} from "./our-achivement/achievements-that-driv
 import {TheHeartOfLearningComp} from "./our-workplace/the-heart-of-learning/TheHeartOfLearningComp";
 import {BuildingHealthierLivesComp} from "./our-workplace/building-healthier-lives/BuildingHealthierLivesComp";
 import {ProtectingOurPlanetComp} from "./our-workplace/protecting-our-planet/ProtectingOurPlanetComp";
-import {OurAdvisorOneComp} from "./our-team/our-advisor-1/OurAdvisorOneComp";
-import {OurAdvisorTwoComp} from "./our-team/our-advisor-2/OurAdvisorTwoComp";
+import {ChanchalKumarComp} from "./our-team/chanchal-kumar/ChanchalKumarComp";
+import {AjaiShreevatsaComp} from "./our-team/ajai-shreevatsa/AjaiShreevatsaComp";
+import {SukanyaPalComp} from "./our-team/sukanya-pal/SukanyaPalComp";
+import {JhumaPatraComp} from "./our-team/jhuma-patra/JhumaPatraComp";
+import {JoydevMondalComp} from "./our-team/joydev-mondal/JoydevMondalComp";
+import {KaberiGhatakComp} from "./our-team/kaberi-ghatak/KaberiGhatakComp";
+import {KohinurBibiComp} from "./our-team/kohinur-bibi/KohinurBibiComp";
+import {ManaiMukherjeeComp} from "./our-team/manai-mukherjee/ManaiMukherjeeComp";
+import {MohitoshMondalComp} from "./our-team/mohitosh-mondal/MohitoshMondalComp";
+import {MuslimaKhatunComp} from "./our-team/muslima-khatun/MuslimaKhatunComp";
+import {RumpaChakrabortyComp} from "./our-team/rumpa-chakraborty/RumpaChakrabortyComp";
+import {SahirunBibiComp} from "./our-team/sahirun-bibi/SahirunBibiComp";
+import {SaliniGiriComp} from "./our-team/salini-giri/SaliniGiriComp";
+import {SharminRahmanComp} from "./our-team/sharmin-rahman/SharminRahmanComp";
+import {ShipraMondalComp} from "./our-team/shipra-mondal/ShipraMondalComp";
+import {SoumayanBiswasComp} from "./our-team/soumayan-biswas/SoumayanBiswasComp";
+import {TapasMondalComp} from "./our-team/tapas-mondal/TapasMondalComp";
+import {TarikullahComp} from "./our-team/tarikullah/TarikullahComp";
 
 
 
@@ -69,11 +85,76 @@ const routes: Routes = [{
     // our advisor
     {
       path: 'our_team/Dr_Chanchal_Kumar_Biswas',
-      component: OurAdvisorOneComp,
+      component: ChanchalKumarComp,
     },
     {
       path: 'our_team/Ajai_Shreevatsa',
-      component: OurAdvisorTwoComp,
+      component: AjaiShreevatsaComp,
+    },
+    // Our Researcher
+    {
+      path: 'our_team/Dr_Sukanya_Pal',
+      component: SukanyaPalComp,
+    },
+    {
+      path: 'our_team/Dr_Jhuma_Patra',
+      component: JhumaPatraComp,
+    },
+    {
+      path: 'our_team/Joydev_Mondal',
+      component: JoydevMondalComp,
+    },
+    {
+      path: 'our_team/Kaberi_Ghatak',
+      component: KaberiGhatakComp,
+    },
+    {
+      path: 'our_team/Kohinur_Bibi_Molla',
+      component: KohinurBibiComp,
+    },
+    {
+      path: 'our_team/Manai_Mukherjee',
+      component: ManaiMukherjeeComp,
+    },
+    {
+      path: 'our_team/Mohitosh_Mondal',
+      component: MohitoshMondalComp,
+    },
+    {
+      path: 'our_team/Muslima_Khatun',
+      component: MuslimaKhatunComp,
+    },
+    {
+      path: 'our_team/Rumpa_Chakraborty',
+      component: RumpaChakrabortyComp,
+    },
+    {
+      path: 'our_team/Sahirun_Bibi',
+      component: SahirunBibiComp,
+    },
+    {
+      path: 'our_team/Salini_Giri',
+      component: SaliniGiriComp,
+    },
+    {
+      path: 'our_team/Sharmin_Rahman_Sweet',
+      component: SharminRahmanComp,
+    },
+    {
+      path: 'our_team/Shipra_Mondal',
+      component: ShipraMondalComp,
+    },
+    {
+      path: 'our_team/Soumayan_Biswas',
+      component: SoumayanBiswasComp,
+    },
+    {
+      path: 'our_team/Tapas_Mondal',
+      component: TapasMondalComp,
+    },
+    {
+      path: 'our_team/Md_Tarikullah',
+      component: TarikullahComp,
     },
     // FAQ
     {

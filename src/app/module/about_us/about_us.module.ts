@@ -14,8 +14,24 @@ import {AchievementsThatDriveComp} from "./our-achivement/achievements-that-driv
 import {ProtectingOurPlanetComp} from "./our-workplace/protecting-our-planet/ProtectingOurPlanetComp";
 import {BuildingHealthierLivesComp} from "./our-workplace/building-healthier-lives/BuildingHealthierLivesComp";
 import {TheHeartOfLearningComp} from "./our-workplace/the-heart-of-learning/TheHeartOfLearningComp";
-import {OurAdvisorOneComp} from "./our-team/our-advisor-1/OurAdvisorOneComp";
-import {OurAdvisorTwoComp} from "./our-team/our-advisor-2/OurAdvisorTwoComp";
+import {ChanchalKumarComp} from "./our-team/chanchal-kumar/ChanchalKumarComp";
+import {AjaiShreevatsaComp} from "./our-team/ajai-shreevatsa/AjaiShreevatsaComp";
+import {SukanyaPalComp} from "./our-team/sukanya-pal/SukanyaPalComp";
+import {JhumaPatraComp} from "./our-team/jhuma-patra/JhumaPatraComp";
+import {JoydevMondalComp} from "./our-team/joydev-mondal/JoydevMondalComp";
+import {KaberiGhatakComp} from "./our-team/kaberi-ghatak/KaberiGhatakComp";
+import {KohinurBibiComp} from "./our-team/kohinur-bibi/KohinurBibiComp";
+import {ManaiMukherjeeComp} from "./our-team/manai-mukherjee/ManaiMukherjeeComp";
+import {MohitoshMondalComp} from "./our-team/mohitosh-mondal/MohitoshMondalComp";
+import {MuslimaKhatunComp} from "./our-team/muslima-khatun/MuslimaKhatunComp";
+import {RumpaChakrabortyComp} from "./our-team/rumpa-chakraborty/RumpaChakrabortyComp";
+import {SahirunBibiComp} from "./our-team/sahirun-bibi/SahirunBibiComp";
+import {SaliniGiriComp} from "./our-team/salini-giri/SaliniGiriComp";
+import {SharminRahmanComp} from "./our-team/sharmin-rahman/SharminRahmanComp";
+import {ShipraMondalComp} from "./our-team/shipra-mondal/ShipraMondalComp";
+import {SoumayanBiswasComp} from "./our-team/soumayan-biswas/SoumayanBiswasComp";
+import {TapasMondalComp} from "./our-team/tapas-mondal/TapasMondalComp";
+import {TarikullahComp} from "./our-team/tarikullah/TarikullahComp";
 
 @NgModule({
   declarations: [
@@ -32,8 +48,24 @@ import {OurAdvisorTwoComp} from "./our-team/our-advisor-2/OurAdvisorTwoComp";
     ProtectingOurPlanetComp,
     BuildingHealthierLivesComp,
     TheHeartOfLearningComp,
-    OurAdvisorOneComp,
-    OurAdvisorTwoComp,
+    ChanchalKumarComp,
+    AjaiShreevatsaComp,
+    SukanyaPalComp,
+    JhumaPatraComp,
+    JoydevMondalComp,
+    KaberiGhatakComp,
+    KohinurBibiComp,
+    ManaiMukherjeeComp,
+    MohitoshMondalComp,
+    MuslimaKhatunComp,
+    RumpaChakrabortyComp,
+    SahirunBibiComp,
+    SaliniGiriComp,
+    SharminRahmanComp,
+    ShipraMondalComp,
+    SoumayanBiswasComp,
+    TapasMondalComp,
+    TarikullahComp,
     ],
 
   imports: [
